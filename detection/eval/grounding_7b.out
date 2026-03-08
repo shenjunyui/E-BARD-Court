@@ -1,0 +1,192 @@
+?? Loading fine-tuned model from: /leonardo_work/uBS25_EcoGiu/Qwen/Qwen2.5-VL-7B-Instruct
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:08<00:35,  8.98s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:18<00:27,  9.21s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:26<00:17,  8.62s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:34<00:08,  8.31s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:36<00:00,  6.27s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:36<00:00,  7.35s/it]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+?? Loading processor from: /leonardo_work/uBS25_EcoGiu/Qwen/Qwen2.5-VL-7B-Instruct
+? Model and processor loaded successfully.
+?? Loading data from ../data/test_grounding_dataset.json...
+
+?? Starting inference on 180 images...
+Processing Images:   0%|          | 0/180 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   1%|          | 1/180 [00:26<1:18:35, 26.34s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   1%|          | 2/180 [00:35<48:56, 16.50s/it]  The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   2%|▏         | 3/180 [00:37<28:17,  9.59s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   2%|▏         | 4/180 [00:41<22:17,  7.60s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   3%|▎         | 5/180 [00:51<23:57,  8.22s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   3%|▎         | 6/180 [01:00<25:06,  8.66s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   4%|▍         | 7/180 [01:10<25:47,  8.94s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   4%|▍         | 8/180 [01:11<18:40,  6.51s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   5%|▌         | 9/180 [01:20<21:04,  7.40s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   6%|▌         | 10/180 [01:29<22:04,  7.79s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   6%|▌         | 11/180 [01:41<25:22,  9.01s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   7%|▋         | 12/180 [01:49<24:13,  8.65s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   7%|▋         | 13/180 [01:59<25:26,  9.14s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   8%|▊         | 14/180 [02:08<25:29,  9.21s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   8%|▊         | 15/180 [02:18<25:34,  9.30s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   9%|▉         | 16/180 [02:26<24:06,  8.82s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:   9%|▉         | 17/180 [02:35<24:28,  9.01s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  10%|█         | 18/180 [02:44<24:34,  9.10s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  11%|█         | 19/180 [02:55<25:22,  9.46s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  11%|█         | 20/180 [03:06<27:01, 10.13s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  12%|█▏        | 21/180 [03:17<27:27, 10.36s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  12%|█▏        | 22/180 [03:27<27:12, 10.33s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  13%|█▎        | 23/180 [03:38<26:58, 10.31s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  13%|█▎        | 24/180 [03:48<26:39, 10.25s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  14%|█▍        | 25/180 [03:56<25:17,  9.79s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  14%|█▍        | 26/180 [04:03<22:56,  8.94s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  15%|█▌        | 27/180 [04:14<23:43,  9.30s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  16%|█▌        | 28/180 [04:23<23:41,  9.35s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  16%|█▌        | 29/180 [04:31<22:24,  8.90s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  17%|█▋        | 30/180 [04:40<22:39,  9.06s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  17%|█▋        | 31/180 [04:50<22:46,  9.17s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  18%|█▊        | 32/180 [05:00<23:24,  9.49s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  18%|█▊        | 33/180 [05:03<18:27,  7.53s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  19%|█▉        | 34/180 [05:13<20:11,  8.30s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  19%|█▉        | 35/180 [05:33<28:18, 11.71s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  20%|██        | 36/180 [05:40<25:14, 10.51s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  21%|██        | 37/180 [06:00<31:36, 13.27s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  21%|██        | 38/180 [06:10<29:12, 12.34s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  22%|██▏       | 39/180 [06:21<28:03, 11.94s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  22%|██▏       | 40/180 [06:31<26:35, 11.40s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  23%|██▎       | 41/180 [06:33<19:23,  8.37s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  23%|██▎       | 42/180 [06:43<20:32,  8.93s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  24%|██▍       | 43/180 [06:53<20:48,  9.11s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  24%|██▍       | 44/180 [07:00<19:42,  8.69s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  25%|██▌       | 45/180 [07:09<19:28,  8.66s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  26%|██▌       | 46/180 [07:18<19:49,  8.88s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  26%|██▌       | 47/180 [07:28<20:00,  9.02s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  27%|██▋       | 48/180 [07:35<18:55,  8.60s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  27%|██▋       | 49/180 [07:47<20:55,  9.59s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  28%|██▊       | 50/180 [07:58<21:41, 10.01s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  28%|██▊       | 51/180 [08:06<20:28,  9.52s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  29%|██▉       | 52/180 [08:14<19:17,  9.04s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  29%|██▉       | 53/180 [08:22<18:20,  8.66s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  30%|███       | 54/180 [08:33<19:36,  9.33s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  31%|███       | 55/180 [08:43<19:30,  9.36s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  31%|███       | 56/180 [08:50<18:23,  8.90s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  32%|███▏      | 57/180 [08:56<16:32,  8.07s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  32%|███▏      | 58/180 [09:07<18:08,  8.92s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  33%|███▎      | 59/180 [09:17<18:19,  9.09s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  33%|███▎      | 60/180 [09:28<19:13,  9.61s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  34%|███▍      | 61/180 [09:38<19:25,  9.80s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  34%|███▍      | 62/180 [09:46<18:05,  9.20s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  35%|███▌      | 63/180 [09:52<16:13,  8.32s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  36%|███▌      | 64/180 [10:00<16:09,  8.36s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  36%|███▌      | 65/180 [10:11<17:10,  8.96s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  37%|███▋      | 66/180 [10:21<17:48,  9.37s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  37%|███▋      | 67/180 [10:26<15:22,  8.16s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  38%|███▊      | 68/180 [10:37<16:17,  8.73s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  38%|███▊      | 69/180 [10:46<16:30,  8.92s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  39%|███▉      | 70/180 [10:47<12:09,  6.63s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  39%|███▉      | 71/180 [10:59<14:53,  8.20s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  40%|████      | 72/180 [11:04<12:49,  7.13s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  41%|████      | 73/180 [11:14<14:20,  8.05s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  41%|████      | 74/180 [11:25<15:41,  8.88s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  42%|████▏     | 75/180 [11:32<14:58,  8.56s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  42%|████▏     | 76/180 [11:42<15:17,  8.82s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  43%|████▎     | 77/180 [11:50<15:00,  8.74s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  43%|████▎     | 78/180 [11:58<14:18,  8.42s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  44%|████▍     | 79/180 [12:04<12:39,  7.52s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  44%|████▍     | 80/180 [12:17<15:31,  9.31s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  45%|████▌     | 81/180 [12:26<15:22,  9.32s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  46%|████▌     | 82/180 [12:36<15:16,  9.35s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  46%|████▌     | 83/180 [12:45<15:08,  9.36s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  47%|████▋     | 84/180 [12:54<14:32,  9.09s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  47%|████▋     | 85/180 [12:56<11:02,  6.98s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  48%|████▊     | 86/180 [13:05<12:08,  7.75s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  48%|████▊     | 87/180 [13:16<13:14,  8.55s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  49%|████▉     | 88/180 [13:17<09:46,  6.37s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  49%|████▉     | 89/180 [13:23<09:34,  6.32s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  50%|█████     | 90/180 [13:32<10:34,  7.05s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  51%|█████     | 91/180 [13:41<11:32,  7.79s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  51%|█████     | 92/180 [13:51<12:05,  8.24s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  52%|█████▏    | 93/180 [14:00<12:32,  8.64s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  52%|█████▏    | 94/180 [14:11<13:04,  9.12s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  53%|█████▎    | 95/180 [14:21<13:21,  9.43s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  53%|█████▎    | 96/180 [14:32<13:52,  9.92s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  54%|█████▍    | 97/180 [14:40<12:50,  9.29s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  54%|█████▍    | 98/180 [14:47<12:04,  8.84s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  55%|█████▌    | 99/180 [14:55<11:31,  8.54s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  56%|█████▌    | 100/180 [15:04<11:27,  8.59s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  56%|█████▌    | 101/180 [15:14<11:56,  9.07s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  57%|█████▋    | 102/180 [15:20<10:39,  8.20s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  57%|█████▋    | 103/180 [15:32<11:58,  9.33s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  58%|█████▊    | 104/180 [15:42<12:08,  9.59s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  58%|█████▊    | 105/180 [15:50<11:16,  9.01s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  59%|█████▉    | 106/180 [16:00<11:33,  9.37s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  59%|█████▉    | 107/180 [16:03<09:04,  7.46s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  60%|██████    | 108/180 [16:10<08:46,  7.32s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  61%|██████    | 109/180 [16:24<10:47,  9.12s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  61%|██████    | 110/180 [16:33<10:44,  9.21s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  62%|██████▏   | 111/180 [16:42<10:22,  9.02s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  62%|██████▏   | 112/180 [16:49<09:32,  8.42s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  63%|██████▎   | 113/180 [16:59<10:03,  9.01s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  63%|██████▎   | 114/180 [17:09<10:16,  9.34s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  64%|██████▍   | 115/180 [17:18<10:07,  9.35s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  64%|██████▍   | 116/180 [17:29<10:17,  9.64s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  65%|██████▌   | 117/180 [17:40<10:45, 10.25s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  66%|██████▌   | 118/180 [17:42<07:49,  7.57s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  66%|██████▌   | 119/180 [17:52<08:34,  8.43s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  67%|██████▋   | 120/180 [17:57<07:15,  7.25s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  67%|██████▋   | 121/180 [18:04<07:07,  7.25s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  68%|██████▊   | 122/180 [18:13<07:36,  7.87s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  68%|██████▊   | 123/180 [18:21<07:28,  7.87s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  69%|██████▉   | 124/180 [18:31<08:01,  8.59s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  69%|██████▉   | 125/180 [18:41<08:03,  8.79s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  70%|███████   | 126/180 [18:49<07:52,  8.76s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  71%|███████   | 127/180 [18:59<07:54,  8.96s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  71%|███████   | 128/180 [19:09<08:02,  9.28s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  72%|███████▏  | 129/180 [19:20<08:20,  9.81s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  72%|███████▏  | 130/180 [19:31<08:30, 10.20s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  73%|███████▎  | 131/180 [19:41<08:17, 10.15s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  73%|███████▎  | 132/180 [19:49<07:32,  9.42s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  74%|███████▍  | 133/180 [19:52<05:51,  7.47s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  74%|███████▍  | 134/180 [20:03<06:33,  8.54s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  75%|███████▌  | 135/180 [20:06<05:18,  7.08s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  76%|███████▌  | 136/180 [20:16<05:42,  7.79s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  76%|███████▌  | 137/180 [20:24<05:46,  8.05s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  77%|███████▋  | 138/180 [20:35<06:04,  8.68s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  77%|███████▋  | 139/180 [20:41<05:26,  7.96s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  78%|███████▊  | 140/180 [20:50<05:26,  8.16s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  78%|███████▊  | 141/180 [21:00<05:41,  8.75s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  79%|███████▉  | 142/180 [21:01<04:07,  6.53s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  79%|███████▉  | 143/180 [21:10<04:31,  7.35s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  80%|████████  | 144/180 [21:21<05:03,  8.44s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  81%|████████  | 145/180 [21:30<04:57,  8.50s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  81%|████████  | 146/180 [21:39<04:57,  8.76s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  82%|████████▏ | 147/180 [21:46<04:32,  8.27s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  82%|████████▏ | 148/180 [21:57<04:51,  9.10s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  83%|████████▎ | 149/180 [22:07<04:44,  9.18s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  83%|████████▎ | 150/180 [22:14<04:16,  8.54s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  84%|████████▍ | 151/180 [22:24<04:23,  9.09s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  84%|████████▍ | 152/180 [22:35<04:30,  9.65s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  85%|████████▌ | 153/180 [22:46<04:32, 10.09s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  86%|████████▌ | 154/180 [22:55<04:11,  9.66s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  86%|████████▌ | 155/180 [23:03<03:52,  9.31s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  87%|████████▋ | 156/180 [23:12<03:39,  9.13s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  87%|████████▋ | 157/180 [23:22<03:32,  9.24s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  88%|████████▊ | 158/180 [23:29<03:13,  8.77s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  88%|████████▊ | 159/180 [23:39<03:12,  9.19s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  89%|████████▉ | 160/180 [23:48<03:00,  9.03s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  89%|████████▉ | 161/180 [23:58<02:53,  9.14s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  90%|█████████ | 162/180 [24:07<02:46,  9.26s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  91%|█████████ | 163/180 [24:16<02:34,  9.10s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  91%|█████████ | 164/180 [24:27<02:34,  9.64s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  92%|█████████▏| 165/180 [24:35<02:19,  9.33s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  92%|█████████▏| 166/180 [24:46<02:15,  9.65s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  93%|█████████▎| 167/180 [24:51<01:46,  8.19s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  93%|█████████▎| 168/180 [25:01<01:45,  8.75s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  94%|█████████▍| 169/180 [25:09<01:35,  8.71s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  94%|█████████▍| 170/180 [25:19<01:29,  8.95s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  95%|█████████▌| 171/180 [25:26<01:15,  8.36s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  96%|█████████▌| 172/180 [25:35<01:09,  8.69s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  96%|█████████▌| 173/180 [25:42<00:57,  8.19s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  97%|█████████▋| 174/180 [25:51<00:51,  8.52s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  97%|█████████▋| 175/180 [25:53<00:31,  6.35s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  98%|█████████▊| 176/180 [26:01<00:27,  6.81s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  98%|█████████▊| 177/180 [26:11<00:23,  7.83s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  99%|█████████▉| 178/180 [26:22<00:17,  8.81s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images:  99%|█████████▉| 179/180 [26:34<00:09,  9.93s/it]The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Processing Images: 100%|██████████| 180/180 [26:46<00:00, 10.29s/it]Processing Images: 100%|██████████| 180/180 [26:46<00:00,  8.92s/it]
+
+? Inference complete. Predictions saved to ./output/grounding_Qwen2.5-VL-7B-Instruct.json

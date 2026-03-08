@@ -1,0 +1,4 @@
+jnr/src/videomae2/video_mae_v2_ft.pth filter=lfs diff=lfs merge=lfs -text
+EBQwen_dataset/train_captions_dataset_oversampled_with_metadata.json filter=lfs diff=lfs merge=lfs -text
+EBQwen_dataset/train_captions_dataset_oversampled.json filter=lfs diff=lfs merge=lfs -text
+EBQwen_dataset/train_captions_dataset_oversampled_color_number.json filter=lfs diff=lfs merge=lfs -text

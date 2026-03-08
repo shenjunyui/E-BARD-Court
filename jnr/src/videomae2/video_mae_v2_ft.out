@@ -1,0 +1,231 @@
+import torch
+import nn
+import transformers 
+import ut 
+import dataset 
+loaded libraries
+Using device: cuda
+GPU Name: NVIDIA A100-SXM-64GB
+Memory Allocated: 0.00 MB
+Memory Reserved: 0.00 MB
+
+Building label map...
+Found 102 unique labels.
+
+Initializing model and image processor...
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+skipped layers
+
+Data loaded: Train=2906, Val=363, Test=364
+
+Starting training...
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/torch/nn/modules/conv.py:605: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv3d(
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [1/50] ---
+Train Loss: 3.7571 | Val Loss: 3.5771 | Val Accuracy: 6.89%
+New best model saved with accuracy: 6.89%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [2/50] ---
+Train Loss: 3.3356 | Val Loss: 3.5208 | Val Accuracy: 6.61%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [3/50] ---
+Train Loss: 3.1592 | Val Loss: 3.5023 | Val Accuracy: 10.47%
+New best model saved with accuracy: 10.47%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [4/50] ---
+Train Loss: 3.0112 | Val Loss: 3.5090 | Val Accuracy: 8.26%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [5/50] ---
+Train Loss: 2.8678 | Val Loss: 3.5157 | Val Accuracy: 11.85%
+New best model saved with accuracy: 11.85%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [6/50] ---
+Train Loss: 2.7418 | Val Loss: 3.5273 | Val Accuracy: 10.19%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [7/50] ---
+Train Loss: 2.6117 | Val Loss: 3.5153 | Val Accuracy: 11.29%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [8/50] ---
+Train Loss: 2.5036 | Val Loss: 3.5558 | Val Accuracy: 10.74%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [9/50] ---
+Train Loss: 2.4015 | Val Loss: 3.5646 | Val Accuracy: 11.29%
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+--- Epoch [10/50] ---
+Train Loss: 2.3106 | Val Loss: 3.5694 | Val Accuracy: 11.29%
+
+Early stopping triggered after 5 epochs with no improvement.
+
+Finished Training!
+
+Evaluating on the test set with the best model...
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/vmaev2_env/lib/python3.11/site-packages/transformers/feature_extraction_utils.py:141: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  return torch.tensor(value)
+Final Test Accuracy: 10.16%

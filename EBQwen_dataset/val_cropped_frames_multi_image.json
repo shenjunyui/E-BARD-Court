@@ -1,0 +1,2462 @@
+[
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_100_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_101_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_102_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_103_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_104_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_105_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_106_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_107_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_108_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_109_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_10_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_110_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_111_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_112_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_11_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_293-track_16547/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_10.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_100_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_101_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_102_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_103_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_104.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_105.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_106.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_107.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_108.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_109.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_11.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_110.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_111.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_255-track_43613/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "30"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_0.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_10.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_100.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_101.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_102.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_103.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_104.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_105.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_106.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_107.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_108.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_109.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_11.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_110.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_58-track_28496/frame_111.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_317.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_318.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_319.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_320_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_321_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_338_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_339_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_340.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_341_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_342_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_343_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_344.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_345.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_346.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_347.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_142-track_52394/frame_350.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCould you read the number on the jersey from these images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "11"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_100.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_101.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_102.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_103.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_104.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_105.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_106.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_107.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_108.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_109.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_10_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_110.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_111.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_112_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_11_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_233-track_48048/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "45"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_10.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_100_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_101_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_102_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_103_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_104_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_105_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_106_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_107_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_108_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_109_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_11.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_110_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_111_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_115-track_60797/frame_112_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "20"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_613.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_614.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_615.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_616.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_617.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_618.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_619.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_620.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_621.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_622.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_623.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_624.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_625.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_626.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_627.png",
+            "../jnr/data/annotated_crop/orl-vs-mil-0022400917_170-track_10068/frame_628.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "11"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_361_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_362_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_363_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_364_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_365_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_366_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_367_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_368_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_369_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_370.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_371_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_372_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_373_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_374.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_375.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_124-track_20790/frame_376.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "44"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_531.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_532.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_533.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_534.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_535.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_536.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_537.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_538.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_539.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_540.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_541.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_542.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_543.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_544.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_545.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_241-track_14927/frame_546.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_281.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_282.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_283.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_284.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_285.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_286.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_287.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_288.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_289.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_290.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_291.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_292.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_293.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_294.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_295.png",
+            "../jnr/data/annotated_crop/por-vs-cle-0022400867_132-track_28493/frame_296.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "24"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_10.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_100.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_101.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_102.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_103.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_104.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_105.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_106.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_107.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_108.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_109.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_11.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_110.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_111.png",
+            "../jnr/data/annotated_crop/nyk-vs-min-0022400367_360-track_40590/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_100_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_101_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_102_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_103_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_104_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_105_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_106_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_107_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_108_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_109_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_10_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_110_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_111_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_112_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_11_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_345-track_10556/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_389_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_392_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_393_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_394_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_395_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_396_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_397_1.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_406.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_407.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_408.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_409.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_410.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_411.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_412.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_413.png",
+            "../jnr/data/annotated_crop/det-vs-por-0022400926_441-track_40905/frame_414.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCould you read the number on the jersey from these images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "33"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_10.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_100.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_101.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_102.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_103.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_104.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_105.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_106.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_107.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_108.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_109.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_11.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_110.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_111.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_180-track_49530/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCan you identify the jersey number of the player shown? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_100.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_101.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_102.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_103.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_104.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_105.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_106.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_107.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_108.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_109.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_10_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_110.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_111.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_112.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1002/frame_11_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_100.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_101.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_102.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_103.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_104.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_105.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_106.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_107.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_108.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_109.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_10_1.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_110_1.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_111.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_112_1.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_11_1.png",
+            "../jnr/data/annotated_crop/min-vs-phx-0022400873_310-track_9703/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat's the player's jersey number in this series of pictures? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "10"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_10.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_100.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_101.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_102.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_103.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_104.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_105.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_106.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_107.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_108_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_109.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_11.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_110.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_111.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8768/frame_112_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCould you read the number on the jersey from these images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_10.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_100.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_101.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_102.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_103.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_104.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_105.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_106.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_107.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_108.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_109.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_11.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_110.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_111.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60374/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "10"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_553.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_554.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_555.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_556.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_557.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_558.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_559.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_560.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_561.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_562.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_563.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_564.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_565.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_566.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_567.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_261-track_8855/frame_568.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "23"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_277_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_278_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_279_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_280_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_281_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_282.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_283.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_284.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_285.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_286.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_287.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_288.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_289.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_290.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_291.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_273-track_45725/frame_292.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_10.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_100.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_101.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_102.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_103.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_104.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_105.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_106.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_107.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_108.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_109.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_11.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_110.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_111.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13792/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "11"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_100_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_101_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_102_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_103_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_104_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_105_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_106_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_107_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_108_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_109_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_10_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_110_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_111_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_112_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_11_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_276-track_60371/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_437.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_438.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_439.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_440.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_441.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_442.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_443.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_444.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_445.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_446.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_447.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_448.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_449.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_450.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_451.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13893/frame_452.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_10.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_100.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_101.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_102.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_103.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_104.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_105.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_106.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_107.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_108_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_109_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_11.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_110_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_111_1.png",
+            "../jnr/data/annotated_crop/por-vs-phx-0022401219_24-track_1003/frame_112_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "20"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_371.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_374.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_375.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_376.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_377.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_382_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_394_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_395_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_396_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_397_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_398_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_399_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_402_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_403_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_404_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_357-track_3396/frame_405_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "22"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_169.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_170.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_171.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_172.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_173.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_174.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_175.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_176.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_177.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_178.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_179.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_180.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_181.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_182.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_183.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_306-track_37835/frame_184.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "19"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_659.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_660.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_661.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_662.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_663.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_664.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_665.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_666.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_667.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_668.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_669.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_670.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_671.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_672.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_673.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_95-track_41454/frame_674.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_100.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_101.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_102.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_103.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_104.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_105.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_106.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_107.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_108.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_109.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_10_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_110.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_111.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_112.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_11_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13241/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat's the player's jersey number in this series of pictures? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_373.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_374.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_375.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_376.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_377.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_378.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_379.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_380.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_381.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_382.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_383.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_384.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_385.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_386.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_387.png",
+            "../jnr/data/annotated_crop/sas-vs-mem-0022400863_289-track_497/frame_388.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "13"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_10.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_100.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_101.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_102.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_103.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_104.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_105.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_106.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_107.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_108.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_109.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_11.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_110.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_111.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_112.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36228/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "7"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_335.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_336_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_337_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_338_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_339_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_340_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_341_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_342_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_343_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_344_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_345_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_346_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_347_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_348_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_349_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60368/frame_350_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "30"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_0.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_10.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_100.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_101.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_102.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_103.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_104.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_105.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_106.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_107.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_108.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_109.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_11.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_110.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_299-track_56097/frame_111.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_0.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_10.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_100.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_101.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_102.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_103.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_104.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_105.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_106.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_107.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_108.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_109.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_11.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_110.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_147-track_5622/frame_111.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "40"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_10.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_100.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_101.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_102.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_103.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_104.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_105.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_106.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_107.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_108.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_109.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_11.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_110.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_111.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_170-track_53894/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_357.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_358_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_359_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_360.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_361.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_362.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_363.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_364.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_365.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_366.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_367.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_368.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_369.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_370.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_371.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_97-track_32432/frame_372.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat's the player's jersey number in this series of pictures? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "17"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_545_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_546_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_547_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_548_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_549_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_550.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_551.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_552_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_553_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_554.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_555.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_556.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_557.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_558.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_559.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_254-track_45657/frame_560_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "27"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_223_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_224_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_225_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_226_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_227_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_228_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_229_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_230_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_231_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_232.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_233.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_234_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_235_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_236.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_237.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49103/frame_238.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "26"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_1.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_10.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_100.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_101.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_102.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_103.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_104.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_105.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_106.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_107.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_108.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_109.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_11.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_110.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_111.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_61-track_8257/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "17"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_185.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_186.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_187.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_188.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_189.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_190.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_191.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_192.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_193.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_194.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_195.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_196.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_197.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_198.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_199.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_82-track_18187/frame_200.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_100.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_101.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_102.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_103.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_104.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_105.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_106.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_107.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_108.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_109.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_110.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_111.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_112.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_113.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_114.png",
+            "../jnr/data/annotated_crop/det-vs-lac-0022400898_280-track_8160/frame_115.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "00"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_10.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_100.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_101.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_102.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_103.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_104.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_105.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_106.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_107.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_108_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_109_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_11.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_110_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_111_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_112_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_199-track_16729/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "40"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_100_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_101_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_102_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_103_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_104_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_105_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_106_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_107_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_108_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_109_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_10_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_110_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_111_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_112_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_11_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_140-track_23991/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_103_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_104_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_105_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_106_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_107_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_108_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_109_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_110_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_111_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_112_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_113_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_114_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_115_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_116_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_117_1.png",
+            "../jnr/data/annotated_crop/uta-vs-lac-0022401226_299-track_41669/frame_118_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "nan"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_100_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_101_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_102_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_103_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_104_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_105_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_106_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_107_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_108_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_109_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_10_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_110_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_111_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_112.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_11_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37902/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nPlease tell me the number on the player's jersey across these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_100_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_101_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_102_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_103_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_104_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_105_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_106_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_107_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_108_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_109_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_10_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_110_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_111_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_112_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_11_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_118-track_15693/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "18"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_0_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_100_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_101_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_102_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_103_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_104_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_105_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_106_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_107_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_108_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_109_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_10_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_110_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_111_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_11_1.png",
+            "../jnr/data/annotated_crop/hou-vs-okc-0022400879_329-track_47008/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "21"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_203.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_204.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_205.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_206.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_207.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_208.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_209.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_210.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_211.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_212.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_213.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_214.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_215.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_216.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_217.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18637/frame_218.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_100_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_101_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_102_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_103_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_104_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_105_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_106_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_107_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_108_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_109_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_10_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_110_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_111_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_112_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_11_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_293-track_24335/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_1.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_10.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_100.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_101.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_102.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_103.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_104.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_105.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_106.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_107.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_108.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_109.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_11.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_110.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_111.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_47-track_6679/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_10.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_100.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_101_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_102.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_103.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_104.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_105.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_106.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_107.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_108.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_109.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_11.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_110.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_111.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_377-track_40500/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCan you identify the jersey number of the player shown? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "45"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_100.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_101.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_102.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_103.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_104.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_105.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_106.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_107.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_108.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_109.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_110.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_111.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_112.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_113.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_114.png",
+            "../jnr/data/annotated_crop/nyk-vs-nop-0022400384_243-track_30627/frame_115.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_0.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_10.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_100.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_101.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_102.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_103.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_104.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_105.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_106.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_107.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_108.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_109.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_11.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_110.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_140-track_26717/frame_111.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "16"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_0_1.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_10.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_100.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_101.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_102.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_103.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_104.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_105.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_106.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_107.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_108.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_109.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_11.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_110.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_111.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_162-track_43410/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_100_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_101_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_102_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_103_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_104_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_105_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_106_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_107_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_108_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_109_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_110_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_111_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_112_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_113_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_114_1.png",
+            "../jnr/data/annotated_crop/mia-vs-det-0022401221_270-track_26726/frame_115_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_100.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_101.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_102.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_103.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_104.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_105.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_106.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_107.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_108_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_109_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_110_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_111_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_112_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_113_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_114_1.png",
+            "../jnr/data/annotated_crop/cle-vs-bkn-0022401224_118-track_9385/frame_115_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "9"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_343.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_350.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_351.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_352.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_353.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_354.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_355.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_356.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_357.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_358.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_359.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_360.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_361.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_362.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_363.png",
+            "../jnr/data/annotated_crop/gsw-vs-phi-0022400864_233-track_37979/frame_364.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "23"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_100.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_101.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_102.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_103.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_104.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_105.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_106.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_107.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_108.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_109.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_10_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_110.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_111.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_112.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_11_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_35-track_36226/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_247_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_250_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_251_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_252_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_253_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_254_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_255_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_256_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_257_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_258_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_259_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_260_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_261_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_262_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_263_1.png",
+            "../jnr/data/annotated_crop/bos-vs-was-0022401217_41-track_293/frame_264_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_1.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_10.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_100.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_101.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_102.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_103.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_104.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_105.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_106.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_107.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_108.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_109.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_11.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_110.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_111.png",
+            "../jnr/data/annotated_crop/okc-vs-mia-0022400375_358-track_7927/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "55"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_328.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_329.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_330.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_331.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_332.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_333.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_334.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_335.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_336.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_337.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_338.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_339.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_340.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_341.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_342.png",
+            "../jnr/data/annotated_crop/chi-vs-tor-0022401223_17-track_60367/frame_343.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "3"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_285.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_286.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_287.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_288.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_289.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_290.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_291.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_292.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_293.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_294.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_295.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_296.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_297.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_298.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_299.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_37-track_18659/frame_300.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nIdentify the player's number from these pictures. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "33"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_100.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_101.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_102.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_103.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_104.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_105.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_106.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_107.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_108.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_109.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_110.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_111.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_112.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_113.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_114.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53378/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "9"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_355.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_356.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_357.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_358.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_359.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_362_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_363_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_364_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_365_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_368_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_369_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_370_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_371_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_372_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_373_1.png",
+            "../jnr/data/annotated_crop/nop-vs-ind-0022401216_429-track_1822/frame_374_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "00"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_0.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_10.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_100.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_101.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_102.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_103.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_104.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_105.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_106.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_107.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_108.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_109.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_11.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_110.png",
+            "../jnr/data/annotated_crop/gsw-vs-bkn-0022400901_265-track_32722/frame_111.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "22"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_10.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_100.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_101.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_102.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_103.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_104_1.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_105.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_106.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_107.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_108.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_109.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_11.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_110.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_111.png",
+            "../jnr/data/annotated_crop/lac-vs-dal-0022400368_169-track_49071/frame_112_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat's the player's jersey number in this series of pictures? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "13"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_229_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_230_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_231_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_234_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_235_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_236_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_237_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_238_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_239_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_240_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_241_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_242_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_243_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_244_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_245_1.png",
+            "../jnr/data/annotated_crop/min-vs-den-0022400952_186-track_49210/frame_246_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_10.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_100_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_101.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_102_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_103.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_104_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_105_1.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_106.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_107.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_108.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_109.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_11.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_112.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_113.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_118.png",
+            "../jnr/data/annotated_crop/chi-vs-bos-0022400363_398-track_44558/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_10.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_100.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_101.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_102.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_103.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_104.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_105.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_106.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_107.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_108.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_109.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_11.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_110.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_111.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_112.png",
+            "../jnr/data/annotated_crop/mil-vs-chi-0022400398_47-track_45363/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_531.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_532.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_533_1.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_534.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_535.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_536_1.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_537_1.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_538.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_539_1.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_540.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_541.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_542.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_543.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_544.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_545.png",
+            "../jnr/data/annotated_crop/bkn-vs-det-0022400861_15-track_53512/frame_546.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat jersey number is displayed here? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_10.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_100.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_101_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_102.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_103.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_104.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_105.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_106_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_107_1.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_108.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_109.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_11.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_110.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_111.png",
+            "../jnr/data/annotated_crop/uta-vs-was-0022400894_186-track_13029/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCan you identify the jersey number of the player shown? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "8"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_437_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_438_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_439_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_440_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_441_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_442_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_443_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_444_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_445_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_446_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_447_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_448_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_449_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_450_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_451_1.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13894/frame_452_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat's the player's jersey number in this series of pictures? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "4"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_100.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_101.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_102.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_103.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_104.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_105.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_106.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_107.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_108.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_109.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_10_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_110.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_111.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_112.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_11_1.png",
+            "../jnr/data/annotated_crop/sac-vs-hou-0022400862_145-track_13234/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat is the player jersey number that you see in the images? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_1.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_10.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_100.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_101.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_102.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_103.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_104.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_105.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_106.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_107.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_108.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_109.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_11.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_110.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_111.png",
+            "../jnr/data/annotated_crop/den-vs-sac-0022401225_393-track_24424/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "23"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_100_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_101_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_102_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_103_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_104_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_105_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_106_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_107_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_108_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_109_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_10_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_110_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_111_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_112_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_11_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-mia-0022400869_368-track_57063/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "45"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_369_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_370_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_371_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_372_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_373_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_376_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_377_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_378_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_379_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_380_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_381_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_382_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_383_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_384_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_385_1.png",
+            "../jnr/data/annotated_crop/mem-vs-nop-0022400923_347-track_55110/frame_386_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "13"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_1.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_10.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_100.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_101.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_102.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_103.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_104.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_105.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_106.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_107_1.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_108_1.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_109_1.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_11.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_110.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_111.png",
+            "../jnr/data/annotated_crop/chi-vs-ind-0022400868_100-track_7117/frame_112.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_1.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_10.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_11.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_12.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_13.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_14.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_15.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_16.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_17.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_18.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_19.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_2.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_20.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_21.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_22.png",
+            "../jnr/data/annotated_crop/phi-vs-cha-0022401222_146-track_50772/frame_23.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "24"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_100_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_101_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_102_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_103_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_104_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_105_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_106_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_107_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_108_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_109_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_110_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_111_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_112_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_113_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_114_1.png",
+            "../jnr/data/annotated_crop/nyk-vs-orl-0022401227_5-track_18441/frame_115_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCan you identify the jersey number of the player shown? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "4"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_437.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_438.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_439.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_440.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_441.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_442.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_443.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_444.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_445.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_446.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_447.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_448.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_449.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_450.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_451.png",
+            "../jnr/data/annotated_crop/gsw-vs-nyk-0022400885_353-track_13892/frame_452.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nTell me the player's number shown in these frames. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "25"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_405_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_406_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_407_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_408_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_409_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_410_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_411_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_412_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_413_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_414_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_415_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_416_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_417_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_418_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_419_1.png",
+            "../jnr/data/annotated_crop/den-vs-bos-0022400866_307-track_21360/frame_420_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nCan you identify the jersey number of the player shown? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "27"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_100.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_101.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_102_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_103_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_104_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_105_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_106_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_107_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_108_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_109_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_110_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_111_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_112_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_113_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_114_1.png",
+            "../jnr/data/annotated_crop/cle-vs-chi-0022400886_13-track_31667/frame_115_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat number is visible on the player's uniform in this sequence? The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "31"
+            }
+        ]
+    },
+    {
+        "image": [
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_100.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_101.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_102.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_103.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_104.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_105.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_106.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_107.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_108.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_109.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_10_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_110.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_111.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_112.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_11_1.png",
+            "../jnr/data/annotated_crop/mil-vs-dal-0022400865_316-track_2051/frame_1_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nI need to know the number on the player's shirt from this video sequence. The possible numbers are: 00 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 up to 99. If you cannot identify the number, answer 'nan'. If you can recognize it, answer with the jersey number only"
+            },
+            {
+                "from": "gpt",
+                "value": "18"
+            }
+        ]
+    }
+]

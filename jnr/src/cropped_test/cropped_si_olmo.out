@@ -1,0 +1,2652 @@
+[2025-11-15 19:01:07,269] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-15 19:01:09,751] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+🕵️ Loading model from: /leonardo_scratch/large/userexternal/ggiudici/allenai/olmOCR-7B-0225-preview
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.95s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.32s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.52s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/qwen/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/qwen/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/qwen/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+🕵️ Loading processor from: /leonardo_scratch/large/userexternal/ggiudici/Qwen/Qwen2-VL-7B-Instruct
+✅ Model and processor loaded successfully.
+
+🚀 Starting evaluation on 106 tracks from /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/data/cropped_test.txt...
+
+[1/106] Processing: sas-vs-phi-0022400394_94-track_54341 | True Jersey: 5
+  - Frame: frame_545.png -> Predicted: 5
+  - Frame: frame_546.png -> Predicted: 5
+  - Frame: frame_547.png -> Predicted: 5
+  - Frame: frame_548.png -> Predicted: 5
+  - Frame: frame_549.png -> Predicted: 5
+  - Frame: frame_550.png -> Predicted: 5
+  - Frame: frame_551.png -> Predicted: 5
+  - Frame: frame_552.png -> Predicted: 5
+  - Frame: frame_553.png -> Predicted: 5
+  - Frame: frame_554.png -> Predicted: 5
+  - Frame: frame_555.png -> Predicted: 5
+  - Frame: frame_556.png -> Predicted: 5
+  - Frame: frame_557.png -> Predicted: 5
+  - Frame: frame_558.png -> Predicted: 5
+  - Frame: frame_559.png -> Predicted: 5
+  - Frame: frame_560.png -> Predicted: 5
+  -> Raw Predictions: ['5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5']
+  -> Final Prediction (Mode): 5
+  -> Result: ✅ CORRECT
+
+[2/106] Processing: mia-vs-det-0022401221_241-track_14848 | True Jersey: 13
+  - Frame: frame_1.png  -> Predicted: 13
+  - Frame: frame_10.png -> Predicted: 13
+  - Frame: frame_100.png -> Predicted: 13
+  - Frame: frame_101.png -> Predicted: 13
+  - Frame: frame_102.png -> Predicted: 13
+  - Frame: frame_103.png -> Predicted: 13
+  - Frame: frame_104.png -> Predicted: 13
+  - Frame: frame_105.png -> Predicted: 13
+  - Frame: frame_106.png -> Predicted: 13
+  - Frame: frame_107.png -> Predicted: 13
+  - Frame: frame_108.png -> Predicted: 13
+  - Frame: frame_109.png -> Predicted: 13
+  - Frame: frame_11.png -> Predicted: 13
+  - Frame: frame_110.png -> Predicted: 13
+  - Frame: frame_111.png -> Predicted: 13
+  - Frame: frame_112.png -> Predicted: 11
+  -> Raw Predictions: ['13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '11']
+  -> Final Prediction (Mode): 13
+  -> Result: ✅ CORRECT
+
+[3/106] Processing: cle-vs-chi-0022400886_352-track_23163 | True Jersey: 32
+  - Frame: frame_401.png -> Predicted: nan
+  - Frame: frame_402.png -> Predicted: nan
+  - Frame: frame_403.png -> Predicted: nan
+  - ❌ Error processing image frame_404.png: height:67 and width:24 must be larger than factor:28
+  - Frame: frame_404.png -> Predicted: nan
+  - Frame: frame_404_1.png -> Predicted: nan
+  - ❌ Error processing image frame_405.png: height:67 and width:24 must be larger than factor:28
+  - Frame: frame_405.png -> Predicted: nan
+  - Frame: frame_405_1.png -> Predicted: nan
+  - ❌ Error processing image frame_406.png: height:63 and width:26 must be larger than factor:28
+  - Frame: frame_406.png -> Predicted: nan
+  - Frame: frame_406_1.png -> Predicted: 10
+  - ❌ Error processing image frame_407.png: height:64 and width:22 must be larger than factor:28
+  - Frame: frame_407.png -> Predicted: nan
+  - Frame: frame_407_1.png -> Predicted: nan
+  - ❌ Error processing image frame_408.png: height:66 and width:27 must be larger than factor:28
+  - Frame: frame_408.png -> Predicted: nan
+  - Frame: frame_408_1.png -> Predicted: 22
+  - ❌ Error processing image frame_409.png: height:66 and width:27 must be larger than factor:28
+  - Frame: frame_409.png -> Predicted: nan
+  - Frame: frame_409_1.png -> Predicted: 22
+  - ❌ Error processing image frame_410.png: height:67 and width:27 must be larger than factor:28
+  - Frame: frame_410.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', '22', 'nan', '22', 'nan']
+  -> Final Prediction (Mode): 22
+  -> Result: ❌ INCORRECT (Ground Truth: 32)
+
+[4/106] Processing: chi-vs-bos-0022400363_205-track_3040 | True Jersey: 0
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 0
+  - Frame: frame_101.png -> Predicted: 0
+  - Frame: frame_102.png -> Predicted: 0
+  - Frame: frame_103.png -> Predicted: 0
+  - ❌ Error processing image frame_104.png: height:27 and width:33 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 10
+  - ❌ Error processing image frame_105.png: height:27 and width:33 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 10
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_109.png -> Predicted: nan
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 10
+  -> Raw Predictions: ['nan', 'nan', '0', '0', '0', '0', 'nan', '10', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 0
+  -> Result: ✅ CORRECT
+
+[5/106] Processing: mil-vs-dal-0022400865_286-track_16832 | True Jersey: 7
+  - ❌ Error processing image frame_31.png: height:64 and width:19 must be larger than factor:28
+  - Frame: frame_31.png -> Predicted: nan
+  - Frame: frame_31_1.png -> Predicted: nan
+  - Frame: frame_52.png -> Predicted: nan
+  - Frame: frame_53.png -> Predicted: nan
+  - Frame: frame_54.png -> Predicted: nan
+  - Frame: frame_55.png -> Predicted: nan
+  - Frame: frame_56.png -> Predicted: nan
+  - Frame: frame_57.png -> Predicted: nan
+  - Frame: frame_58.png -> Predicted: nan
+  - Frame: frame_59.png -> Predicted: nan
+  - Frame: frame_60.png -> Predicted: nan
+  - Frame: frame_61.png -> Predicted: nan
+  - Frame: frame_62.png -> Predicted: nan
+  - Frame: frame_63.png -> Predicted: nan
+  - Frame: frame_64.png -> Predicted: nan
+  - Frame: frame_65.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 7)
+
+[6/106] Processing: mem-vs-lal-0022401220_343-track_52553 | True Jersey: 4
+  - Frame: frame_197.png -> Predicted: 4
+  - Frame: frame_198.png -> Predicted: 4
+  - Frame: frame_199.png -> Predicted: 4
+  - Frame: frame_200.png -> Predicted: 4
+  - Frame: frame_201.png -> Predicted: 4
+  - Frame: frame_202.png -> Predicted: 4
+  - Frame: frame_203.png -> Predicted: 4
+  - Frame: frame_204.png -> Predicted: 4
+  - Frame: frame_205.png -> Predicted: 4
+  - Frame: frame_206.png -> Predicted: 4
+  - Frame: frame_207.png -> Predicted: 4
+  - Frame: frame_208.png -> Predicted: 4
+  - Frame: frame_209.png -> Predicted: 4
+  - Frame: frame_210.png -> Predicted: 4
+  - Frame: frame_211.png -> Predicted: 4
+  - Frame: frame_212.png -> Predicted: 4
+  -> Raw Predictions: ['4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4']
+  -> Final Prediction (Mode): 4
+  -> Result: ✅ CORRECT
+
+[7/106] Processing: uta-vs-was-0022400894_215-track_1403 | True Jersey: 99
+  - Frame: frame_235.png -> Predicted: 99
+  - Frame: frame_236.png -> Predicted: 99
+  - Frame: frame_237.png -> Predicted: 99
+  - Frame: frame_238.png -> Predicted: 99
+  - Frame: frame_239.png -> Predicted: 99
+  - Frame: frame_240.png -> Predicted: 99
+  - Frame: frame_241.png -> Predicted: 99
+  - Frame: frame_242.png -> Predicted: 99
+  - Frame: frame_243.png -> Predicted: 99
+  - Frame: frame_244.png -> Predicted: 99
+  - Frame: frame_245.png -> Predicted: 99
+  - Frame: frame_246.png -> Predicted: 99
+  - Frame: frame_247.png -> Predicted: 99
+  - Frame: frame_248.png -> Predicted: 99
+  - Frame: frame_249.png -> Predicted: 99
+  - Frame: frame_250.png -> Predicted: 99
+  -> Raw Predictions: ['99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99', '99']
+  -> Final Prediction (Mode): 99
+  -> Result: ✅ CORRECT
+
+[8/106] Processing: phx-vs-den-0022400402_55-track_34967 | True Jersey: 1
+  - ❌ Error processing image frame_100.png: height:45 and width:25 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:47 and width:25 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:48 and width:26 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:47 and width:25 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:42 and width:24 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 10
+  - ❌ Error processing image frame_105.png: height:42 and width:24 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 10
+  - ❌ Error processing image frame_106.png: height:42 and width:23 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  - ❌ Error processing image frame_107.png: height:43 and width:23 must be larger than factor:28
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_107_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', '10', 'nan', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 1)
+
+[9/106] Processing: chi-vs-bos-0022400363_51-track_17362 | True Jersey: 7
+  - Frame: frame_1.png  -> Predicted: 7
+  - Frame: frame_10.png -> Predicted: 11
+  - Frame: frame_100.png -> Predicted: 7
+  - Frame: frame_101.png -> Predicted: 7
+  - Frame: frame_102.png -> Predicted: 7
+  - Frame: frame_103.png -> Predicted: 7
+  - Frame: frame_104.png -> Predicted: 7
+  - Frame: frame_105.png -> Predicted: 7
+  - Frame: frame_106.png -> Predicted: 7
+  - Frame: frame_107.png -> Predicted: 7
+  - Frame: frame_108.png -> Predicted: 7
+  - Frame: frame_109.png -> Predicted: 7
+  - Frame: frame_11.png -> Predicted: 11
+  - Frame: frame_110.png -> Predicted: 7
+  - Frame: frame_111.png -> Predicted: 7
+  - Frame: frame_112.png -> Predicted: 7
+  -> Raw Predictions: ['7', '11', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '11', '7', '7', '7']
+  -> Final Prediction (Mode): 7
+  -> Result: ✅ CORRECT
+
+[10/106] Processing: chi-vs-tor-0022401223_140-track_24038 | True Jersey: 9
+  - ❌ Error processing image frame_383.png: height:36 and width:24 must be larger than factor:28
+  - Frame: frame_383.png -> Predicted: nan
+  - Frame: frame_383_1.png -> Predicted: nan
+  - ❌ Error processing image frame_384.png: height:37 and width:25 must be larger than factor:28
+  - Frame: frame_384.png -> Predicted: nan
+  - Frame: frame_384_1.png -> Predicted: nan
+  - ❌ Error processing image frame_385.png: height:28 and width:22 must be larger than factor:28
+  - Frame: frame_385.png -> Predicted: nan
+  - Frame: frame_385_1.png -> Predicted: nan
+  - ❌ Error processing image frame_386.png: height:50 and width:25 must be larger than factor:28
+  - Frame: frame_386.png -> Predicted: nan
+  - Frame: frame_386_1.png -> Predicted: 10
+  - ❌ Error processing image frame_387.png: height:50 and width:25 must be larger than factor:28
+  - Frame: frame_387.png -> Predicted: nan
+  - Frame: frame_387_1.png -> Predicted: 10
+  - ❌ Error processing image frame_388.png: height:51 and width:26 must be larger than factor:28
+  - Frame: frame_388.png -> Predicted: nan
+  - Frame: frame_388_1.png -> Predicted: 10
+  - ❌ Error processing image frame_389.png: height:52 and width:24 must be larger than factor:28
+  - Frame: frame_389.png -> Predicted: nan
+  - Frame: frame_389_1.png -> Predicted: nan
+  - Frame: frame_406.png -> Predicted: 9
+  - Frame: frame_408.png -> Predicted: 9
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', 'nan', '9', '9']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 9)
+
+[11/106] Processing: hou-vs-okc-0022400879_307-track_8878 | True Jersey: 2
+  - Frame: frame_1.png  -> Predicted: 11
+  - Frame: frame_10.png -> Predicted: 11
+  - Frame: frame_100.png -> Predicted: 11
+  - Frame: frame_101.png -> Predicted: 2
+  - Frame: frame_102.png -> Predicted: 2
+  - Frame: frame_103.png -> Predicted: 2
+  - Frame: frame_104.png -> Predicted: 2
+  - Frame: frame_105.png -> Predicted: 2
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 2
+  - Frame: frame_108.png -> Predicted: 2
+  - Frame: frame_109.png -> Predicted: 2
+  - Frame: frame_11.png -> Predicted: 12
+  - Frame: frame_110.png -> Predicted: 2
+  - Frame: frame_111.png -> Predicted: 2
+  - Frame: frame_112.png -> Predicted: 2
+  -> Raw Predictions: ['11', '11', '11', '2', '2', '2', '2', '2', '2', '2', '2', '2', '12', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[12/106] Processing: mem-vs-lal-0022401220_174-track_51985 | True Jersey: 7
+  - Frame: frame_1.png  -> Predicted: 7
+  - Frame: frame_10.png -> Predicted: 7
+  - Frame: frame_100.png -> Predicted: 7
+  - Frame: frame_101.png -> Predicted: 7
+  - Frame: frame_102.png -> Predicted: 7
+  - Frame: frame_103.png -> Predicted: 7
+  - Frame: frame_104.png -> Predicted: 7
+  - Frame: frame_105.png -> Predicted: 7
+  - Frame: frame_106.png -> Predicted: 7
+  - Frame: frame_107.png -> Predicted: 7
+  - Frame: frame_108.png -> Predicted: 7
+  - Frame: frame_109.png -> Predicted: 7
+  - Frame: frame_11.png -> Predicted: 7
+  - Frame: frame_110.png -> Predicted: 7
+  - Frame: frame_111.png -> Predicted: 7
+  - Frame: frame_112.png -> Predicted: 7
+  -> Raw Predictions: ['7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
+  -> Final Prediction (Mode): 7
+  -> Result: ✅ CORRECT
+
+[13/106] Processing: chi-vs-ind-0022400868_304-track_7838 | True Jersey: 15
+  - ❌ Error processing image frame_1.png: height:62 and width:21 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 15
+  - Frame: frame_101.png -> Predicted: 15
+  - Frame: frame_102.png -> Predicted: 15
+  - Frame: frame_103.png -> Predicted: 11
+  - Frame: frame_104.png -> Predicted: 15
+  - Frame: frame_105.png -> Predicted: 15
+  - Frame: frame_106.png -> Predicted: 15
+  - Frame: frame_107.png -> Predicted: 15
+  - Frame: frame_108.png -> Predicted: 15
+  - Frame: frame_109.png -> Predicted: 15
+  - Frame: frame_11.png -> Predicted: 10
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: 15
+  - Frame: frame_112.png -> Predicted: 15
+  -> Raw Predictions: ['nan', 'nan', '15', '15', '15', '11', '15', '15', '15', '15', '15', '15', '10', '10', '15', '15']
+  -> Final Prediction (Mode): 15
+  -> Result: ✅ CORRECT
+
+[14/106] Processing: phx-vs-den-0022400402_301-track_22706 | True Jersey: 3
+  - ❌ Error processing image frame_1.png: height:33 and width:24 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:38 and width:21 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 3
+  - Frame: frame_101.png -> Predicted: 2
+  - Frame: frame_102.png -> Predicted: 3
+  - Frame: frame_103.png -> Predicted: 3
+  - Frame: frame_104.png -> Predicted: 3
+  - Frame: frame_105.png -> Predicted: 3
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 3
+  - Frame: frame_108.png -> Predicted: 2
+  - Frame: frame_109.png -> Predicted: 3
+  - Frame: frame_10_1.png -> Predicted: 1
+  - ❌ Error processing image frame_11.png: height:41 and width:21 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 2
+  - Frame: frame_111.png -> Predicted: 3
+  -> Raw Predictions: ['nan', 'nan', '3', '2', '3', '3', '3', '3', '2', '3', '2', '3', '1', 'nan', '2', '3']
+  -> Final Prediction (Mode): 3
+  -> Result: ✅ CORRECT
+
+[15/106] Processing: den-vs-bos-0022400866_307-track_21373 | True Jersey: 11
+  - Frame: frame_537.png -> Predicted: 11
+  - Frame: frame_538.png -> Predicted: 12
+  - Frame: frame_539.png -> Predicted: 12
+  - Frame: frame_540.png -> Predicted: 11
+  - Frame: frame_541.png -> Predicted: 11
+  - Frame: frame_542.png -> Predicted: 11
+  - Frame: frame_543.png -> Predicted: 11
+  - Frame: frame_544.png -> Predicted: 11
+  - Frame: frame_545.png -> Predicted: 11
+  - Frame: frame_546.png -> Predicted: 11
+  - Frame: frame_547.png -> Predicted: 11
+  - Frame: frame_548.png -> Predicted: nan
+  - Frame: frame_549.png -> Predicted: nan
+  - Frame: frame_550.png -> Predicted: nan
+  - Frame: frame_551.png -> Predicted: nan
+  - Frame: frame_552.png -> Predicted: nan
+  -> Raw Predictions: ['11', '12', '12', '11', '11', '11', '11', '11', '11', '11', '11', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 11
+  -> Result: ✅ CORRECT
+
+[16/106] Processing: mil-vs-dal-0022400865_142-track_52347 | True Jersey: 00
+  - Frame: frame_1.png  -> Predicted: 10
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: 10
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: 10
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: 11
+  - Frame: frame_107.png -> Predicted: 10
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_11.png -> Predicted: 10
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_111.png -> Predicted: nan
+  - Frame: frame_112.png -> Predicted: 10
+  -> Raw Predictions: ['10', 'nan', '10', '10', 'nan', '10', 'nan', 'nan', '11', '10', '10', '10', '10', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 00)
+
+[17/106] Processing: gsw-vs-bkn-0022400901_2-track_40979 | True Jersey: 4
+  - ❌ Error processing image frame_171.png: height:37 and width:20 must be larger than factor:28
+  - Frame: frame_171.png -> Predicted: nan
+  - Frame: frame_172.png -> Predicted: nan
+  - ❌ Error processing image frame_176.png: height:40 and width:20 must be larger than factor:28
+  - Frame: frame_176.png -> Predicted: nan
+  - ❌ Error processing image frame_177.png: height:40 and width:20 must be larger than factor:28
+  - Frame: frame_177.png -> Predicted: nan
+  - ❌ Error processing image frame_178.png: height:36 and width:23 must be larger than factor:28
+  - Frame: frame_178.png -> Predicted: nan
+  - ❌ Error processing image frame_179.png: height:36 and width:23 must be larger than factor:28
+  - Frame: frame_179.png -> Predicted: nan
+  - ❌ Error processing image frame_180.png: height:35 and width:27 must be larger than factor:28
+  - Frame: frame_180.png -> Predicted: nan
+  - ❌ Error processing image frame_181.png: height:35 and width:27 must be larger than factor:28
+  - Frame: frame_181.png -> Predicted: nan
+  - ❌ Error processing image frame_182.png: height:34 and width:25 must be larger than factor:28
+  - Frame: frame_182.png -> Predicted: nan
+  - ❌ Error processing image frame_183.png: height:35 and width:25 must be larger than factor:28
+  - Frame: frame_183.png -> Predicted: nan
+  - ❌ Error processing image frame_184.png: height:37 and width:26 must be larger than factor:28
+  - Frame: frame_184.png -> Predicted: nan
+  - ❌ Error processing image frame_185.png: height:37 and width:25 must be larger than factor:28
+  - Frame: frame_185.png -> Predicted: nan
+  - ❌ Error processing image frame_186.png: height:38 and width:26 must be larger than factor:28
+  - Frame: frame_186.png -> Predicted: nan
+  - ❌ Error processing image frame_187.png: height:38 and width:26 must be larger than factor:28
+  - Frame: frame_187.png -> Predicted: nan
+  - ❌ Error processing image frame_188.png: height:38 and width:25 must be larger than factor:28
+  - Frame: frame_188.png -> Predicted: nan
+  - ❌ Error processing image frame_189.png: height:38 and width:25 must be larger than factor:28
+  - Frame: frame_189.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 4)
+
+[18/106] Processing: mil-vs-dal-0022400865_142-track_52346 | True Jersey: 12
+  - Frame: frame_1.png  -> Predicted: 12
+  - Frame: frame_10.png -> Predicted: 11
+  - Frame: frame_100.png -> Predicted: 12
+  - Frame: frame_101.png -> Predicted: 12
+  - Frame: frame_102.png -> Predicted: 12
+  - Frame: frame_103.png -> Predicted: 12
+  - Frame: frame_104.png -> Predicted: 12
+  - Frame: frame_105.png -> Predicted: 12
+  - Frame: frame_106.png -> Predicted: 12
+  - Frame: frame_107.png -> Predicted: 12
+  - Frame: frame_108.png -> Predicted: 12
+  - Frame: frame_109.png -> Predicted: 12
+  - Frame: frame_11.png -> Predicted: 12
+  - Frame: frame_110.png -> Predicted: 12
+  - Frame: frame_111.png -> Predicted: 12
+  - Frame: frame_112.png -> Predicted: 12
+  -> Raw Predictions: ['12', '11', '12', '12', '12', '12', '12', '12', '12', '12', '12', '12', '12', '12', '12', '12']
+  -> Final Prediction (Mode): 12
+  -> Result: ✅ CORRECT
+
+[19/106] Processing: nyk-vs-min-0022400367_153-track_10123 | True Jersey: 2
+  - ❌ Error processing image frame_223.png: height:32 and width:27 must be larger than factor:28
+  - Frame: frame_223.png -> Predicted: nan
+  - Frame: frame_223_1.png -> Predicted: 10
+  - ❌ Error processing image frame_224.png: height:38 and width:18 must be larger than factor:28
+  - Frame: frame_224.png -> Predicted: nan
+  - Frame: frame_224_1.png -> Predicted: nan
+  - ❌ Error processing image frame_225.png: height:38 and width:18 must be larger than factor:28
+  - Frame: frame_225.png -> Predicted: nan
+  - Frame: frame_225_1.png -> Predicted: nan
+  - ❌ Error processing image frame_226.png: height:39 and width:24 must be larger than factor:28
+  - Frame: frame_226.png -> Predicted: nan
+  - Frame: frame_226_1.png -> Predicted: 11
+  - ❌ Error processing image frame_227.png: height:37 and width:24 must be larger than factor:28
+  - Frame: frame_227.png -> Predicted: nan
+  - Frame: frame_227_1.png -> Predicted: 10
+  - ❌ Error processing image frame_228.png: height:39 and width:22 must be larger than factor:28
+  - Frame: frame_228.png -> Predicted: nan
+  - Frame: frame_228_1.png -> Predicted: 11
+  - ❌ Error processing image frame_229.png: height:38 and width:24 must be larger than factor:28
+  - Frame: frame_229.png -> Predicted: nan
+  - Frame: frame_229_1.png -> Predicted: 11
+  - ❌ Error processing image frame_230.png: height:43 and width:26 must be larger than factor:28
+  - Frame: frame_230.png -> Predicted: nan
+  - Frame: frame_230_1.png -> Predicted: 2
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', '11', 'nan', '10', 'nan', '11', 'nan', '11', 'nan', '2']
+  -> Final Prediction (Mode): 11
+  -> Result: ❌ INCORRECT (Ground Truth: 2)
+
+[20/106] Processing: mil-vs-dal-0022400865_297-track_32196 | True Jersey: 1
+  - Frame: frame_435.png -> Predicted: 1
+  - Frame: frame_436.png -> Predicted: 1
+  - Frame: frame_437.png -> Predicted: 1
+  - Frame: frame_438.png -> Predicted: 1
+  - Frame: frame_439.png -> Predicted: 1
+  - Frame: frame_440.png -> Predicted: 1
+  - Frame: frame_441.png -> Predicted: 1
+  - Frame: frame_442.png -> Predicted: 1
+  - Frame: frame_443.png -> Predicted: 1
+  - Frame: frame_444.png -> Predicted: 1
+  - Frame: frame_445.png -> Predicted: 1
+  - Frame: frame_446.png -> Predicted: 1
+  - Frame: frame_447.png -> Predicted: 1
+  - Frame: frame_448.png -> Predicted: 1
+  - Frame: frame_449.png -> Predicted: 1
+  - Frame: frame_450.png -> Predicted: 1
+  -> Raw Predictions: ['1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1']
+  -> Final Prediction (Mode): 1
+  -> Result: ✅ CORRECT
+
+[21/106] Processing: gsw-vs-mem-0022400366_373-track_44966 | True Jersey: 2
+  - ❌ Error processing image frame_1.png: height:55 and width:10 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:56 and width:9 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 2
+  - Frame: frame_101.png -> Predicted: 11
+  - Frame: frame_102.png -> Predicted: 2
+  - Frame: frame_103.png -> Predicted: 2
+  - Frame: frame_104.png -> Predicted: 2
+  - Frame: frame_105.png -> Predicted: 2
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 2
+  - Frame: frame_108.png -> Predicted: 2
+  - Frame: frame_109.png -> Predicted: 2
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:59 and width:9 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 2
+  - Frame: frame_111.png -> Predicted: 2
+  -> Raw Predictions: ['nan', 'nan', '2', '11', '2', '2', '2', '2', '2', '2', '2', '2', 'nan', 'nan', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[22/106] Processing: gsw-vs-phi-0022400864_220-track_4566 | True Jersey: 30
+  - Frame: frame_477.png -> Predicted: 1
+  - Frame: frame_478.png -> Predicted: 10
+  - Frame: frame_479.png -> Predicted: 10
+  - Frame: frame_480.png -> Predicted: 0
+  - Frame: frame_481.png -> Predicted: 10
+  - Frame: frame_482.png -> Predicted: 10
+  - Frame: frame_483.png -> Predicted: 10
+  - Frame: frame_484.png -> Predicted: 11
+  - Frame: frame_485.png -> Predicted: 11
+  - Frame: frame_486.png -> Predicted: 10
+  - Frame: frame_487.png -> Predicted: 0
+  - Frame: frame_488.png -> Predicted: 10
+  - Frame: frame_489.png -> Predicted: 10
+  - Frame: frame_490.png -> Predicted: 10
+  - Frame: frame_491.png -> Predicted: 10
+  - ❌ Error processing image frame_502.png: height:94 and width:16 must be larger than factor:28
+  - Frame: frame_502.png -> Predicted: nan
+  -> Raw Predictions: ['1', '10', '10', '0', '10', '10', '10', '11', '11', '10', '0', '10', '10', '10', '10', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 30)
+
+[23/106] Processing: det-vs-por-0022400926_162-track_7512 | True Jersey: 5
+  - Frame: frame_1.png  -> Predicted: 5
+  - Frame: frame_10.png -> Predicted: 5
+  - Frame: frame_100.png -> Predicted: 5
+  - Frame: frame_101.png -> Predicted: 5
+  - Frame: frame_102.png -> Predicted: 5
+  - Frame: frame_103.png -> Predicted: 5
+  - Frame: frame_104.png -> Predicted: 5
+  - Frame: frame_105.png -> Predicted: 5
+  - Frame: frame_106.png -> Predicted: 5
+  - Frame: frame_107.png -> Predicted: 5
+  - Frame: frame_108.png -> Predicted: 5
+  - Frame: frame_109.png -> Predicted: 5
+  - Frame: frame_11.png -> Predicted: 5
+  - Frame: frame_110.png -> Predicted: 5
+  - Frame: frame_111.png -> Predicted: 5
+  - Frame: frame_112.png -> Predicted: 5
+  -> Raw Predictions: ['5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5']
+  -> Final Prediction (Mode): 5
+  -> Result: ✅ CORRECT
+
+[24/106] Processing: nyk-vs-orl-0022401227_192-track_19603 | True Jersey: 4
+  - Frame: frame_535.png -> Predicted: 4
+  - Frame: frame_536.png -> Predicted: 4
+  - Frame: frame_537.png -> Predicted: 4
+  - Frame: frame_538.png -> Predicted: 4
+  - Frame: frame_539.png -> Predicted: 4
+  - Frame: frame_540.png -> Predicted: 4
+  - Frame: frame_541.png -> Predicted: 4
+  - Frame: frame_542.png -> Predicted: 4
+  - Frame: frame_543.png -> Predicted: 4
+  - Frame: frame_544.png -> Predicted: 4
+  - Frame: frame_545.png -> Predicted: 4
+  - Frame: frame_546.png -> Predicted: 4
+  - Frame: frame_547.png -> Predicted: 4
+  - Frame: frame_548.png -> Predicted: 4
+  - Frame: frame_549.png -> Predicted: 4
+  - Frame: frame_550.png -> Predicted: 4
+  -> Raw Predictions: ['4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4', '4']
+  -> Final Prediction (Mode): 4
+  -> Result: ✅ CORRECT
+
+[25/106] Processing: min-vs-phx-0022400873_351-track_25687 | True Jersey: 2
+  - ❌ Error processing image frame_1.png: height:49 and width:12 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:44 and width:19 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:54 and width:24 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 2
+  - ❌ Error processing image frame_101.png: height:56 and width:22 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 2
+  - ❌ Error processing image frame_102.png: height:54 and width:21 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 2
+  - ❌ Error processing image frame_103.png: height:54 and width:21 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 2
+  - ❌ Error processing image frame_104.png: height:54 and width:22 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 11
+  - ❌ Error processing image frame_105.png: height:54 and width:22 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 11
+  - ❌ Error processing image frame_106.png: height:55 and width:21 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 11
+  -> Raw Predictions: ['nan', 'nan', 'nan', '2', 'nan', '2', 'nan', '2', 'nan', '2', 'nan', '11', 'nan', '11', 'nan', '11']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[26/106] Processing: uta-vs-lac-0022401226_115-track_60907 | True Jersey: nan
+  - ❌ Error processing image frame_499.png: height:60 and width:9 must be larger than factor:28
+  - Frame: frame_499.png -> Predicted: nan
+  - Frame: frame_499_1.png -> Predicted: nan
+  - ❌ Error processing image frame_506.png: height:62 and width:15 must be larger than factor:28
+  - Frame: frame_506.png -> Predicted: nan
+  - Frame: frame_506_1.png -> Predicted: nan
+  - ❌ Error processing image frame_507.png: height:64 and width:15 must be larger than factor:28
+  - Frame: frame_507.png -> Predicted: nan
+  - Frame: frame_507_1.png -> Predicted: nan
+  - ❌ Error processing image frame_508.png: height:61 and width:17 must be larger than factor:28
+  - Frame: frame_508.png -> Predicted: nan
+  - Frame: frame_508_1.png -> Predicted: nan
+  - ❌ Error processing image frame_509.png: height:60 and width:16 must be larger than factor:28
+  - Frame: frame_509.png -> Predicted: nan
+  - Frame: frame_509_1.png -> Predicted: nan
+  - ❌ Error processing image frame_510.png: height:51 and width:19 must be larger than factor:28
+  - Frame: frame_510.png -> Predicted: nan
+  - Frame: frame_510_1.png -> Predicted: nan
+  - ❌ Error processing image frame_511.png: height:52 and width:19 must be larger than factor:28
+  - Frame: frame_511.png -> Predicted: nan
+  - Frame: frame_511_1.png -> Predicted: nan
+  - ❌ Error processing image frame_512.png: height:73 and width:16 must be larger than factor:28
+  - Frame: frame_512.png -> Predicted: nan
+  - Frame: frame_512_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ✅ CORRECT
+
+[27/106] Processing: sac-vs-hou-0022400862_212-track_24067 | True Jersey: 8
+  - Frame: frame_1.png  -> Predicted: 10
+  - ❌ Error processing image frame_10.png: height:69 and width:16 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:64 and width:17 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:61 and width:17 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 10
+  - ❌ Error processing image frame_102.png: height:61 and width:18 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 10
+  - ❌ Error processing image frame_103.png: height:61 and width:17 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 10
+  - ❌ Error processing image frame_104.png: height:60 and width:17 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:60 and width:17 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:58 and width:15 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['10', 'nan', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 8)
+
+[28/106] Processing: mem-vs-lal-0022401220_156-track_58550 | True Jersey: 15
+  - Frame: frame_709.png -> Predicted: 11
+  - Frame: frame_710.png -> Predicted: 15
+  - Frame: frame_711.png -> Predicted: 15
+  - Frame: frame_712.png -> Predicted: 11
+  - Frame: frame_713.png -> Predicted: 10
+  - Frame: frame_714.png -> Predicted: 15
+  - Frame: frame_715.png -> Predicted: 15
+  - Frame: frame_716.png -> Predicted: 10
+  - Frame: frame_717.png -> Predicted: 10
+  - Frame: frame_718.png -> Predicted: 10
+  - Frame: frame_719.png -> Predicted: 10
+  - Frame: frame_720.png -> Predicted: 10
+  - Frame: frame_721.png -> Predicted: 10
+  - Frame: frame_722.png -> Predicted: 15
+  - Frame: frame_723.png -> Predicted: 15
+  - Frame: frame_724.png -> Predicted: 15
+  -> Raw Predictions: ['11', '15', '15', '11', '10', '15', '15', '10', '10', '10', '10', '10', '10', '15', '15', '15']
+  -> Final Prediction (Mode): 15
+  -> Result: ✅ CORRECT
+
+[29/106] Processing: tor-vs-orl-0022400870_282-track_41690 | True Jersey: 2
+  - ❌ Error processing image frame_1.png: height:64 and width:27 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: 2
+  - Frame: frame_100.png -> Predicted: 2
+  - Frame: frame_101.png -> Predicted: 2
+  - Frame: frame_102.png -> Predicted: 2
+  - Frame: frame_103.png -> Predicted: 2
+  - Frame: frame_104.png -> Predicted: 2
+  - Frame: frame_105.png -> Predicted: 2
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 2
+  - Frame: frame_108.png -> Predicted: 2
+  - Frame: frame_109.png -> Predicted: 2
+  - Frame: frame_11.png -> Predicted: 11
+  - Frame: frame_110.png -> Predicted: 11
+  - Frame: frame_111.png -> Predicted: 11
+  - Frame: frame_112.png -> Predicted: 2
+  -> Raw Predictions: ['nan', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '11', '11', '11', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[30/106] Processing: mia-vs-det-0022401221_241-track_14849 | True Jersey: 5
+  - ❌ Error processing image frame_1.png: height:31 and width:26 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: 11
+  - ❌ Error processing image frame_100.png: height:46 and width:24 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:47 and width:22 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:44 and width:26 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:44 and width:25 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 10
+  - ❌ Error processing image frame_104.png: height:41 and width:27 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:41 and width:27 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '11', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 11
+  -> Result: ❌ INCORRECT (Ground Truth: 5)
+
+[31/106] Processing: okc-vs-mia-0022400375_385-track_21741 | True Jersey: 11
+  - Frame: frame_259.png -> Predicted: 11
+  - Frame: frame_260.png -> Predicted: 11
+  - Frame: frame_261.png -> Predicted: 11
+  - Frame: frame_262.png -> Predicted: 11
+  - Frame: frame_263.png -> Predicted: 11
+  - Frame: frame_264.png -> Predicted: 11
+  - Frame: frame_265.png -> Predicted: 11
+  - Frame: frame_266.png -> Predicted: 11
+  - Frame: frame_267.png -> Predicted: 11
+  - Frame: frame_268.png -> Predicted: 11
+  - Frame: frame_269.png -> Predicted: 11
+  - Frame: frame_270.png -> Predicted: 11
+  - Frame: frame_271.png -> Predicted: 11
+  - Frame: frame_272.png -> Predicted: 11
+  - Frame: frame_273.png -> Predicted: 11
+  - Frame: frame_274.png -> Predicted: 11
+  -> Raw Predictions: ['11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11']
+  -> Final Prediction (Mode): 11
+  -> Result: ✅ CORRECT
+
+[32/106] Processing: cle-vs-chi-0022400886_364-track_44837 | True Jersey: 30
+  - ❌ Error processing image frame_269.png: height:55 and width:24 must be larger than factor:28
+  - Frame: frame_269.png -> Predicted: nan
+  - Frame: frame_269_1.png -> Predicted: 10
+  - ❌ Error processing image frame_270.png: height:53 and width:25 must be larger than factor:28
+  - Frame: frame_270.png -> Predicted: nan
+  - Frame: frame_270_1.png -> Predicted: 3
+  - ❌ Error processing image frame_271.png: height:53 and width:26 must be larger than factor:28
+  - Frame: frame_271.png -> Predicted: nan
+  - Frame: frame_271_1.png -> Predicted: 3
+  - ❌ Error processing image frame_272.png: height:51 and width:26 must be larger than factor:28
+  - Frame: frame_272.png -> Predicted: nan
+  - Frame: frame_272_1.png -> Predicted: 3
+  - ❌ Error processing image frame_273.png: height:51 and width:26 must be larger than factor:28
+  - Frame: frame_273.png -> Predicted: nan
+  - Frame: frame_273_1.png -> Predicted: 3
+  - ❌ Error processing image frame_274.png: height:51 and width:27 must be larger than factor:28
+  - Frame: frame_274.png -> Predicted: nan
+  - Frame: frame_274_1.png -> Predicted: 3
+  - ❌ Error processing image frame_275.png: height:50 and width:27 must be larger than factor:28
+  - Frame: frame_275.png -> Predicted: nan
+  - Frame: frame_275_1.png -> Predicted: 3
+  - ❌ Error processing image frame_276.png: height:50 and width:27 must be larger than factor:28
+  - Frame: frame_276.png -> Predicted: nan
+  - Frame: frame_276_1.png -> Predicted: 3
+  -> Raw Predictions: ['nan', '10', 'nan', '3', 'nan', '3', 'nan', '3', 'nan', '3', 'nan', '3', 'nan', '3', 'nan', '3']
+  -> Final Prediction (Mode): 3
+  -> Result: ❌ INCORRECT (Ground Truth: 30)
+
+[33/106] Processing: chi-vs-tor-0022401223_47-track_6690 | True Jersey: 2
+  - Frame: frame_117.png -> Predicted: 2
+  - Frame: frame_118.png -> Predicted: 2
+  - Frame: frame_119.png -> Predicted: 2
+  - Frame: frame_120.png -> Predicted: 2
+  - Frame: frame_121.png -> Predicted: 2
+  - Frame: frame_122.png -> Predicted: 2
+  - Frame: frame_123.png -> Predicted: 2
+  - Frame: frame_124.png -> Predicted: 2
+  - Frame: frame_125.png -> Predicted: 2
+  - Frame: frame_126.png -> Predicted: 2
+  - Frame: frame_127.png -> Predicted: 2
+  - Frame: frame_128.png -> Predicted: 2
+  - Frame: frame_129.png -> Predicted: 2
+  - Frame: frame_130.png -> Predicted: 2
+  - Frame: frame_131.png -> Predicted: 2
+  - Frame: frame_132.png -> Predicted: 2
+  -> Raw Predictions: ['2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[34/106] Processing: uta-vs-was-0022400894_75-track_2545 | True Jersey: 33
+  - Frame: frame_171.png -> Predicted: 22
+  - ❌ Error processing image frame_174.png: height:42 and width:24 must be larger than factor:28
+  - Frame: frame_174.png -> Predicted: nan
+  - Frame: frame_174_1.png -> Predicted: 33
+  - ❌ Error processing image frame_175.png: height:45 and width:25 must be larger than factor:28
+  - Frame: frame_175.png -> Predicted: nan
+  - Frame: frame_175_1.png -> Predicted: 33
+  - ❌ Error processing image frame_176.png: height:42 and width:25 must be larger than factor:28
+  - Frame: frame_176.png -> Predicted: nan
+  - Frame: frame_176_1.png -> Predicted: 10
+  - ❌ Error processing image frame_177.png: height:42 and width:25 must be larger than factor:28
+  - Frame: frame_177.png -> Predicted: nan
+  - Frame: frame_177_1.png -> Predicted: 10
+  - ❌ Error processing image frame_180.png: height:40 and width:23 must be larger than factor:28
+  - Frame: frame_180.png -> Predicted: nan
+  - Frame: frame_180_1.png -> Predicted: 10
+  - ❌ Error processing image frame_181.png: height:40 and width:23 must be larger than factor:28
+  - Frame: frame_181.png -> Predicted: nan
+  - Frame: frame_181_1.png -> Predicted: 10
+  - ❌ Error processing image frame_182.png: height:37 and width:10 must be larger than factor:28
+  - Frame: frame_182.png -> Predicted: nan
+  - Frame: frame_182_1.png -> Predicted: nan
+  - ❌ Error processing image frame_183.png: height:36 and width:5 must be larger than factor:28
+  - Frame: frame_183.png -> Predicted: nan
+  -> Raw Predictions: ['22', 'nan', '33', 'nan', '33', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 33)
+
+[35/106] Processing: mil-vs-dal-0022400865_316-track_2048 | True Jersey: 00
+  - Frame: frame_1.png  -> Predicted: 10
+  - Frame: frame_10.png -> Predicted: 11
+  - Frame: frame_100.png -> Predicted: 00
+  - Frame: frame_101.png -> Predicted: 07
+  - Frame: frame_102.png -> Predicted: 07
+  - Frame: frame_103.png -> Predicted: 07
+  - Frame: frame_104.png -> Predicted: 00
+  - Frame: frame_105.png -> Predicted: 00
+  - Frame: frame_106.png -> Predicted: 00
+  - Frame: frame_107.png -> Predicted: 00
+  - Frame: frame_108.png -> Predicted: 00
+  - Frame: frame_109.png -> Predicted: 00
+  - Frame: frame_11.png -> Predicted: 11
+  - Frame: frame_110.png -> Predicted: 00
+  - Frame: frame_111.png -> Predicted: 00
+  - Frame: frame_112.png -> Predicted: 00
+  -> Raw Predictions: ['10', '11', '00', '07', '07', '07', '00', '00', '00', '00', '00', '00', '11', '00', '00', '00']
+  -> Final Prediction (Mode): 00
+  -> Result: ✅ CORRECT
+
+[36/106] Processing: uta-vs-lac-0022401226_110-track_27148 | True Jersey: 20
+  - Frame: frame_195.png -> Predicted: 20
+  - Frame: frame_196.png -> Predicted: 20
+  - Frame: frame_197.png -> Predicted: 20
+  - Frame: frame_198.png -> Predicted: 20
+  - Frame: frame_199.png -> Predicted: 20
+  - Frame: frame_200.png -> Predicted: 20
+  - Frame: frame_201.png -> Predicted: 20
+  - Frame: frame_202.png -> Predicted: 20
+  - Frame: frame_203.png -> Predicted: 20
+  - Frame: frame_204.png -> Predicted: 20
+  - Frame: frame_205.png -> Predicted: 20
+  - Frame: frame_206.png -> Predicted: 20
+  - Frame: frame_207.png -> Predicted: 20
+  - Frame: frame_208.png -> Predicted: 20
+  - Frame: frame_209.png -> Predicted: 20
+  - Frame: frame_210.png -> Predicted: 20
+  -> Raw Predictions: ['20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20']
+  -> Final Prediction (Mode): 20
+  -> Result: ✅ CORRECT
+
+[37/106] Processing: nop-vs-ind-0022401216_23-track_40096 | True Jersey: nan
+  - ❌ Error processing image frame_1.png: height:42 and width:23 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:41 and width:27 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:45 and width:19 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:44 and width:19 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:48 and width:12 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:48 and width:13 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:49 and width:12 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:49 and width:12 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:46 and width:13 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ✅ CORRECT
+
+[38/106] Processing: chi-vs-bos-0022400363_19-track_12436 | True Jersey: 44
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_101.png -> Predicted: 10
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_111.png -> Predicted: nan
+  - Frame: frame_112.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', '10', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 44)
+
+[39/106] Processing: gsw-vs-bkn-0022400901_161-track_10687 | True Jersey: 33
+  - Frame: frame_0.png  -> Predicted: 10
+  - Frame: frame_1.png  -> Predicted: 10
+  - Frame: frame_10.png -> Predicted: 33
+  - ❌ Error processing image frame_100.png: height:41 and width:17 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 3
+  - Frame: frame_101.png -> Predicted: 33
+  - Frame: frame_102.png -> Predicted: 33
+  - Frame: frame_103.png -> Predicted: 33
+  - ❌ Error processing image frame_104.png: height:43 and width:27 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 33
+  - ❌ Error processing image frame_105.png: height:43 and width:27 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 33
+  - Frame: frame_106.png -> Predicted: 33
+  - Frame: frame_107.png -> Predicted: 33
+  - Frame: frame_108.png -> Predicted: 33
+  - Frame: frame_109.png -> Predicted: 33
+  -> Raw Predictions: ['10', '10', '33', 'nan', '3', '33', '33', '33', 'nan', '33', 'nan', '33', '33', '33', '33', '33']
+  -> Final Prediction (Mode): 33
+  -> Result: ✅ CORRECT
+
+[40/106] Processing: was-vs-mil-0022400382_331-track_48259 | True Jersey: 9
+  - ❌ Error processing image frame_1.png: height:51 and width:25 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:49 and width:23 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:43 and width:13 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:45 and width:14 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:48 and width:13 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:48 and width:13 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:34 and width:17 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:34 and width:17 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:52 and width:7 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 9)
+
+[41/106] Processing: nop-vs-ind-0022401216_293-track_16544 | True Jersey: 0
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:54 and width:25 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 0
+  - Frame: frame_101.png -> Predicted: 0
+  - Frame: frame_102.png -> Predicted: 0
+  - Frame: frame_103.png -> Predicted: 0
+  - Frame: frame_104.png -> Predicted: 0
+  - Frame: frame_105.png -> Predicted: 0
+  - Frame: frame_106.png -> Predicted: 0
+  - Frame: frame_107.png -> Predicted: 0
+  - Frame: frame_108.png -> Predicted: 0
+  - Frame: frame_109.png -> Predicted: 0
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:54 and width:25 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 0
+  - Frame: frame_111.png -> Predicted: 0
+  -> Raw Predictions: ['nan', 'nan', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'nan', 'nan', '0', '0']
+  -> Final Prediction (Mode): 0
+  -> Result: ✅ CORRECT
+
+[42/106] Processing: okc-vs-sas-0022400871_13-track_3965 | True Jersey: 23
+  - Frame: frame_421.png -> Predicted: 11
+  - Frame: frame_422.png -> Predicted: 10
+  - Frame: frame_423.png -> Predicted: 10
+  - Frame: frame_424.png -> Predicted: 2
+  - Frame: frame_425.png -> Predicted: nan
+  - Frame: frame_426.png -> Predicted: nan
+  - Frame: frame_427.png -> Predicted: nan
+  - Frame: frame_428.png -> Predicted: nan
+  - Frame: frame_429.png -> Predicted: nan
+  - Frame: frame_430.png -> Predicted: nan
+  - Frame: frame_431.png -> Predicted: nan
+  - Frame: frame_432.png -> Predicted: nan
+  - Frame: frame_433.png -> Predicted: nan
+  - Frame: frame_434.png -> Predicted: nan
+  - Frame: frame_435.png -> Predicted: nan
+  - Frame: frame_436.png -> Predicted: nan
+  -> Raw Predictions: ['11', '10', '10', '2', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 23)
+
+[43/106] Processing: phi-vs-uta-0022400433_140-track_61715 | True Jersey: 24
+  - ❌ Error processing image frame_449.png: height:46 and width:13 must be larger than factor:28
+  - Frame: frame_449.png -> Predicted: nan
+  - Frame: frame_449_1.png -> Predicted: nan
+  - ❌ Error processing image frame_450.png: height:46 and width:23 must be larger than factor:28
+  - Frame: frame_450.png -> Predicted: nan
+  - Frame: frame_450_1.png -> Predicted: 10
+  - ❌ Error processing image frame_451.png: height:46 and width:23 must be larger than factor:28
+  - Frame: frame_451.png -> Predicted: nan
+  - Frame: frame_451_1.png -> Predicted: 10
+  - ❌ Error processing image frame_452.png: height:54 and width:24 must be larger than factor:28
+  - Frame: frame_452.png -> Predicted: nan
+  - Frame: frame_452_1.png -> Predicted: 10
+  - ❌ Error processing image frame_453.png: height:54 and width:24 must be larger than factor:28
+  - Frame: frame_453.png -> Predicted: nan
+  - Frame: frame_453_1.png -> Predicted: 10
+  - ❌ Error processing image frame_454.png: height:49 and width:19 must be larger than factor:28
+  - Frame: frame_454.png -> Predicted: nan
+  - Frame: frame_454_1.png -> Predicted: 10
+  - ❌ Error processing image frame_455.png: height:52 and width:20 must be larger than factor:28
+  - Frame: frame_455.png -> Predicted: nan
+  - Frame: frame_455_1.png -> Predicted: 10
+  - ❌ Error processing image frame_456.png: height:44 and width:23 must be larger than factor:28
+  - Frame: frame_456.png -> Predicted: nan
+  - Frame: frame_456_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', 'nan', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 24)
+
+[44/106] Processing: phi-vs-cha-0022401222_405-track_7053 | True Jersey: 9
+  - Frame: frame_199.png -> Predicted: 9
+  - Frame: frame_200.png -> Predicted: 9
+  - Frame: frame_201.png -> Predicted: 3
+  - Frame: frame_202.png -> Predicted: 9
+  - Frame: frame_203.png -> Predicted: 9
+  - Frame: frame_204.png -> Predicted: 9
+  - Frame: frame_205.png -> Predicted: 9
+  - Frame: frame_206.png -> Predicted: 11
+  - Frame: frame_207.png -> Predicted: 11
+  - Frame: frame_208.png -> Predicted: 9
+  - Frame: frame_209.png -> Predicted: 9
+  - Frame: frame_210.png -> Predicted: 9
+  - Frame: frame_211.png -> Predicted: 9
+  - Frame: frame_212.png -> Predicted: 9
+  - Frame: frame_213.png -> Predicted: 9
+  - Frame: frame_214.png -> Predicted: 9
+  -> Raw Predictions: ['9', '9', '3', '9', '9', '9', '9', '11', '11', '9', '9', '9', '9', '9', '9', '9']
+  -> Final Prediction (Mode): 9
+  -> Result: ✅ CORRECT
+
+[45/106] Processing: chi-vs-ind-0022400868_87-track_44960 | True Jersey: 8
+  - ❌ Error processing image frame_507.png: height:51 and width:22 must be larger than factor:28
+  - Frame: frame_507.png -> Predicted: nan
+  - Frame: frame_507_1.png -> Predicted: 10
+  - ❌ Error processing image frame_520.png: height:50 and width:12 must be larger than factor:28
+  - Frame: frame_520.png -> Predicted: nan
+  - Frame: frame_520_1.png -> Predicted: nan
+  - ❌ Error processing image frame_521.png: height:50 and width:8 must be larger than factor:28
+  - Frame: frame_521.png -> Predicted: nan
+  - Frame: frame_521_1.png -> Predicted: nan
+  - ❌ Error processing image frame_522.png: height:50 and width:15 must be larger than factor:28
+  - Frame: frame_522.png -> Predicted: nan
+  - Frame: frame_522_1.png -> Predicted: 10
+  - ❌ Error processing image frame_523.png: height:50 and width:15 must be larger than factor:28
+  - Frame: frame_523.png -> Predicted: nan
+  - Frame: frame_523_1.png -> Predicted: 10
+  - ❌ Error processing image frame_524.png: height:54 and width:17 must be larger than factor:28
+  - Frame: frame_524.png -> Predicted: nan
+  - Frame: frame_524_1.png -> Predicted: 10
+  - ❌ Error processing image frame_525.png: height:54 and width:17 must be larger than factor:28
+  - Frame: frame_525.png -> Predicted: nan
+  - Frame: frame_525_1.png -> Predicted: 10
+  - ❌ Error processing image frame_526.png: height:55 and width:21 must be larger than factor:28
+  - Frame: frame_526.png -> Predicted: nan
+  - Frame: frame_526_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 8)
+
+[46/106] Processing: min-vs-den-0022400952_254-track_45584 | True Jersey: 5
+  - ❌ Error processing image frame_1.png: height:46 and width:14 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:47 and width:10 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:51 and width:17 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:48 and width:18 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:48 and width:18 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:48 and width:18 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:49 and width:18 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:49 and width:18 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:45 and width:16 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 5)
+
+[47/106] Processing: tor-vs-nyk-0022400397_109-track_17440 | True Jersey: 41
+  - ❌ Error processing image frame_1.png: height:47 and width:27 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:42 and width:18 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: 10
+  - Frame: frame_102.png -> Predicted: 10
+  - Frame: frame_103.png -> Predicted: 10
+  - Frame: frame_104.png -> Predicted: 11
+  - Frame: frame_105.png -> Predicted: 11
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_10_1.png -> Predicted: 10
+  - ❌ Error processing image frame_11.png: height:40 and width:23 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - ❌ Error processing image frame_110.png: height:42 and width:27 must be larger than factor:28
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_110_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', '10', '10', '10', '10', '11', '11', 'nan', 'nan', '10', '10', '10', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 41)
+
+[48/106] Processing: bkn-vs-det-0022400861_145-track_55138 | True Jersey: 19
+  - Frame: frame_1.png  -> Predicted: 19
+  - Frame: frame_10.png -> Predicted: 19
+  - Frame: frame_100.png -> Predicted: 19
+  - Frame: frame_101.png -> Predicted: 19
+  - Frame: frame_102.png -> Predicted: 15
+  - Frame: frame_103.png -> Predicted: 15
+  - Frame: frame_104.png -> Predicted: 10
+  - Frame: frame_105.png -> Predicted: 10
+  - Frame: frame_106.png -> Predicted: 11
+  - Frame: frame_107.png -> Predicted: 11
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_11.png -> Predicted: 19
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: 10
+  - Frame: frame_112.png -> Predicted: 10
+  -> Raw Predictions: ['19', '19', '19', '19', '15', '15', '10', '10', '11', '11', '10', '10', '19', '10', '10', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 19)
+
+[49/106] Processing: mil-vs-atl-0022400884_107-track_39427 | True Jersey: 20
+  - ❌ Error processing image frame_0.png: height:59 and width:26 must be larger than factor:28
+  - Frame: frame_0.png  -> Predicted: nan
+  - Frame: frame_0_1.png -> Predicted: 2
+  - ❌ Error processing image frame_1.png: height:59 and width:26 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:56 and width:18 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:57 and width:17 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_11_1.png -> Predicted: nan
+  - ❌ Error processing image frame_12.png: height:59 and width:15 must be larger than factor:28
+  - Frame: frame_12.png -> Predicted: nan
+  - Frame: frame_12_1.png -> Predicted: nan
+  - ❌ Error processing image frame_13.png: height:58 and width:15 must be larger than factor:28
+  - Frame: frame_13.png -> Predicted: nan
+  - Frame: frame_13_1.png -> Predicted: nan
+  - ❌ Error processing image frame_14.png: height:57 and width:16 must be larger than factor:28
+  - Frame: frame_14.png -> Predicted: nan
+  - Frame: frame_14_1.png -> Predicted: nan
+  - ❌ Error processing image frame_15.png: height:57 and width:16 must be larger than factor:28
+  - Frame: frame_15.png -> Predicted: nan
+  - Frame: frame_15_1.png -> Predicted: nan
+  - ❌ Error processing image frame_16.png: height:64 and width:14 must be larger than factor:28
+  - Frame: frame_16.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '2', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 2
+  -> Result: ❌ INCORRECT (Ground Truth: 20)
+
+[50/106] Processing: gsw-vs-nyk-0022400885_102-track_39694 | True Jersey: 21
+  - Frame: frame_371.png -> Predicted: 21
+  - Frame: frame_376.png -> Predicted: 21
+  - Frame: frame_377.png -> Predicted: 21
+  - Frame: frame_378.png -> Predicted: 21
+  - Frame: frame_379.png -> Predicted: 21
+  - Frame: frame_380.png -> Predicted: 11
+  - Frame: frame_381.png -> Predicted: 11
+  - Frame: frame_384.png -> Predicted: 31
+  - Frame: frame_385.png -> Predicted: 31
+  - Frame: frame_386.png -> Predicted: 21
+  - Frame: frame_387.png -> Predicted: 21
+  - Frame: frame_388.png -> Predicted: 21
+  - Frame: frame_389.png -> Predicted: 21
+  - Frame: frame_390.png -> Predicted: 21
+  - Frame: frame_391.png -> Predicted: 21
+  - Frame: frame_392.png -> Predicted: 21
+  -> Raw Predictions: ['21', '21', '21', '21', '21', '11', '11', '31', '31', '21', '21', '21', '21', '21', '21', '21']
+  -> Final Prediction (Mode): 21
+  -> Result: ✅ CORRECT
+
+[51/106] Processing: chi-vs-tor-0022401223_17-track_60338 | True Jersey: 19
+  - Frame: frame_141.png -> Predicted: 10
+  - Frame: frame_142.png -> Predicted: 10
+  - Frame: frame_143.png -> Predicted: 10
+  - Frame: frame_144.png -> Predicted: 10
+  - Frame: frame_145.png -> Predicted: 10
+  - Frame: frame_146.png -> Predicted: 10
+  - Frame: frame_147.png -> Predicted: 10
+  - Frame: frame_148.png -> Predicted: 10
+  - Frame: frame_149.png -> Predicted: 10
+  - Frame: frame_150.png -> Predicted: 10
+  - Frame: frame_151.png -> Predicted: 10
+  - Frame: frame_152.png -> Predicted: 10
+  - Frame: frame_153.png -> Predicted: 10
+  - Frame: frame_154.png -> Predicted: 10
+  - Frame: frame_155.png -> Predicted: 10
+  - Frame: frame_156.png -> Predicted: 10
+  -> Raw Predictions: ['10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 19)
+
+[52/106] Processing: tor-vs-nyk-0022400397_109-track_17454 | True Jersey: 8
+  - ❌ Error processing image frame_100.png: height:44 and width:23 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:47 and width:22 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 10
+  - ❌ Error processing image frame_102.png: height:49 and width:20 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 10
+  - ❌ Error processing image frame_103.png: height:50 and width:21 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 11
+  - ❌ Error processing image frame_104.png: height:48 and width:24 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 8
+  - ❌ Error processing image frame_105.png: height:46 and width:22 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 8
+  - ❌ Error processing image frame_106.png: height:46 and width:25 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 10
+  - ❌ Error processing image frame_107.png: height:47 and width:24 must be larger than factor:28
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_107_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', '10', 'nan', '10', 'nan', '10', 'nan', '11', 'nan', '8', 'nan', '8', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 8)
+
+[53/106] Processing: sas-vs-mem-0022400863_109-track_29189 | True Jersey: 1
+  - ❌ Error processing image frame_1.png: height:48 and width:19 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:45 and width:13 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 1
+  - Frame: frame_101.png -> Predicted: 1
+  - Frame: frame_102.png -> Predicted: 1
+  - Frame: frame_103.png -> Predicted: 1
+  - Frame: frame_104.png -> Predicted: 1
+  - Frame: frame_105.png -> Predicted: 1
+  - Frame: frame_106.png -> Predicted: 10
+  - Frame: frame_107.png -> Predicted: 1
+  - Frame: frame_108.png -> Predicted: 1
+  - Frame: frame_109.png -> Predicted: 1
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:44 and width:15 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - ❌ Error processing image frame_110.png: height:48 and width:26 must be larger than factor:28
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_110_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', 'nan', '1', '1', '1', '1', '1', '1', '10', '1', '1', '1', 'nan', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 1
+  -> Result: ✅ CORRECT
+
+[54/106] Processing: sas-vs-mem-0022400863_109-track_29191 | True Jersey: 30
+  - ❌ Error processing image frame_1.png: height:39 and width:23 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:38 and width:8 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 30
+  - Frame: frame_101.png -> Predicted: 30
+  - Frame: frame_102.png -> Predicted: 30
+  - Frame: frame_103.png -> Predicted: 30
+  - Frame: frame_104.png -> Predicted: 10
+  - Frame: frame_105.png -> Predicted: 10
+  - ❌ Error processing image frame_106.png: height:42 and width:27 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 30
+  - ❌ Error processing image frame_107.png: height:38 and width:26 must be larger than factor:28
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_107_1.png -> Predicted: 30
+  - Frame: frame_108.png -> Predicted: 3
+  - Frame: frame_109.png -> Predicted: 3
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:37 and width:19 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', '30', '30', '30', '30', '10', '10', 'nan', '30', 'nan', '30', '3', '3', 'nan', 'nan']
+  -> Final Prediction (Mode): 30
+  -> Result: ✅ CORRECT
+
+[55/106] Processing: hou-vs-okc-0022400879_219-track_57538 | True Jersey: 8
+  - Frame: frame_1.png  -> Predicted: 11
+  - Frame: frame_10.png -> Predicted: 11
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: 11
+  - Frame: frame_102.png -> Predicted: 11
+  - Frame: frame_103.png -> Predicted: 11
+  - Frame: frame_104.png -> Predicted: 11
+  - Frame: frame_105.png -> Predicted: 11
+  - Frame: frame_106.png -> Predicted: 11
+  - Frame: frame_107.png -> Predicted: 11
+  - Frame: frame_108.png -> Predicted: 11
+  - Frame: frame_109.png -> Predicted: 11
+  - Frame: frame_11.png -> Predicted: 11
+  - Frame: frame_110.png -> Predicted: 11
+  - Frame: frame_111.png -> Predicted: 11
+  - Frame: frame_112.png -> Predicted: 11
+  -> Raw Predictions: ['11', '11', '10', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11']
+  -> Final Prediction (Mode): 11
+  -> Result: ❌ INCORRECT (Ground Truth: 8)
+
+[56/106] Processing: cle-vs-bkn-0022401224_63-track_23727 | True Jersey: 5
+  - ❌ Error processing image frame_569.png: height:128 and width:25 must be larger than factor:28
+  - Frame: frame_569.png -> Predicted: nan
+  - Frame: frame_569_1.png -> Predicted: nan
+  - ❌ Error processing image frame_570.png: height:130 and width:27 must be larger than factor:28
+  - Frame: frame_570.png -> Predicted: nan
+  - Frame: frame_570_1.png -> Predicted: nan
+  - ❌ Error processing image frame_571.png: height:130 and width:27 must be larger than factor:28
+  - Frame: frame_571.png -> Predicted: nan
+  - Frame: frame_571_1.png -> Predicted: nan
+  - Frame: frame_572.png -> Predicted: nan
+  - Frame: frame_573.png -> Predicted: nan
+  - Frame: frame_574.png -> Predicted: nan
+  - Frame: frame_575.png -> Predicted: nan
+  - Frame: frame_576.png -> Predicted: nan
+  - Frame: frame_577.png -> Predicted: nan
+  - Frame: frame_578.png -> Predicted: nan
+  - Frame: frame_579.png -> Predicted: nan
+  - Frame: frame_580.png -> Predicted: nan
+  - Frame: frame_581.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 5)
+
+[57/106] Processing: bos-vs-was-0022401217_370-track_8027 | True Jersey: 40
+  - ❌ Error processing image frame_100.png: height:58 and width:24 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:56 and width:27 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_104.png -> Predicted: 4
+  - Frame: frame_105.png -> Predicted: 4
+  - Frame: frame_106.png -> Predicted: 11
+  - Frame: frame_107.png -> Predicted: 11
+  - Frame: frame_108.png -> Predicted: 46
+  - Frame: frame_109.png -> Predicted: 4
+  - Frame: frame_110.png -> Predicted: 11
+  - Frame: frame_111.png -> Predicted: 11
+  - Frame: frame_112.png -> Predicted: 40
+  - Frame: frame_113.png -> Predicted: 11
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', '4', '4', '11', '11', '46', '4', '11', '11', '40', '11']
+  -> Final Prediction (Mode): 11
+  -> Result: ❌ INCORRECT (Ground Truth: 40)
+
+[58/106] Processing: uta-vs-was-0022400894_338-track_12527 | True Jersey: 9
+  - Frame: frame_1.png  -> Predicted: 9
+  - Frame: frame_10.png -> Predicted: 9
+  - ❌ Error processing image frame_100.png: height:55 and width:27 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 9
+  - ❌ Error processing image frame_101.png: height:56 and width:25 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 9
+  - ❌ Error processing image frame_102.png: height:58 and width:25 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 11
+  - ❌ Error processing image frame_103.png: height:58 and width:25 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 10
+  - ❌ Error processing image frame_104.png: height:59 and width:24 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 10
+  - ❌ Error processing image frame_105.png: height:59 and width:24 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 10
+  - ❌ Error processing image frame_106.png: height:58 and width:25 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 10
+  -> Raw Predictions: ['9', '9', 'nan', '9', 'nan', '9', 'nan', '11', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 9
+  -> Result: ✅ CORRECT
+
+[59/106] Processing: mem-vs-lal-0022401220_156-track_58584 | True Jersey: 28
+  - ❌ Error processing image frame_1000.png: height:62 and width:14 must be larger than factor:28
+  - Frame: frame_1000.png -> Predicted: nan
+  - Frame: frame_1000_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1001.png: height:62 and width:14 must be larger than factor:28
+  - Frame: frame_1001.png -> Predicted: nan
+  - Frame: frame_1001_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1002.png: height:62 and width:14 must be larger than factor:28
+  - Frame: frame_1002.png -> Predicted: nan
+  - Frame: frame_1002_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1003.png: height:59 and width:15 must be larger than factor:28
+  - Frame: frame_1003.png -> Predicted: nan
+  - Frame: frame_1003_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1004.png: height:60 and width:17 must be larger than factor:28
+  - Frame: frame_1004.png -> Predicted: nan
+  - Frame: frame_1004_1.png -> Predicted: 10
+  - ❌ Error processing image frame_1005.png: height:61 and width:17 must be larger than factor:28
+  - Frame: frame_1005.png -> Predicted: nan
+  - Frame: frame_1005_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1006.png: height:61 and width:16 must be larger than factor:28
+  - Frame: frame_1006.png -> Predicted: nan
+  - Frame: frame_1006_1.png -> Predicted: nan
+  - ❌ Error processing image frame_1007.png: height:55 and width:19 must be larger than factor:28
+  - Frame: frame_1007.png -> Predicted: nan
+  - Frame: frame_1007_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 28)
+
+[60/106] Processing: mia-vs-det-0022401221_30-track_11886 | True Jersey: 2
+  - Frame: frame_1.png  -> Predicted: 2
+  - Frame: frame_10.png -> Predicted: 2
+  - Frame: frame_100.png -> Predicted: 2
+  - Frame: frame_101.png -> Predicted: 2
+  - Frame: frame_102.png -> Predicted: 2
+  - Frame: frame_103.png -> Predicted: 2
+  - Frame: frame_104.png -> Predicted: 2
+  - Frame: frame_105.png -> Predicted: 2
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 2
+  - Frame: frame_108.png -> Predicted: 2
+  - Frame: frame_109.png -> Predicted: 2
+  - Frame: frame_11.png -> Predicted: 2
+  - Frame: frame_110.png -> Predicted: 2
+  - Frame: frame_111.png -> Predicted: 2
+  - Frame: frame_112.png -> Predicted: 2
+  -> Raw Predictions: ['2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[61/106] Processing: nyk-vs-nop-0022400384_359-track_39017 | True Jersey: 32
+  - ❌ Error processing image frame_100.png: height:32 and width:10 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:35 and width:8 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:41 and width:17 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 10
+  - ❌ Error processing image frame_103.png: height:40 and width:17 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 10
+  - ❌ Error processing image frame_104.png: height:39 and width:6 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:39 and width:4 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 10
+  - ❌ Error processing image frame_106.png: height:38 and width:3 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  - ❌ Error processing image frame_107.png: height:36 and width:5 must be larger than factor:28
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_107_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', '10', 'nan', '10', 'nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 32)
+
+[62/106] Processing: uta-vs-tor-0022400905_434-track_50515 | True Jersey: 24
+  - ❌ Error processing image frame_1.png: height:33 and width:14 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:33 and width:13 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:45 and width:16 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:45 and width:13 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:44 and width:21 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:44 and width:22 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:44 and width:15 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:44 and width:15 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:41 and width:17 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 24)
+
+[63/106] Processing: was-vs-mil-0022400382_236-track_34839 | True Jersey: nan
+  - ❌ Error processing image frame_0.png: height:44 and width:27 must be larger than factor:28
+  - Frame: frame_0.png  -> Predicted: nan
+  - Frame: frame_0_1.png -> Predicted: 10
+  - ❌ Error processing image frame_1.png: height:44 and width:27 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_12.png -> Predicted: nan
+  - Frame: frame_13.png -> Predicted: nan
+  - Frame: frame_14.png -> Predicted: nan
+  - Frame: frame_15.png -> Predicted: nan
+  - Frame: frame_16.png -> Predicted: nan
+  - Frame: frame_17.png -> Predicted: nan
+  - Frame: frame_18.png -> Predicted: nan
+  - Frame: frame_19.png -> Predicted: 10
+  - Frame: frame_1_1.png -> Predicted: 10
+  - ❌ Error processing image frame_2.png: height:52 and width:26 must be larger than factor:28
+  - Frame: frame_2.png  -> Predicted: nan
+  - Frame: frame_20.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', '10', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: nan)
+
+[64/106] Processing: phi-vs-uta-0022400433_414-track_21031 | True Jersey: 23
+  - Frame: frame_1.png  -> Predicted: 23
+  - Frame: frame_10.png -> Predicted: 23
+  - Frame: frame_100.png -> Predicted: 23
+  - Frame: frame_101.png -> Predicted: 23
+  - Frame: frame_102.png -> Predicted: 23
+  - Frame: frame_103.png -> Predicted: 23
+  - Frame: frame_104.png -> Predicted: 23
+  - Frame: frame_105.png -> Predicted: 23
+  - Frame: frame_106.png -> Predicted: 23
+  - Frame: frame_107.png -> Predicted: 23
+  - Frame: frame_108.png -> Predicted: 23
+  - Frame: frame_109.png -> Predicted: 23
+  - Frame: frame_11.png -> Predicted: 23
+  - Frame: frame_110.png -> Predicted: 23
+  - Frame: frame_111.png -> Predicted: 23
+  - Frame: frame_112.png -> Predicted: 23
+  -> Raw Predictions: ['23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23']
+  -> Final Prediction (Mode): 23
+  -> Result: ✅ CORRECT
+
+[65/106] Processing: mem-vs-atl-0022400378_36-track_41534 | True Jersey: 13
+  - ❌ Error processing image frame_361.png: height:50 and width:7 must be larger than factor:28
+  - Frame: frame_361.png -> Predicted: nan
+  - Frame: frame_361_1.png -> Predicted: 10
+  - Frame: frame_362.png -> Predicted: 15
+  - Frame: frame_363.png -> Predicted: 15
+  - ❌ Error processing image frame_364.png: height:65 and width:26 must be larger than factor:28
+  - Frame: frame_364.png -> Predicted: nan
+  - Frame: frame_364_1.png -> Predicted: 15
+  - Frame: frame_365.png -> Predicted: 15
+  - ❌ Error processing image frame_366.png: height:63 and width:10 must be larger than factor:28
+  - Frame: frame_366.png -> Predicted: nan
+  - Frame: frame_366_1.png -> Predicted: 1
+  - ❌ Error processing image frame_367.png: height:56 and width:27 must be larger than factor:28
+  - Frame: frame_367.png -> Predicted: nan
+  - Frame: frame_367_1.png -> Predicted: 15
+  - Frame: frame_368.png -> Predicted: 14
+  - Frame: frame_369.png -> Predicted: 15
+  - Frame: frame_370.png -> Predicted: 11
+  - Frame: frame_371.png -> Predicted: 13
+  - Frame: frame_372.png -> Predicted: 10
+  -> Raw Predictions: ['nan', '10', '15', '15', 'nan', '15', '15', 'nan', '1', 'nan', '15', '14', '15', '11', '13', '10']
+  -> Final Prediction (Mode): 15
+  -> Result: ❌ INCORRECT (Ground Truth: 13)
+
+[66/106] Processing: gsw-vs-nyk-0022400885_353-track_13896 | True Jersey: 11
+  - Frame: frame_437.png -> Predicted: 11
+  - Frame: frame_438.png -> Predicted: 11
+  - Frame: frame_439.png -> Predicted: 11
+  - Frame: frame_440.png -> Predicted: 11
+  - Frame: frame_441.png -> Predicted: 11
+  - Frame: frame_442.png -> Predicted: 11
+  - Frame: frame_443.png -> Predicted: 11
+  - Frame: frame_444.png -> Predicted: 11
+  - Frame: frame_445.png -> Predicted: 11
+  - Frame: frame_446.png -> Predicted: 11
+  - Frame: frame_447.png -> Predicted: 11
+  - Frame: frame_448.png -> Predicted: 11
+  - Frame: frame_449.png -> Predicted: 11
+  - Frame: frame_450.png -> Predicted: 11
+  - Frame: frame_451.png -> Predicted: 11
+  - Frame: frame_452.png -> Predicted: 11
+  -> Raw Predictions: ['11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11', '11']
+  -> Final Prediction (Mode): 11
+  -> Result: ✅ CORRECT
+
+[67/106] Processing: nyk-vs-mia-0022400869_368-track_57106 | True Jersey: 13
+  - Frame: frame_365.png -> Predicted: 15
+  - Frame: frame_366.png -> Predicted: 13
+  - Frame: frame_367.png -> Predicted: 13
+  - Frame: frame_368.png -> Predicted: 13
+  - Frame: frame_369.png -> Predicted: 13
+  - Frame: frame_370.png -> Predicted: nan
+  - Frame: frame_371.png -> Predicted: 13
+  - Frame: frame_372.png -> Predicted: 10
+  - Frame: frame_373.png -> Predicted: 10
+  - Frame: frame_374.png -> Predicted: 13
+  - Frame: frame_375.png -> Predicted: 13
+  - Frame: frame_376.png -> Predicted: nan
+  - Frame: frame_377.png -> Predicted: nan
+  - Frame: frame_378.png -> Predicted: nan
+  - Frame: frame_379.png -> Predicted: 13
+  - Frame: frame_380.png -> Predicted: 13
+  -> Raw Predictions: ['15', '13', '13', '13', '13', 'nan', '13', '10', '10', '13', '13', 'nan', 'nan', 'nan', '13', '13']
+  -> Final Prediction (Mode): 13
+  -> Result: ✅ CORRECT
+
+[68/106] Processing: det-vs-gsw-0022400919_112-track_14779 | True Jersey: 15
+  - Frame: frame_0.png  -> Predicted: 15
+  - Frame: frame_1.png  -> Predicted: 15
+  - Frame: frame_10.png -> Predicted: 15
+  - Frame: frame_100.png -> Predicted: 15
+  - Frame: frame_101.png -> Predicted: 15
+  - Frame: frame_102.png -> Predicted: 15
+  - Frame: frame_103.png -> Predicted: 15
+  - Frame: frame_104.png -> Predicted: 15
+  - Frame: frame_105.png -> Predicted: 15
+  - Frame: frame_106.png -> Predicted: 15
+  - Frame: frame_107.png -> Predicted: 15
+  - Frame: frame_108.png -> Predicted: 15
+  - Frame: frame_109.png -> Predicted: 15
+  - Frame: frame_11.png -> Predicted: 15
+  - Frame: frame_110.png -> Predicted: 15
+  - Frame: frame_111.png -> Predicted: 15
+  -> Raw Predictions: ['15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15']
+  -> Final Prediction (Mode): 15
+  -> Result: ✅ CORRECT
+
+[69/106] Processing: gsw-vs-mem-0022400366_127-track_25937 | True Jersey: 32
+  - Frame: frame_143.png -> Predicted: 32
+  - Frame: frame_144.png -> Predicted: 32
+  - Frame: frame_145.png -> Predicted: 32
+  - Frame: frame_146.png -> Predicted: 32
+  - Frame: frame_147.png -> Predicted: 32
+  - Frame: frame_148.png -> Predicted: 32
+  - Frame: frame_149.png -> Predicted: 32
+  - Frame: frame_150.png -> Predicted: 32
+  - Frame: frame_151.png -> Predicted: 32
+  - Frame: frame_152.png -> Predicted: 32
+  - Frame: frame_153.png -> Predicted: 32
+  - Frame: frame_154.png -> Predicted: 32
+  - Frame: frame_155.png -> Predicted: 32
+  - Frame: frame_156.png -> Predicted: 32
+  - Frame: frame_157.png -> Predicted: 32
+  - Frame: frame_158.png -> Predicted: 32
+  -> Raw Predictions: ['32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32', '32']
+  -> Final Prediction (Mode): 32
+  -> Result: ✅ CORRECT
+
+[70/106] Processing: bos-vs-was-0022401217_112-track_4135 | True Jersey: 13
+  - ❌ Error processing image frame_331.png: height:59 and width:23 must be larger than factor:28
+  - Frame: frame_331.png -> Predicted: nan
+  - Frame: frame_331_1.png -> Predicted: 10
+  - Frame: frame_332.png -> Predicted: nan
+  - Frame: frame_333.png -> Predicted: nan
+  - Frame: frame_340.png -> Predicted: 13
+  - Frame: frame_341.png -> Predicted: 13
+  - Frame: frame_342.png -> Predicted: 13
+  - Frame: frame_343.png -> Predicted: 13
+  - Frame: frame_344.png -> Predicted: 13
+  - Frame: frame_345.png -> Predicted: 13
+  - Frame: frame_346.png -> Predicted: 13
+  - Frame: frame_347.png -> Predicted: 13
+  - Frame: frame_348.png -> Predicted: 13
+  - Frame: frame_349.png -> Predicted: 13
+  - Frame: frame_350.png -> Predicted: 13
+  - Frame: frame_351.png -> Predicted: 13
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13']
+  -> Final Prediction (Mode): 13
+  -> Result: ✅ CORRECT
+
+[71/106] Processing: was-vs-mil-0022400382_236-track_34810 | True Jersey: 15
+  - Frame: frame_0.png  -> Predicted: 15
+  - Frame: frame_1.png  -> Predicted: 15
+  - Frame: frame_10.png -> Predicted: 15
+  - ❌ Error processing image frame_100.png: height:49 and width:27 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 15
+  - ❌ Error processing image frame_101.png: height:49 and width:27 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 15
+  - Frame: frame_102.png -> Predicted: 15
+  - Frame: frame_103.png -> Predicted: 15
+  - Frame: frame_104.png -> Predicted: 15
+  - Frame: frame_105.png -> Predicted: 15
+  - Frame: frame_106.png -> Predicted: 11
+  - Frame: frame_107.png -> Predicted: 10
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_11.png -> Predicted: 15
+  -> Raw Predictions: ['15', '15', '15', 'nan', '15', 'nan', '15', '15', '15', '15', '15', '11', '10', '10', '10', '15']
+  -> Final Prediction (Mode): 15
+  -> Result: ✅ CORRECT
+
+[72/106] Processing: sas-vs-mem-0022400863_289-track_405 | True Jersey: 30
+  - Frame: frame_1.png  -> Predicted: 30
+  - Frame: frame_10.png -> Predicted: 30
+  - Frame: frame_100.png -> Predicted: 30
+  - Frame: frame_101.png -> Predicted: 30
+  - Frame: frame_102.png -> Predicted: 30
+  - Frame: frame_103.png -> Predicted: 30
+  - Frame: frame_104.png -> Predicted: 30
+  - Frame: frame_105.png -> Predicted: 30
+  - Frame: frame_106.png -> Predicted: 30
+  - Frame: frame_107.png -> Predicted: 30
+  - Frame: frame_108.png -> Predicted: 30
+  - Frame: frame_109.png -> Predicted: 30
+  - Frame: frame_11.png -> Predicted: 30
+  - Frame: frame_110.png -> Predicted: 30
+  - Frame: frame_111.png -> Predicted: 30
+  - Frame: frame_112.png -> Predicted: 30
+  -> Raw Predictions: ['30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30', '30']
+  -> Final Prediction (Mode): 30
+  -> Result: ✅ CORRECT
+
+[73/106] Processing: phi-vs-uta-0022400433_213-track_35057 | True Jersey: 5
+  - Frame: frame_1.png  -> Predicted: 5
+  - Frame: frame_10.png -> Predicted: 5
+  - Frame: frame_100.png -> Predicted: 5
+  - Frame: frame_101.png -> Predicted: 5
+  - Frame: frame_102.png -> Predicted: 5
+  - Frame: frame_103.png -> Predicted: 5
+  - Frame: frame_104.png -> Predicted: 5
+  - Frame: frame_105.png -> Predicted: 5
+  - Frame: frame_106.png -> Predicted: 5
+  - Frame: frame_107.png -> Predicted: 5
+  - Frame: frame_108.png -> Predicted: 5
+  - Frame: frame_109.png -> Predicted: 5
+  - Frame: frame_11.png -> Predicted: 5
+  - Frame: frame_110.png -> Predicted: 5
+  - Frame: frame_111.png -> Predicted: 5
+  - Frame: frame_112.png -> Predicted: 5
+  -> Raw Predictions: ['5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5']
+  -> Final Prediction (Mode): 5
+  -> Result: ✅ CORRECT
+
+[74/106] Processing: lac-vs-lal-0022400874_374-track_54130 | True Jersey: 40
+  - ❌ Error processing image frame_1.png: height:42 and width:7 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:45 and width:16 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 40
+  - Frame: frame_101.png -> Predicted: 40
+  - Frame: frame_102.png -> Predicted: 40
+  - Frame: frame_103.png -> Predicted: 40
+  - Frame: frame_104.png -> Predicted: 40
+  - Frame: frame_105.png -> Predicted: 40
+  - Frame: frame_106.png -> Predicted: 40
+  - Frame: frame_107.png -> Predicted: 40
+  - Frame: frame_108.png -> Predicted: 40
+  - Frame: frame_109.png -> Predicted: 40
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:48 and width:14 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 40
+  - Frame: frame_111.png -> Predicted: 40
+  -> Raw Predictions: ['nan', 'nan', '40', '40', '40', '40', '40', '40', '40', '40', '40', '40', 'nan', 'nan', '40', '40']
+  -> Final Prediction (Mode): 40
+  -> Result: ✅ CORRECT
+
+[75/106] Processing: gsw-vs-bkn-0022400901_265-track_32838 | True Jersey: 15
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_10.png -> Predicted: 10
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_109.png -> Predicted: nan
+  - Frame: frame_11.png -> Predicted: 10
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: nan
+  - Frame: frame_112.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '10', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', '10', 'nan', 'nan']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 15)
+
+[76/106] Processing: nop-vs-hou-0022400365_307-track_45843 | True Jersey: 10
+  - ❌ Error processing image frame_1.png: height:46 and width:26 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 0
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - ❌ Error processing image frame_108.png: height:44 and width:18 must be larger than factor:28
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_108_1.png -> Predicted: nan
+  - ❌ Error processing image frame_109.png: height:46 and width:17 must be larger than factor:28
+  - Frame: frame_109.png -> Predicted: nan
+  - Frame: frame_109_1.png -> Predicted: nan
+  - ❌ Error processing image frame_110.png: height:40 and width:27 must be larger than factor:28
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_110_1.png -> Predicted: nan
+  - ❌ Error processing image frame_111.png: height:40 and width:27 must be larger than factor:28
+  - Frame: frame_111.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '0', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 0
+  -> Result: ❌ INCORRECT (Ground Truth: 10)
+
+[77/106] Processing: chi-vs-bos-0022400363_376-track_49871 | True Jersey: 8
+  - Frame: frame_469.png -> Predicted: 11
+  - ❌ Error processing image frame_472.png: height:65 and width:19 must be larger than factor:28
+  - Frame: frame_472.png -> Predicted: nan
+  - Frame: frame_472_1.png -> Predicted: 8
+  - Frame: frame_473.png -> Predicted: 8
+  - ❌ Error processing image frame_474.png: height:29 and width:19 must be larger than factor:28
+  - Frame: frame_474.png -> Predicted: nan
+  - Frame: frame_474_1.png -> Predicted: nan
+  - ❌ Error processing image frame_475.png: height:29 and width:19 must be larger than factor:28
+  - Frame: frame_475.png -> Predicted: nan
+  - Frame: frame_475_1.png -> Predicted: nan
+  - ❌ Error processing image frame_476.png: height:23 and width:28 must be larger than factor:28
+  - Frame: frame_476.png -> Predicted: nan
+  - Frame: frame_476_1.png -> Predicted: nan
+  - ❌ Error processing image frame_477.png: height:23 and width:28 must be larger than factor:28
+  - Frame: frame_477.png -> Predicted: nan
+  - Frame: frame_477_1.png -> Predicted: nan
+  - Frame: frame_478.png -> Predicted: 8
+  - Frame: frame_479.png -> Predicted: 8
+  - Frame: frame_480.png -> Predicted: 11
+  - Frame: frame_481.png -> Predicted: 11
+  -> Raw Predictions: ['11', 'nan', '8', '8', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '8', '8', '11', '11']
+  -> Final Prediction (Mode): 8
+  -> Result: ✅ CORRECT
+
+[78/106] Processing: phx-vs-den-0022400402_352-track_11449 | True Jersey: 23
+  - ❌ Error processing image frame_1.png: height:42 and width:24 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:43 and width:27 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 33
+  - Frame: frame_101.png -> Predicted: 23
+  - Frame: frame_102.png -> Predicted: 33
+  - Frame: frame_103.png -> Predicted: 33
+  - Frame: frame_104.png -> Predicted: 33
+  - Frame: frame_105.png -> Predicted: 33
+  - Frame: frame_106.png -> Predicted: 23
+  - Frame: frame_107.png -> Predicted: 23
+  - Frame: frame_108.png -> Predicted: 23
+  - Frame: frame_109.png -> Predicted: 23
+  - Frame: frame_10_1.png -> Predicted: 23
+  - ❌ Error processing image frame_11.png: height:42 and width:27 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 23
+  - Frame: frame_111.png -> Predicted: 23
+  -> Raw Predictions: ['nan', 'nan', '33', '23', '33', '33', '33', '33', '23', '23', '23', '23', '23', 'nan', '23', '23']
+  -> Final Prediction (Mode): 23
+  -> Result: ✅ CORRECT
+
+[79/106] Processing: sas-vs-mem-0022400863_286-track_30710 | True Jersey: 10
+  - Frame: frame_1.png  -> Predicted: 10
+  - Frame: frame_10.png -> Predicted: 10
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: 10
+  - Frame: frame_102.png -> Predicted: 10
+  - Frame: frame_103.png -> Predicted: 10
+  - Frame: frame_104.png -> Predicted: 10
+  - Frame: frame_105.png -> Predicted: 10
+  - Frame: frame_106.png -> Predicted: 10
+  - Frame: frame_107.png -> Predicted: 10
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 10
+  - Frame: frame_11.png -> Predicted: 10
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: 10
+  - Frame: frame_112.png -> Predicted: 10
+  -> Raw Predictions: ['10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ✅ CORRECT
+
+[80/106] Processing: gsw-vs-mem-0022400366_127-track_25933 | True Jersey: 1
+  - Frame: frame_143.png -> Predicted: 1
+  - Frame: frame_144.png -> Predicted: 1
+  - Frame: frame_145.png -> Predicted: 1
+  - Frame: frame_146.png -> Predicted: 1
+  - Frame: frame_147.png -> Predicted: 1
+  - Frame: frame_148.png -> Predicted: 1
+  - Frame: frame_149.png -> Predicted: 1
+  - Frame: frame_150.png -> Predicted: 1
+  - Frame: frame_151.png -> Predicted: 1
+  - Frame: frame_152.png -> Predicted: 1
+  - Frame: frame_153.png -> Predicted: 1
+  - Frame: frame_154.png -> Predicted: 1
+  - Frame: frame_155.png -> Predicted: 1
+  - Frame: frame_156.png -> Predicted: 1
+  - Frame: frame_157.png -> Predicted: 1
+  - Frame: frame_158.png -> Predicted: 1
+  -> Raw Predictions: ['1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1']
+  -> Final Prediction (Mode): 1
+  -> Result: ✅ CORRECT
+
+[81/106] Processing: gsw-vs-nyk-0022400885_341-track_33264 | True Jersey: nan
+  - ❌ Error processing image frame_319.png: height:26 and width:23 must be larger than factor:28
+  - Frame: frame_319.png -> Predicted: nan
+  - Frame: frame_319_1.png -> Predicted: nan
+  - ❌ Error processing image frame_320.png: height:31 and width:25 must be larger than factor:28
+  - Frame: frame_320.png -> Predicted: nan
+  - Frame: frame_320_1.png -> Predicted: nan
+  - ❌ Error processing image frame_321.png: height:31 and width:25 must be larger than factor:28
+  - Frame: frame_321.png -> Predicted: nan
+  - Frame: frame_321_1.png -> Predicted: nan
+  - ❌ Error processing image frame_322.png: height:39 and width:27 must be larger than factor:28
+  - Frame: frame_322.png -> Predicted: nan
+  - Frame: frame_322_1.png -> Predicted: 10
+  - ❌ Error processing image frame_323.png: height:31 and width:23 must be larger than factor:28
+  - Frame: frame_323.png -> Predicted: nan
+  - Frame: frame_323_1.png -> Predicted: nan
+  - ❌ Error processing image frame_324.png: height:29 and width:24 must be larger than factor:28
+  - Frame: frame_324.png -> Predicted: nan
+  - Frame: frame_324_1.png -> Predicted: nan
+  - ❌ Error processing image frame_325.png: height:29 and width:24 must be larger than factor:28
+  - Frame: frame_325.png -> Predicted: nan
+  - Frame: frame_325_1.png -> Predicted: nan
+  - ❌ Error processing image frame_326.png: height:34 and width:25 must be larger than factor:28
+  - Frame: frame_326.png -> Predicted: nan
+  - Frame: frame_326_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: nan)
+
+[82/106] Processing: mil-vs-chi-0022400398_335-track_3319 | True Jersey: 11
+  - Frame: frame_0.png  -> Predicted: 11
+  - Frame: frame_1.png  -> Predicted: 11
+  - Frame: frame_10.png -> Predicted: 11
+  - ❌ Error processing image frame_100.png: height:37 and width:18 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:38 and width:21 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:39 and width:16 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:40 and width:16 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:40 and width:19 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:39 and width:19 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:39 and width:19 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  -> Raw Predictions: ['11', '11', '11', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 11
+  -> Result: ✅ CORRECT
+
+[83/106] Processing: chi-vs-ind-0022400868_304-track_7885 | True Jersey: 23
+  - ❌ Error processing image frame_361.png: height:39 and width:10 must be larger than factor:28
+  - Frame: frame_361.png -> Predicted: nan
+  - Frame: frame_361_1.png -> Predicted: nan
+  - ❌ Error processing image frame_362.png: height:38 and width:12 must be larger than factor:28
+  - Frame: frame_362.png -> Predicted: nan
+  - Frame: frame_362_1.png -> Predicted: nan
+  - ❌ Error processing image frame_363.png: height:41 and width:10 must be larger than factor:28
+  - Frame: frame_363.png -> Predicted: nan
+  - Frame: frame_363_1.png -> Predicted: nan
+  - ❌ Error processing image frame_364.png: height:50 and width:18 must be larger than factor:28
+  - Frame: frame_364.png -> Predicted: nan
+  - Frame: frame_364_1.png -> Predicted: nan
+  - ❌ Error processing image frame_365.png: height:47 and width:10 must be larger than factor:28
+  - Frame: frame_365.png -> Predicted: nan
+  - Frame: frame_365_1.png -> Predicted: nan
+  - ❌ Error processing image frame_366.png: height:47 and width:18 must be larger than factor:28
+  - Frame: frame_366.png -> Predicted: nan
+  - Frame: frame_366_1.png -> Predicted: nan
+  - ❌ Error processing image frame_367.png: height:45 and width:17 must be larger than factor:28
+  - Frame: frame_367.png -> Predicted: nan
+  - Frame: frame_367_1.png -> Predicted: 10
+  - ❌ Error processing image frame_368.png: height:47 and width:21 must be larger than factor:28
+  - Frame: frame_368.png -> Predicted: nan
+  - Frame: frame_368_1.png -> Predicted: 10
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ❌ INCORRECT (Ground Truth: 23)
+
+[84/106] Processing: por-vs-phx-0022401219_114-track_33023 | True Jersey: 2
+  - Frame: frame_1.png  -> Predicted: 22
+  - Frame: frame_10.png -> Predicted: 2
+  - Frame: frame_100.png -> Predicted: 11
+  - Frame: frame_101.png -> Predicted: 11
+  - Frame: frame_102.png -> Predicted: 12
+  - Frame: frame_103.png -> Predicted: 11
+  - Frame: frame_104.png -> Predicted: 2
+  - Frame: frame_105.png -> Predicted: 2
+  - Frame: frame_106.png -> Predicted: 2
+  - Frame: frame_107.png -> Predicted: 2
+  - ❌ Error processing image frame_108.png: height:50 and width:9 must be larger than factor:28
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_108_1.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 11
+  - Frame: frame_11.png -> Predicted: 2
+  - Frame: frame_110.png -> Predicted: 2
+  - Frame: frame_111.png -> Predicted: 2
+  -> Raw Predictions: ['22', '2', '11', '11', '12', '11', '2', '2', '2', '2', 'nan', '10', '11', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[85/106] Processing: sas-vs-sac-0022400910_171-track_14597 | True Jersey: 10
+  - Frame: frame_1.png  -> Predicted: 10
+  - Frame: frame_10.png -> Predicted: 10
+  - ❌ Error processing image frame_100.png: height:55 and width:27 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:57 and width:25 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 10
+  - ❌ Error processing image frame_102.png: height:56 and width:25 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 10
+  - ❌ Error processing image frame_103.png: height:57 and width:24 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: 10
+  - ❌ Error processing image frame_104.png: height:57 and width:25 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: 10
+  - ❌ Error processing image frame_105.png: height:57 and width:25 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: 10
+  - ❌ Error processing image frame_106.png: height:57 and width:24 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 10
+  -> Raw Predictions: ['10', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10', 'nan', '10']
+  -> Final Prediction (Mode): 10
+  -> Result: ✅ CORRECT
+
+[86/106] Processing: gsw-vs-nyk-0022400885_102-track_39667 | True Jersey: 21
+  - ❌ Error processing image frame_139.png: height:41 and width:27 must be larger than factor:28
+  - Frame: frame_139.png -> Predicted: nan
+  - Frame: frame_139_1.png -> Predicted: 10
+  - Frame: frame_140.png -> Predicted: 10
+  - Frame: frame_141.png -> Predicted: 10
+  - Frame: frame_142.png -> Predicted: 2
+  - Frame: frame_143.png -> Predicted: 2
+  - Frame: frame_144.png -> Predicted: 10
+  - Frame: frame_145.png -> Predicted: 11
+  - Frame: frame_146.png -> Predicted: 21
+  - Frame: frame_147.png -> Predicted: 21
+  - Frame: frame_148.png -> Predicted: 2
+  - Frame: frame_149.png -> Predicted: 11
+  - Frame: frame_150.png -> Predicted: 2
+  - Frame: frame_151.png -> Predicted: 2
+  - Frame: frame_152.png -> Predicted: 2
+  - Frame: frame_153.png -> Predicted: 2
+  -> Raw Predictions: ['nan', '10', '10', '10', '2', '2', '10', '11', '21', '21', '2', '11', '2', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ❌ INCORRECT (Ground Truth: 21)
+
+[87/106] Processing: nop-vs-uta-0022400872_365-track_18523 | True Jersey: 22
+  - Frame: frame_1.png  -> Predicted: 22
+  - ❌ Error processing image frame_10.png: height:51 and width:18 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 12
+  - Frame: frame_101.png -> Predicted: 12
+  - Frame: frame_102.png -> Predicted: 2
+  - Frame: frame_103.png -> Predicted: 2
+  - Frame: frame_104.png -> Predicted: 10
+  - Frame: frame_105.png -> Predicted: 10
+  - Frame: frame_106.png -> Predicted: 12
+  - ❌ Error processing image frame_107.png: height:37 and width:27 must be larger than factor:28
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_107_1.png -> Predicted: 12
+  - Frame: frame_10_1.png -> Predicted: 10
+  - ❌ Error processing image frame_11.png: height:51 and width:18 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_11_1.png -> Predicted: 10
+  - ❌ Error processing image frame_12.png: height:48 and width:17 must be larger than factor:28
+  - Frame: frame_12.png -> Predicted: nan
+  - Frame: frame_12_1.png -> Predicted: 11
+  -> Raw Predictions: ['22', 'nan', '12', '12', '2', '2', '10', '10', '12', 'nan', '12', '10', 'nan', '10', 'nan', '11']
+  -> Final Prediction (Mode): 12
+  -> Result: ❌ INCORRECT (Ground Truth: 22)
+
+[88/106] Processing: nop-vs-hou-0022400365_307-track_45959 | True Jersey: 24
+  - Frame: frame_597.png -> Predicted: 24
+  - Frame: frame_598.png -> Predicted: 20
+  - Frame: frame_599.png -> Predicted: 2
+  - Frame: frame_600.png -> Predicted: 2
+  - Frame: frame_601.png -> Predicted: 2
+  - Frame: frame_602.png -> Predicted: 2
+  - Frame: frame_603.png -> Predicted: 24
+  - Frame: frame_604.png -> Predicted: 2
+  - Frame: frame_605.png -> Predicted: 1
+  - Frame: frame_606.png -> Predicted: nan
+  - Frame: frame_607.png -> Predicted: nan
+  - ❌ Error processing image frame_608.png: height:46 and width:23 must be larger than factor:28
+  - Frame: frame_608.png -> Predicted: nan
+  - Frame: frame_608_1.png -> Predicted: nan
+  - ❌ Error processing image frame_609.png: height:46 and width:23 must be larger than factor:28
+  - Frame: frame_609.png -> Predicted: nan
+  - Frame: frame_609_1.png -> Predicted: nan
+  - ❌ Error processing image frame_610.png: height:46 and width:27 must be larger than factor:28
+  - Frame: frame_610.png -> Predicted: nan
+  -> Raw Predictions: ['24', '20', '2', '2', '2', '2', '24', '2', '1', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 2
+  -> Result: ❌ INCORRECT (Ground Truth: 24)
+
+[89/106] Processing: tor-vs-orl-0022400870_282-track_41689 | True Jersey: 1
+  - Frame: frame_1.png  -> Predicted: 1
+  - Frame: frame_10.png -> Predicted: 10
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_107.png -> Predicted: nan
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_109.png -> Predicted: nan
+  - Frame: frame_11.png -> Predicted: 1
+  - Frame: frame_110.png -> Predicted: nan
+  - Frame: frame_111.png -> Predicted: nan
+  - Frame: frame_112.png -> Predicted: nan
+  -> Raw Predictions: ['1', '10', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '1', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): 1
+  -> Result: ✅ CORRECT
+
+[90/106] Processing: bos-vs-was-0022401217_293-track_24367 | True Jersey: 11
+  - ❌ Error processing image frame_255.png: height:46 and width:26 must be larger than factor:28
+  - Frame: frame_255.png -> Predicted: nan
+  - Frame: frame_255_1.png -> Predicted: nan
+  - ❌ Error processing image frame_256.png: height:51 and width:27 must be larger than factor:28
+  - Frame: frame_256.png -> Predicted: nan
+  - Frame: frame_256_1.png -> Predicted: nan
+  - ❌ Error processing image frame_257.png: height:53 and width:25 must be larger than factor:28
+  - Frame: frame_257.png -> Predicted: nan
+  - Frame: frame_257_1.png -> Predicted: nan
+  - ❌ Error processing image frame_258.png: height:52 and width:25 must be larger than factor:28
+  - Frame: frame_258.png -> Predicted: nan
+  - Frame: frame_258_1.png -> Predicted: nan
+  - ❌ Error processing image frame_259.png: height:52 and width:24 must be larger than factor:28
+  - Frame: frame_259.png -> Predicted: nan
+  - Frame: frame_259_1.png -> Predicted: nan
+  - Frame: frame_264.png -> Predicted: 11
+  - Frame: frame_265.png -> Predicted: 11
+  - Frame: frame_266.png -> Predicted: 11
+  - Frame: frame_267.png -> Predicted: 11
+  - Frame: frame_268.png -> Predicted: 11
+  - Frame: frame_269.png -> Predicted: 11
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '11', '11', '11', '11', '11', '11']
+  -> Final Prediction (Mode): 11
+  -> Result: ✅ CORRECT
+
+[91/106] Processing: hou-vs-okc-0022400879_43-track_41256 | True Jersey: 2
+  - ❌ Error processing image frame_353.png: height:59 and width:25 must be larger than factor:28
+  - Frame: frame_353.png -> Predicted: nan
+  - Frame: frame_353_1.png -> Predicted: 10
+  - ❌ Error processing image frame_354.png: height:51 and width:26 must be larger than factor:28
+  - Frame: frame_354.png -> Predicted: nan
+  - Frame: frame_354_1.png -> Predicted: nan
+  - ❌ Error processing image frame_355.png: height:52 and width:26 must be larger than factor:28
+  - Frame: frame_355.png -> Predicted: nan
+  - Frame: frame_355_1.png -> Predicted: nan
+  - ❌ Error processing image frame_356.png: height:56 and width:27 must be larger than factor:28
+  - Frame: frame_356.png -> Predicted: nan
+  - Frame: frame_356_1.png -> Predicted: 10
+  - ❌ Error processing image frame_357.png: height:56 and width:27 must be larger than factor:28
+  - Frame: frame_357.png -> Predicted: nan
+  - Frame: frame_357_1.png -> Predicted: 10
+  - Frame: frame_360.png -> Predicted: 11
+  - Frame: frame_361.png -> Predicted: 11
+  - Frame: frame_362.png -> Predicted: 2
+  - Frame: frame_363.png -> Predicted: 2
+  - Frame: frame_364.png -> Predicted: 2
+  - Frame: frame_365.png -> Predicted: 2
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', 'nan', 'nan', 'nan', '10', 'nan', '10', '11', '11', '2', '2', '2', '2']
+  -> Final Prediction (Mode): 2
+  -> Result: ✅ CORRECT
+
+[92/106] Processing: okc-vs-mia-0022400375_144-track_4440 | True Jersey: 24
+  - ❌ Error processing image frame_389.png: height:101 and width:20 must be larger than factor:28
+  - Frame: frame_389.png -> Predicted: nan
+  - Frame: frame_389_1.png -> Predicted: nan
+  - Frame: frame_390.png -> Predicted: nan
+  - Frame: frame_391.png -> Predicted: nan
+  - Frame: frame_392.png -> Predicted: nan
+  - Frame: frame_393.png -> Predicted: nan
+  - Frame: frame_394.png -> Predicted: nan
+  - Frame: frame_395.png -> Predicted: nan
+  - Frame: frame_396.png -> Predicted: nan
+  - Frame: frame_397.png -> Predicted: nan
+  - Frame: frame_398.png -> Predicted: nan
+  - Frame: frame_399.png -> Predicted: nan
+  - Frame: frame_400.png -> Predicted: nan
+  - Frame: frame_401.png -> Predicted: nan
+  - Frame: frame_402.png -> Predicted: nan
+  - Frame: frame_403.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 24)
+
+[93/106] Processing: chi-vs-ind-0022400868_226-track_4813 | True Jersey: 23
+  - Frame: frame_575.png -> Predicted: 11
+  - Frame: frame_576.png -> Predicted: 23
+  - Frame: frame_577.png -> Predicted: 23
+  - Frame: frame_578.png -> Predicted: 23
+  - Frame: frame_579.png -> Predicted: 23
+  - Frame: frame_580.png -> Predicted: 23
+  - Frame: frame_581.png -> Predicted: 23
+  - Frame: frame_582.png -> Predicted: 23
+  - Frame: frame_583.png -> Predicted: 23
+  - Frame: frame_584.png -> Predicted: 23
+  - Frame: frame_585.png -> Predicted: 23
+  - Frame: frame_586.png -> Predicted: 23
+  - Frame: frame_587.png -> Predicted: 23
+  - Frame: frame_588.png -> Predicted: 23
+  - Frame: frame_589.png -> Predicted: 23
+  - Frame: frame_590.png -> Predicted: 23
+  -> Raw Predictions: ['11', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23']
+  -> Final Prediction (Mode): 23
+  -> Result: ✅ CORRECT
+
+[94/106] Processing: gsw-vs-phi-0022400864_255-track_43617 | True Jersey: 5
+  - Frame: frame_1.png  -> Predicted: 5
+  - ❌ Error processing image frame_10.png: height:68 and width:25 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 5
+  - Frame: frame_101.png -> Predicted: 5
+  - Frame: frame_102.png -> Predicted: 5
+  - Frame: frame_103.png -> Predicted: 5
+  - Frame: frame_104.png -> Predicted: 5
+  - Frame: frame_105.png -> Predicted: 5
+  - Frame: frame_106.png -> Predicted: 5
+  - Frame: frame_107.png -> Predicted: 5
+  - Frame: frame_108.png -> Predicted: 5
+  - Frame: frame_109.png -> Predicted: 5
+  - Frame: frame_10_1.png -> Predicted: 15
+  - ❌ Error processing image frame_11.png: height:68 and width:25 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 5
+  - Frame: frame_111.png -> Predicted: 5
+  -> Raw Predictions: ['5', 'nan', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '15', 'nan', '5', '5']
+  -> Final Prediction (Mode): 5
+  -> Result: ✅ CORRECT
+
+[95/106] Processing: was-vs-cha-0022400860_13-track_49894 | True Jersey: 5
+  - ❌ Error processing image frame_0.png: height:54 and width:22 must be larger than factor:28
+  - Frame: frame_0.png  -> Predicted: nan
+  - Frame: frame_0_1.png -> Predicted: 10
+  - ❌ Error processing image frame_1.png: height:54 and width:22 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:49 and width:15 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 5
+  - Frame: frame_101.png -> Predicted: 5
+  - Frame: frame_102.png -> Predicted: 5
+  - Frame: frame_103.png -> Predicted: 5
+  - Frame: frame_104.png -> Predicted: 5
+  - Frame: frame_105.png -> Predicted: 5
+  - Frame: frame_106.png -> Predicted: 5
+  - Frame: frame_107.png -> Predicted: 5
+  - Frame: frame_108.png -> Predicted: 5
+  - Frame: frame_109.png -> Predicted: 5
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:50 and width:15 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  -> Raw Predictions: ['nan', '10', 'nan', 'nan', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', 'nan', 'nan']
+  -> Final Prediction (Mode): 5
+  -> Result: ✅ CORRECT
+
+[96/106] Processing: uta-vs-was-0022400894_75-track_2493 | True Jersey: 00
+  - ❌ Error processing image frame_1.png: height:62 and width:21 must be larger than factor:28
+  - Frame: frame_1.png  -> Predicted: nan
+  - ❌ Error processing image frame_10.png: height:57 and width:16 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:52 and width:18 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: nan
+  - ❌ Error processing image frame_101.png: height:50 and width:18 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:50 and width:19 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: nan
+  - ❌ Error processing image frame_103.png: height:50 and width:19 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:51 and width:20 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:51 and width:20 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:49 and width:20 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: nan
+  -> Raw Predictions: ['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan']
+  -> Final Prediction (Mode): nan
+  -> Result: ❌ INCORRECT (Ground Truth: 00)
+
+[97/106] Processing: nyk-vs-mia-0022400869_318-track_33453 | True Jersey: 13
+  - ❌ Error processing image frame_10.png: height:58 and width:2 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - ❌ Error processing image frame_100.png: height:57 and width:27 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 13
+  - Frame: frame_101.png -> Predicted: 13
+  - Frame: frame_102.png -> Predicted: 13
+  - Frame: frame_103.png -> Predicted: 13
+  - Frame: frame_104.png -> Predicted: 13
+  - Frame: frame_105.png -> Predicted: 13
+  - Frame: frame_106.png -> Predicted: 13
+  - Frame: frame_107.png -> Predicted: 13
+  - Frame: frame_108.png -> Predicted: 13
+  - Frame: frame_109.png -> Predicted: 13
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:59 and width:3 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 13
+  - Frame: frame_111.png -> Predicted: 13
+  -> Raw Predictions: ['nan', 'nan', '13', '13', '13', '13', '13', '13', '13', '13', '13', '13', 'nan', 'nan', '13', '13']
+  -> Final Prediction (Mode): 13
+  -> Result: ✅ CORRECT
+
+[98/106] Processing: okc-vs-mia-0022400375_144-track_4379 | True Jersey: 24
+  - Frame: frame_1.png  -> Predicted: 24
+  - Frame: frame_10.png -> Predicted: 24
+  - Frame: frame_100.png -> Predicted: 24
+  - Frame: frame_101.png -> Predicted: 24
+  - Frame: frame_102.png -> Predicted: 24
+  - Frame: frame_103.png -> Predicted: 24
+  - Frame: frame_104.png -> Predicted: 24
+  - Frame: frame_105.png -> Predicted: 24
+  - Frame: frame_106.png -> Predicted: 24
+  - Frame: frame_107.png -> Predicted: 22
+  - Frame: frame_108.png -> Predicted: nan
+  - Frame: frame_109.png -> Predicted: nan
+  - Frame: frame_11.png -> Predicted: 24
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: 10
+  - Frame: frame_112.png -> Predicted: 10
+  -> Raw Predictions: ['24', '24', '24', '24', '24', '24', '24', '24', '24', '22', 'nan', 'nan', '24', '10', '10', '10']
+  -> Final Prediction (Mode): 24
+  -> Result: ✅ CORRECT
+
+[99/106] Processing: nyk-vs-orl-0022401227_49-track_21644 | True Jersey: 23
+  - Frame: frame_1.png  -> Predicted: 23
+  - Frame: frame_10.png -> Predicted: 23
+  - Frame: frame_100.png -> Predicted: 23
+  - Frame: frame_101.png -> Predicted: 23
+  - Frame: frame_102.png -> Predicted: 23
+  - Frame: frame_103.png -> Predicted: 23
+  - Frame: frame_104.png -> Predicted: 23
+  - Frame: frame_105.png -> Predicted: 23
+  - Frame: frame_106.png -> Predicted: 23
+  - Frame: frame_107.png -> Predicted: 23
+  - Frame: frame_108.png -> Predicted: 23
+  - Frame: frame_109.png -> Predicted: 23
+  - Frame: frame_11.png -> Predicted: 23
+  - Frame: frame_110.png -> Predicted: 23
+  - Frame: frame_111.png -> Predicted: 23
+  - Frame: frame_112.png -> Predicted: 23
+  -> Raw Predictions: ['23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23', '23']
+  -> Final Prediction (Mode): 23
+  -> Result: ✅ CORRECT
+
+[100/106] Processing: chi-vs-ind-0022400868_2-track_13131 | True Jersey: 43
+  - Frame: frame_1.png  -> Predicted: 43
+  - ❌ Error processing image frame_10.png: height:36 and width:13 must be larger than factor:28
+  - Frame: frame_10.png -> Predicted: nan
+  - Frame: frame_100.png -> Predicted: 43
+  - Frame: frame_101.png -> Predicted: 43
+  - Frame: frame_102.png -> Predicted: 43
+  - Frame: frame_103.png -> Predicted: 43
+  - Frame: frame_104.png -> Predicted: 43
+  - Frame: frame_105.png -> Predicted: 43
+  - Frame: frame_106.png -> Predicted: 49
+  - Frame: frame_107.png -> Predicted: 43
+  - Frame: frame_108.png -> Predicted: 10
+  - Frame: frame_109.png -> Predicted: 11
+  - Frame: frame_10_1.png -> Predicted: nan
+  - ❌ Error processing image frame_11.png: height:36 and width:11 must be larger than factor:28
+  - Frame: frame_11.png -> Predicted: nan
+  - Frame: frame_110.png -> Predicted: 10
+  - Frame: frame_111.png -> Predicted: 10
+  -> Raw Predictions: ['43', 'nan', '43', '43', '43', '43', '43', '43', '49', '43', '10', '11', 'nan', 'nan', '10', '10']
+  -> Final Prediction (Mode): 43
+  -> Result: ✅ CORRECT
+
+[101/106] Processing: nop-vs-uta-0022400872_242-track_41022 | True Jersey: 22
+  - Frame: frame_0.png  -> Predicted: 22
+  - Frame: frame_1.png  -> Predicted: 22
+  - Frame: frame_10.png -> Predicted: 22
+  - Frame: frame_100.png -> Predicted: 22
+  - ❌ Error processing image frame_101.png: height:43 and width:27 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: 22
+  - Frame: frame_102.png -> Predicted: 22
+  - Frame: frame_103.png -> Predicted: 22
+  - Frame: frame_104.png -> Predicted: 22
+  - Frame: frame_105.png -> Predicted: 22
+  - Frame: frame_106.png -> Predicted: 22
+  - Frame: frame_107.png -> Predicted: 22
+  - Frame: frame_108.png -> Predicted: 22
+  - Frame: frame_109.png -> Predicted: 22
+  - Frame: frame_11.png -> Predicted: 22
+  - Frame: frame_110.png -> Predicted: 22
+  -> Raw Predictions: ['22', '22', '22', '22', 'nan', '22', '22', '22', '22', '22', '22', '22', '22', '22', '22', '22']
+  -> Final Prediction (Mode): 22
+  -> Result: ✅ CORRECT
+
+[102/106] Processing: sac-vs-hou-0022400862_261-track_8776 | True Jersey: 17
+  - Frame: frame_100.png -> Predicted: 10
+  - Frame: frame_101.png -> Predicted: 10
+  - Frame: frame_102.png -> Predicted: 11
+  - Frame: frame_103.png -> Predicted: 11
+  - Frame: frame_104.png -> Predicted: 11
+  - Frame: frame_105.png -> Predicted: 11
+  - Frame: frame_106.png -> Predicted: 17
+  - Frame: frame_107.png -> Predicted: 17
+  - Frame: frame_108.png -> Predicted: 17
+  - Frame: frame_109.png -> Predicted: 17
+  - Frame: frame_110.png -> Predicted: 17
+  - Frame: frame_111.png -> Predicted: 17
+  - Frame: frame_112.png -> Predicted: 17
+  - Frame: frame_113.png -> Predicted: 17
+  - Frame: frame_114.png -> Predicted: 17
+  - Frame: frame_115.png -> Predicted: 17
+  -> Raw Predictions: ['10', '10', '11', '11', '11', '11', '17', '17', '17', '17', '17', '17', '17', '17', '17', '17']
+  -> Final Prediction (Mode): 17
+  -> Result: ✅ CORRECT
+
+[103/106] Processing: chi-vs-ind-0022400868_37-track_18635 | True Jersey: 43
+  - Frame: frame_203.png -> Predicted: 3
+  - Frame: frame_204.png -> Predicted: 10
+  - Frame: frame_205.png -> Predicted: 10
+  - Frame: frame_206.png -> Predicted: 43
+  - Frame: frame_207.png -> Predicted: 10
+  - Frame: frame_208.png -> Predicted: 43
+  - Frame: frame_209.png -> Predicted: 43
+  - Frame: frame_210.png -> Predicted: 88
+  - Frame: frame_211.png -> Predicted: 88
+  - Frame: frame_212.png -> Predicted: 11
+  - Frame: frame_213.png -> Predicted: 43
+  - Frame: frame_214.png -> Predicted: 11
+  - Frame: frame_215.png -> Predicted: 11
+  - Frame: frame_216.png -> Predicted: 11
+  - Frame: frame_217.png -> Predicted: 11
+  - Frame: frame_218.png -> Predicted: 10
+  -> Raw Predictions: ['3', '10', '10', '43', '10', '43', '43', '88', '88', '11', '43', '11', '11', '11', '11', '10']
+  -> Final Prediction (Mode): 11
+  -> Result: ❌ INCORRECT (Ground Truth: 43)
+
+[104/106] Processing: gsw-vs-bkn-0022400901_265-track_32839 | True Jersey: 8
+  - Frame: frame_1.png  -> Predicted: 8
+  - Frame: frame_10.png -> Predicted: 8
+  - Frame: frame_100.png -> Predicted: 8
+  - Frame: frame_101.png -> Predicted: 8
+  - Frame: frame_102.png -> Predicted: 8
+  - Frame: frame_103.png -> Predicted: 8
+  - Frame: frame_104.png -> Predicted: 8
+  - Frame: frame_105.png -> Predicted: 8
+  - Frame: frame_106.png -> Predicted: 8
+  - Frame: frame_107.png -> Predicted: 8
+  - Frame: frame_108.png -> Predicted: 8
+  - Frame: frame_109.png -> Predicted: 8
+  - Frame: frame_11.png -> Predicted: 8
+  - Frame: frame_110.png -> Predicted: 8
+  - Frame: frame_111.png -> Predicted: 8
+  - Frame: frame_112.png -> Predicted: 8
+  -> Raw Predictions: ['8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8', '8']
+  -> Final Prediction (Mode): 8
+  -> Result: ✅ CORRECT
+
+[105/106] Processing: bkn-vs-det-0022400861_44-track_25349 | True Jersey: 33
+  - ❌ Error processing image frame_161.png: height:37 and width:23 must be larger than factor:28
+  - Frame: frame_161.png -> Predicted: nan
+  - Frame: frame_161_1.png -> Predicted: 33
+  - Frame: frame_162.png -> Predicted: 33
+  - Frame: frame_163.png -> Predicted: 33
+  - Frame: frame_166.png -> Predicted: 33
+  - Frame: frame_167.png -> Predicted: 33
+  - Frame: frame_168.png -> Predicted: 33
+  - Frame: frame_169.png -> Predicted: 33
+  - ❌ Error processing image frame_170.png: height:48 and width:27 must be larger than factor:28
+  - Frame: frame_170.png -> Predicted: nan
+  - Frame: frame_170_1.png -> Predicted: 33
+  - ❌ Error processing image frame_171.png: height:48 and width:27 must be larger than factor:28
+  - Frame: frame_171.png -> Predicted: nan
+  - Frame: frame_171_1.png -> Predicted: 33
+  - Frame: frame_172.png -> Predicted: 33
+  - Frame: frame_173.png -> Predicted: 33
+  - Frame: frame_174.png -> Predicted: 33
+  - Frame: frame_175.png -> Predicted: 33
+  -> Raw Predictions: ['nan', '33', '33', '33', '33', '33', '33', '33', 'nan', '33', 'nan', '33', '33', '33', '33', '33']
+  -> Final Prediction (Mode): 33
+  -> Result: ✅ CORRECT
+
+[106/106] Processing: phi-vs-uta-0022400433_213-track_35055 | True Jersey: 24
+  - Frame: frame_1.png  -> Predicted: 24
+  - Frame: frame_10.png -> Predicted: 24
+  - ❌ Error processing image frame_100.png: height:31 and width:17 must be larger than factor:28
+  - Frame: frame_100.png -> Predicted: nan
+  - Frame: frame_100_1.png -> Predicted: 10
+  - ❌ Error processing image frame_101.png: height:30 and width:16 must be larger than factor:28
+  - Frame: frame_101.png -> Predicted: nan
+  - Frame: frame_101_1.png -> Predicted: nan
+  - ❌ Error processing image frame_102.png: height:32 and width:15 must be larger than factor:28
+  - Frame: frame_102.png -> Predicted: nan
+  - Frame: frame_102_1.png -> Predicted: 0
+  - ❌ Error processing image frame_103.png: height:32 and width:16 must be larger than factor:28
+  - Frame: frame_103.png -> Predicted: nan
+  - Frame: frame_103_1.png -> Predicted: nan
+  - ❌ Error processing image frame_104.png: height:32 and width:16 must be larger than factor:28
+  - Frame: frame_104.png -> Predicted: nan
+  - Frame: frame_104_1.png -> Predicted: nan
+  - ❌ Error processing image frame_105.png: height:32 and width:16 must be larger than factor:28
+  - Frame: frame_105.png -> Predicted: nan
+  - Frame: frame_105_1.png -> Predicted: nan
+  - ❌ Error processing image frame_106.png: height:37 and width:20 must be larger than factor:28
+  - Frame: frame_106.png -> Predicted: nan
+  - Frame: frame_106_1.png -> Predicted: 10
+  -> Raw Predictions: ['24', '24', 'nan', '10', 'nan', 'nan', 'nan', '0', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'nan', '10']
+  -> Final Prediction (Mode): 24
+  -> Result: ✅ CORRECT
+
+💾 Results saved to cropped_si_olmo.csv
+
+==================================================
+📊 FINAL PERFORMANCE REPORT 📊
+==================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.75      0.60      0.67         5
+         1.0       1.00      0.80      0.89         5
+        10.0       0.09      0.67      0.16         3
+        11.0       0.50      1.00      0.67         5
+        12.0       0.50      1.00      0.67         1
+        13.0       1.00      0.80      0.89         5
+        15.0       0.80      0.80      0.80         5
+        17.0       1.00      1.00      1.00         1
+        19.0       0.00      0.00      0.00         2
+         2.0       0.73      0.89      0.80         9
+        20.0       1.00      0.50      0.67         2
+        21.0       1.00      0.50      0.67         2
+        22.0       0.50      0.50      0.50         2
+        23.0       1.00      0.67      0.80         6
+        24.0       1.00      0.33      0.50         6
+        28.0       0.00      0.00      0.00         1
+         3.0       0.50      1.00      0.67         1
+        30.0       1.00      0.50      0.67         4
+        32.0       1.00      0.33      0.50         3
+        33.0       1.00      0.67      0.80         3
+         4.0       1.00      0.67      0.80         3
+        40.0       1.00      0.50      0.67         2
+        41.0       0.00      0.00      0.00         1
+        43.0       1.00      0.50      0.67         2
+        44.0       0.00      0.00      0.00         1
+         5.0       1.00      0.62      0.77         8
+         7.0       1.00      0.67      0.80         3
+         8.0       1.00      0.33      0.50         6
+         9.0       1.00      0.50      0.67         4
+        99.0       1.00      1.00      1.00         1
+         nan       0.20      0.50      0.29         4
+
+    accuracy                           0.61       106
+   macro avg       0.73      0.58      0.60       106
+weighted avg       0.81      0.61      0.65       106
+
+
+Confusion Matrix:
+Rows: True Labels, Columns: Predicted Labels
+
+      0.0  1.0  10.0  11.0  12.0  13.0  ...  5.0  7.0  8.0  9.0  99.0  nan
+0.0     3    0     1     0     0     0  ...    0    0    0    0     0    1
+1.0     0    4     1     0     0     0  ...    0    0    0    0     0    0
+10.0    1    0     2     0     0     0  ...    0    0    0    0     0    0
+11.0    0    0     0     5     0     0  ...    0    0    0    0     0    0
+12.0    0    0     0     0     1     0  ...    0    0    0    0     0    0
+13.0    0    0     0     0     0     4  ...    0    0    0    0     0    0
+15.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+17.0    0    0     0     0     0     0  ...    0    0    0    0     0    0
+19.0    0    0     2     0     0     0  ...    0    0    0    0     0    0
+2.0     0    0     0     1     0     0  ...    0    0    0    0     0    0
+20.0    0    0     0     0     0     0  ...    0    0    0    0     0    0
+21.0    0    0     0     0     0     0  ...    0    0    0    0     0    0
+22.0    0    0     0     0     1     0  ...    0    0    0    0     0    0
+23.0    0    0     2     0     0     0  ...    0    0    0    0     0    0
+24.0    0    0     1     0     0     0  ...    0    0    0    0     0    2
+28.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+3.0     0    0     0     0     0     0  ...    0    0    0    0     0    0
+30.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+32.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+33.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+4.0     0    0     0     0     0     0  ...    0    0    0    0     0    1
+40.0    0    0     0     1     0     0  ...    0    0    0    0     0    0
+41.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+43.0    0    0     0     1     0     0  ...    0    0    0    0     0    0
+44.0    0    0     1     0     0     0  ...    0    0    0    0     0    0
+5.0     0    0     0     1     0     0  ...    5    0    0    0     0    2
+7.0     0    0     0     0     0     0  ...    0    2    0    0     0    1
+8.0     0    0     3     1     0     0  ...    0    0    2    0     0    0
+9.0     0    0     1     0     0     0  ...    0    0    0    2     0    1
+99.0    0    0     0     0     0     0  ...    0    0    0    0     1    0
+nan     0    0     2     0     0     0  ...    0    0    0    0     0    2
+
+[31 rows x 31 columns]

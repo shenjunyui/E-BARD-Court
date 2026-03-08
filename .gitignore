@@ -1,0 +1,5 @@
+detection/data/
+jnr/data/
+obj_classification/data/
+team_attribution/data/
+detection/model/

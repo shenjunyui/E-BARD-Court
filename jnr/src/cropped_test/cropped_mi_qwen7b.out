@@ -1,0 +1,575 @@
+vision_process
+[2025-11-15 18:57:46,466] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-15 18:57:48,427] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+?? Loading model and processor from: /leonardo_work/uBS25_EcoGiu/Qwen/Qwen2.5-VL-7B-Instruct
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:08<00:33,  8.41s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:16<00:24,  8.01s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:23<00:15,  7.67s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:31<00:07,  7.79s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:34<00:00,  5.95s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:34<00:00,  6.81s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+/leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/src/qwen/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `1e-06` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+? Model and processor loaded successfully.
+
+?? Starting evaluation on 106 tracks from /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/JNR/data/cropped_test.txt...
+
+[1/106] Processing: sas-vs-phi-0022400394_94-track_54341 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 5
+  -> Result: ? CORRECT
+
+[2/106] Processing: mia-vs-det-0022401221_241-track_14848 | True Jersey: 13
+  -> Final Prediction (Multi-Image): 13
+  -> Result: ? CORRECT
+
+[3/106] Processing: cle-vs-chi-0022400886_352-track_23163 | True Jersey: 32
+  -> Final Prediction (Multi-Image): 22
+  -> Result: ? INCORRECT (Ground Truth: 32)
+
+[4/106] Processing: chi-vs-bos-0022400363_205-track_3040 | True Jersey: 0
+  -> Final Prediction (Multi-Image): 0
+  -> Result: ? CORRECT
+
+[5/106] Processing: mil-vs-dal-0022400865_286-track_16832 | True Jersey: 7
+  -> Final Prediction (Multi-Image): 7
+  -> Result: ? CORRECT
+
+[6/106] Processing: mem-vs-lal-0022401220_343-track_52553 | True Jersey: 4
+  -> Final Prediction (Multi-Image): 4
+  -> Result: ? CORRECT
+
+[7/106] Processing: uta-vs-was-0022400894_215-track_1403 | True Jersey: 99
+  -> Final Prediction (Multi-Image): 99
+  -> Result: ? CORRECT
+
+[8/106] Processing: phx-vs-den-0022400402_55-track_34967 | True Jersey: 1
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? INCORRECT (Ground Truth: 1)
+
+[9/106] Processing: chi-vs-bos-0022400363_51-track_17362 | True Jersey: 7
+  -> Final Prediction (Multi-Image): 7
+  -> Result: ? CORRECT
+
+[10/106] Processing: chi-vs-tor-0022401223_140-track_24038 | True Jersey: 9
+  -> Final Prediction (Multi-Image): 9
+  -> Result: ? CORRECT
+
+[11/106] Processing: hou-vs-okc-0022400879_307-track_8878 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[12/106] Processing: mem-vs-lal-0022401220_174-track_51985 | True Jersey: 7
+  -> Final Prediction (Multi-Image): 7
+  -> Result: ? CORRECT
+
+[13/106] Processing: chi-vs-ind-0022400868_304-track_7838 | True Jersey: 15
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? CORRECT
+
+[14/106] Processing: phx-vs-den-0022400402_301-track_22706 | True Jersey: 3
+  -> Final Prediction (Multi-Image): 3
+  -> Result: ? CORRECT
+
+[15/106] Processing: den-vs-bos-0022400866_307-track_21373 | True Jersey: 11
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? CORRECT
+
+[16/106] Processing: mil-vs-dal-0022400865_142-track_52347 | True Jersey: 00
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? INCORRECT (Ground Truth: 00)
+
+[17/106] Processing: gsw-vs-bkn-0022400901_2-track_40979 | True Jersey: 4
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 4)
+
+[18/106] Processing: mil-vs-dal-0022400865_142-track_52346 | True Jersey: 12
+  -> Final Prediction (Multi-Image): 12
+  -> Result: ? CORRECT
+
+[19/106] Processing: nyk-vs-min-0022400367_153-track_10123 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 7
+  -> Result: ? INCORRECT (Ground Truth: 2)
+
+[20/106] Processing: mil-vs-dal-0022400865_297-track_32196 | True Jersey: 1
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? CORRECT
+
+[21/106] Processing: gsw-vs-mem-0022400366_373-track_44966 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[22/106] Processing: gsw-vs-phi-0022400864_220-track_4566 | True Jersey: 30
+  -> Final Prediction (Multi-Image): 0
+  -> Result: ? INCORRECT (Ground Truth: 30)
+
+[23/106] Processing: det-vs-por-0022400926_162-track_7512 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 5
+  -> Result: ? CORRECT
+
+[24/106] Processing: nyk-vs-orl-0022401227_192-track_19603 | True Jersey: 4
+  -> Final Prediction (Multi-Image): 4
+  -> Result: ? CORRECT
+
+[25/106] Processing: min-vs-phx-0022400873_351-track_25687 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[26/106] Processing: uta-vs-lac-0022401226_115-track_60907 | True Jersey: nan
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: nan)
+
+[27/106] Processing: sac-vs-hou-0022400862_212-track_24067 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 8)
+
+[28/106] Processing: mem-vs-lal-0022401220_156-track_58550 | True Jersey: 15
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? CORRECT
+
+[29/106] Processing: tor-vs-orl-0022400870_282-track_41690 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[30/106] Processing: mia-vs-det-0022401221_241-track_14849 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 7
+  -> Result: ? INCORRECT (Ground Truth: 5)
+
+[31/106] Processing: okc-vs-mia-0022400375_385-track_21741 | True Jersey: 11
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? CORRECT
+
+[32/106] Processing: cle-vs-chi-0022400886_364-track_44837 | True Jersey: 30
+  -> Final Prediction (Multi-Image): 3
+  -> Result: ? INCORRECT (Ground Truth: 30)
+
+[33/106] Processing: chi-vs-tor-0022401223_47-track_6690 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[34/106] Processing: uta-vs-was-0022400894_75-track_2545 | True Jersey: 33
+  -> Final Prediction (Multi-Image): 33
+  -> Result: ? CORRECT
+
+[35/106] Processing: mil-vs-dal-0022400865_316-track_2048 | True Jersey: 00
+  -> Final Prediction (Multi-Image): 00
+  -> Result: ? CORRECT
+
+[36/106] Processing: uta-vs-lac-0022401226_110-track_27148 | True Jersey: 20
+  -> Final Prediction (Multi-Image): 20
+  -> Result: ? CORRECT
+
+[37/106] Processing: nop-vs-ind-0022401216_23-track_40096 | True Jersey: nan
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: nan)
+
+[38/106] Processing: chi-vs-bos-0022400363_19-track_12436 | True Jersey: 44
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 44)
+
+[39/106] Processing: gsw-vs-bkn-0022400901_161-track_10687 | True Jersey: 33
+  -> Final Prediction (Multi-Image): 33
+  -> Result: ? CORRECT
+
+[40/106] Processing: was-vs-mil-0022400382_331-track_48259 | True Jersey: 9
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? INCORRECT (Ground Truth: 9)
+
+[41/106] Processing: nop-vs-ind-0022401216_293-track_16544 | True Jersey: 0
+  -> Final Prediction (Multi-Image): 0
+  -> Result: ? CORRECT
+
+[42/106] Processing: okc-vs-sas-0022400871_13-track_3965 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? INCORRECT (Ground Truth: 23)
+
+[43/106] Processing: phi-vs-uta-0022400433_140-track_61715 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? INCORRECT (Ground Truth: 24)
+
+[44/106] Processing: phi-vs-cha-0022401222_405-track_7053 | True Jersey: 9
+  -> Final Prediction (Multi-Image): 9
+  -> Result: ? CORRECT
+
+[45/106] Processing: chi-vs-ind-0022400868_87-track_44960 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 9
+  -> Result: ? INCORRECT (Ground Truth: 8)
+
+[46/106] Processing: min-vs-den-0022400952_254-track_45584 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 5)
+
+[47/106] Processing: tor-vs-nyk-0022400397_109-track_17440 | True Jersey: 41
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? INCORRECT (Ground Truth: 41)
+
+[48/106] Processing: bkn-vs-det-0022400861_145-track_55138 | True Jersey: 19
+  -> Final Prediction (Multi-Image): 19
+  -> Result: ? CORRECT
+
+[49/106] Processing: mil-vs-atl-0022400884_107-track_39427 | True Jersey: 20
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? INCORRECT (Ground Truth: 20)
+
+[50/106] Processing: gsw-vs-nyk-0022400885_102-track_39694 | True Jersey: 21
+  -> Final Prediction (Multi-Image): 21
+  -> Result: ? CORRECT
+
+[51/106] Processing: chi-vs-tor-0022401223_17-track_60338 | True Jersey: 19
+  -> Final Prediction (Multi-Image): 9
+  -> Result: ? INCORRECT (Ground Truth: 19)
+
+[52/106] Processing: tor-vs-nyk-0022400397_109-track_17454 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 8)
+
+[53/106] Processing: sas-vs-mem-0022400863_109-track_29189 | True Jersey: 1
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? CORRECT
+
+[54/106] Processing: sas-vs-mem-0022400863_109-track_29191 | True Jersey: 30
+  -> Final Prediction (Multi-Image): 30
+  -> Result: ? CORRECT
+
+[55/106] Processing: hou-vs-okc-0022400879_219-track_57538 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 8
+  -> Result: ? CORRECT
+
+[56/106] Processing: cle-vs-bkn-0022401224_63-track_23727 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? INCORRECT (Ground Truth: 5)
+
+[57/106] Processing: bos-vs-was-0022401217_370-track_8027 | True Jersey: 40
+  -> Final Prediction (Multi-Image): 90
+  -> Result: ? INCORRECT (Ground Truth: 40)
+
+[58/106] Processing: uta-vs-was-0022400894_338-track_12527 | True Jersey: 9
+  -> Final Prediction (Multi-Image): 9
+  -> Result: ? CORRECT
+
+[59/106] Processing: mem-vs-lal-0022401220_156-track_58584 | True Jersey: 28
+  -> Final Prediction (Multi-Image): 13
+  -> Result: ? INCORRECT (Ground Truth: 28)
+
+[60/106] Processing: mia-vs-det-0022401221_30-track_11886 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[61/106] Processing: nyk-vs-nop-0022400384_359-track_39017 | True Jersey: 32
+  -> Final Prediction (Multi-Image): 22
+  -> Result: ? INCORRECT (Ground Truth: 32)
+
+[62/106] Processing: uta-vs-tor-0022400905_434-track_50515 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 24)
+
+[63/106] Processing: was-vs-mil-0022400382_236-track_34839 | True Jersey: nan
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: nan)
+
+[64/106] Processing: phi-vs-uta-0022400433_414-track_21031 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 23
+  -> Result: ? CORRECT
+
+[65/106] Processing: mem-vs-atl-0022400378_36-track_41534 | True Jersey: 13
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? INCORRECT (Ground Truth: 13)
+
+[66/106] Processing: gsw-vs-nyk-0022400885_353-track_13896 | True Jersey: 11
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? CORRECT
+
+[67/106] Processing: nyk-vs-mia-0022400869_368-track_57106 | True Jersey: 13
+  -> Final Prediction (Multi-Image): 13
+  -> Result: ? CORRECT
+
+[68/106] Processing: det-vs-gsw-0022400919_112-track_14779 | True Jersey: 15
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? CORRECT
+
+[69/106] Processing: gsw-vs-mem-0022400366_127-track_25937 | True Jersey: 32
+  -> Final Prediction (Multi-Image): 32
+  -> Result: ? CORRECT
+
+[70/106] Processing: bos-vs-was-0022401217_112-track_4135 | True Jersey: 13
+  -> Final Prediction (Multi-Image): 13
+  -> Result: ? CORRECT
+
+[71/106] Processing: was-vs-mil-0022400382_236-track_34810 | True Jersey: 15
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? CORRECT
+
+[72/106] Processing: sas-vs-mem-0022400863_289-track_405 | True Jersey: 30
+  -> Final Prediction (Multi-Image): 30
+  -> Result: ? CORRECT
+
+[73/106] Processing: phi-vs-uta-0022400433_213-track_35057 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 5
+  -> Result: ? CORRECT
+
+[74/106] Processing: lac-vs-lal-0022400874_374-track_54130 | True Jersey: 40
+  -> Final Prediction (Multi-Image): 40
+  -> Result: ? CORRECT
+
+[75/106] Processing: gsw-vs-bkn-0022400901_265-track_32838 | True Jersey: 15
+  -> Final Prediction (Multi-Image): 15
+  -> Result: ? CORRECT
+
+[76/106] Processing: nop-vs-hou-0022400365_307-track_45843 | True Jersey: 10
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? CORRECT
+
+[77/106] Processing: chi-vs-bos-0022400363_376-track_49871 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 8
+  -> Result: ? CORRECT
+
+[78/106] Processing: phx-vs-den-0022400402_352-track_11449 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 23
+  -> Result: ? CORRECT
+
+[79/106] Processing: sas-vs-mem-0022400863_286-track_30710 | True Jersey: 10
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? CORRECT
+
+[80/106] Processing: gsw-vs-mem-0022400366_127-track_25933 | True Jersey: 1
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? CORRECT
+
+[81/106] Processing: gsw-vs-nyk-0022400885_341-track_33264 | True Jersey: nan
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? INCORRECT (Ground Truth: nan)
+
+[82/106] Processing: mil-vs-chi-0022400398_335-track_3319 | True Jersey: 11
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? CORRECT
+
+[83/106] Processing: chi-vs-ind-0022400868_304-track_7885 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 3
+  -> Result: ? INCORRECT (Ground Truth: 23)
+
+[84/106] Processing: por-vs-phx-0022401219_114-track_33023 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[85/106] Processing: sas-vs-sac-0022400910_171-track_14597 | True Jersey: 10
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? CORRECT
+
+[86/106] Processing: gsw-vs-nyk-0022400885_102-track_39667 | True Jersey: 21
+  -> Final Prediction (Multi-Image): 21
+  -> Result: ? CORRECT
+
+[87/106] Processing: nop-vs-uta-0022400872_365-track_18523 | True Jersey: 22
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? INCORRECT (Ground Truth: 22)
+
+[88/106] Processing: nop-vs-hou-0022400365_307-track_45959 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 24
+  -> Result: ? CORRECT
+
+[89/106] Processing: tor-vs-orl-0022400870_282-track_41689 | True Jersey: 1
+  -> Final Prediction (Multi-Image): 1
+  -> Result: ? CORRECT
+
+[90/106] Processing: bos-vs-was-0022401217_293-track_24367 | True Jersey: 11
+  -> Final Prediction (Multi-Image): 11
+  -> Result: ? CORRECT
+
+[91/106] Processing: hou-vs-okc-0022400879_43-track_41256 | True Jersey: 2
+  -> Final Prediction (Multi-Image): 2
+  -> Result: ? CORRECT
+
+[92/106] Processing: okc-vs-mia-0022400375_144-track_4440 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 24)
+
+[93/106] Processing: chi-vs-ind-0022400868_226-track_4813 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 23
+  -> Result: ? CORRECT
+
+[94/106] Processing: gsw-vs-phi-0022400864_255-track_43617 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 5
+  -> Result: ? CORRECT
+
+[95/106] Processing: was-vs-cha-0022400860_13-track_49894 | True Jersey: 5
+  -> Final Prediction (Multi-Image): 5
+  -> Result: ? CORRECT
+
+[96/106] Processing: uta-vs-was-0022400894_75-track_2493 | True Jersey: 00
+  -> Final Prediction (Multi-Image): 10
+  -> Result: ? INCORRECT (Ground Truth: 00)
+
+[97/106] Processing: nyk-vs-mia-0022400869_318-track_33453 | True Jersey: 13
+  -> Final Prediction (Multi-Image): 13
+  -> Result: ? CORRECT
+
+[98/106] Processing: okc-vs-mia-0022400375_144-track_4379 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 24
+  -> Result: ? CORRECT
+
+[99/106] Processing: nyk-vs-orl-0022401227_49-track_21644 | True Jersey: 23
+  -> Final Prediction (Multi-Image): 23
+  -> Result: ? CORRECT
+
+[100/106] Processing: chi-vs-ind-0022400868_2-track_13131 | True Jersey: 43
+  -> Final Prediction (Multi-Image): 43
+  -> Result: ? CORRECT
+
+[101/106] Processing: nop-vs-uta-0022400872_242-track_41022 | True Jersey: 22
+  -> Final Prediction (Multi-Image): 22
+  -> Result: ? CORRECT
+
+[102/106] Processing: sac-vs-hou-0022400862_261-track_8776 | True Jersey: 17
+  -> Final Prediction (Multi-Image): 17
+  -> Result: ? CORRECT
+
+[103/106] Processing: chi-vs-ind-0022400868_37-track_18635 | True Jersey: 43
+  -> Final Prediction (Multi-Image): 43
+  -> Result: ? CORRECT
+
+[104/106] Processing: gsw-vs-bkn-0022400901_265-track_32839 | True Jersey: 8
+  -> Final Prediction (Multi-Image): 8
+  -> Result: ? CORRECT
+
+[105/106] Processing: bkn-vs-det-0022400861_44-track_25349 | True Jersey: 33
+  -> Final Prediction (Multi-Image): 33
+  -> Result: ? CORRECT
+
+[106/106] Processing: phi-vs-uta-0022400433_213-track_35055 | True Jersey: 24
+  -> Final Prediction (Multi-Image): 24
+  -> Result: ? CORRECT
+
+?? Results saved to cropped_mi_qwen7b.csv
+
+==================================================
+?? FINAL PERFORMANCE REPORT ??
+==================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+         0.0       0.00      0.00      0.00       5.0
+           1       0.00      0.00      0.00       0.0
+         1.0       0.00      0.00      0.00       5.0
+          10       0.00      0.00      0.00       0.0
+        10.0       0.00      0.00      0.00       3.0
+          11       0.00      0.00      0.00       0.0
+        11.0       0.00      0.00      0.00       5.0
+          12       0.00      0.00      0.00       0.0
+        12.0       0.00      0.00      0.00       1.0
+          13       0.00      0.00      0.00       0.0
+        13.0       0.00      0.00      0.00       5.0
+          15       0.00      0.00      0.00       0.0
+        15.0       0.00      0.00      0.00       5.0
+          17       0.00      0.00      0.00       0.0
+        17.0       0.00      0.00      0.00       1.0
+          19       0.00      0.00      0.00       0.0
+        19.0       0.00      0.00      0.00       2.0
+           2       0.00      0.00      0.00       0.0
+         2.0       0.00      0.00      0.00       9.0
+          20       0.00      0.00      0.00       0.0
+        20.0       0.00      0.00      0.00       2.0
+          21       0.00      0.00      0.00       0.0
+        21.0       0.00      0.00      0.00       2.0
+          22       0.00      0.00      0.00       0.0
+        22.0       0.00      0.00      0.00       2.0
+          23       0.00      0.00      0.00       0.0
+        23.0       0.00      0.00      0.00       6.0
+          24       0.00      0.00      0.00       0.0
+        24.0       0.00      0.00      0.00       6.0
+        28.0       0.00      0.00      0.00       1.0
+           3       0.00      0.00      0.00       0.0
+         3.0       0.00      0.00      0.00       1.0
+          30       0.00      0.00      0.00       0.0
+        30.0       0.00      0.00      0.00       4.0
+          32       0.00      0.00      0.00       0.0
+        32.0       0.00      0.00      0.00       3.0
+          33       0.00      0.00      0.00       0.0
+        33.0       0.00      0.00      0.00       3.0
+           4       0.00      0.00      0.00       0.0
+         4.0       0.00      0.00      0.00       3.0
+          40       0.00      0.00      0.00       0.0
+        40.0       0.00      0.00      0.00       2.0
+        41.0       0.00      0.00      0.00       1.0
+          43       0.00      0.00      0.00       0.0
+        43.0       0.00      0.00      0.00       2.0
+        44.0       0.00      0.00      0.00       1.0
+           5       0.00      0.00      0.00       0.0
+         5.0       0.00      0.00      0.00       8.0
+           7       0.00      0.00      0.00       0.0
+         7.0       0.00      0.00      0.00       3.0
+           8       0.00      0.00      0.00       0.0
+         8.0       0.00      0.00      0.00       6.0
+           9       0.00      0.00      0.00       0.0
+         9.0       0.00      0.00      0.00       4.0
+          90       0.00      0.00      0.00       0.0
+          99       0.00      0.00      0.00       0.0
+        99.0       0.00      0.00      0.00       1.0
+         nan       0.00      0.00      0.00       4.0
+
+    accuracy                           0.00     106.0
+   macro avg       0.00      0.00      0.00     106.0
+weighted avg       0.00      0.00      0.00     106.0
+
+
+Confusion Matrix:
+Rows: True Labels, Columns: Predicted Labels
+
+      0  0.0  1  1.0  10  10.0  11  11.0  ...  8  8.0  9  9.0  90  99  99.0  nan
+0     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+0.0   3    0  1    0   1     0   0     0  ...  0    0  0    0   0   0     0    0
+1     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+1.0   0    0  4    0   0     0   1     0  ...  0    0  0    0   0   0     0    0
+10    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+10.0  0    0  0    0   3     0   0     0  ...  0    0  0    0   0   0     0    0
+11    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+11.0  0    0  0    0   0     0   5     0  ...  0    0  0    0   0   0     0    0
+12    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+12.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+13    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+13.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+15    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+15.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+17    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+17.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+19    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+19.0  0    0  0    0   0     0   0     0  ...  0    0  1    0   0   0     0    0
+2     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+2.0   0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+20    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+20.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+21    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+21.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+22    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+22.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+23    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+23.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+24    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+24.0  0    0  0    0   2     0   0     0  ...  0    0  0    0   0   0     0    0
+28.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+3     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+3.0   0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+30    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+30.0  1    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+32    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+32.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+33    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+33.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+4     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+4.0   0    0  0    0   1     0   0     0  ...  0    0  0    0   0   0     0    0
+40    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+40.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   1   0     0    0
+41.0  0    0  1    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+43    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+43.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+44.0  0    0  0    0   1     0   0     0  ...  0    0  0    0   0   0     0    0
+5     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+5.0   0    0  0    0   1     0   1     0  ...  0    0  0    0   0   0     0    0
+7     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+7.0   0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+8     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+8.0   0    0  0    0   2     0   0     0  ...  3    0  1    0   0   0     0    0
+9     0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+9.0   0    0  1    0   0     0   0     0  ...  0    0  3    0   0   0     0    0
+90    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+99    0    0  0    0   0     0   0     0  ...  0    0  0    0   0   0     0    0
+99.0  0    0  0    0   0     0   0     0  ...  0    0  0    0   0   1     0    0
+nan   0    0  1    0   3     0   0     0  ...  0    0  0    0   0   0     0    0
+
+[59 rows x 59 columns]

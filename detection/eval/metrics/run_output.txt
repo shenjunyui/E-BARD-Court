@@ -1,0 +1,146 @@
+RuntimeWarning: invalid value encountered in divide
+Loading predictions from: ../output/grounding_Qwen2.5-VL-3B-Instruct.json
+
+Processing 180 images...
+
+Running Per-Class Evaluation Loop...
+
+--- Evaluating for Class: basketball (ID: 0) ---
+Precision
+0.2605633802816901
+Recall
+0.24342105263157895
+F1
+0.25170068027210885
+
+--- Evaluating for Class: hoop (ID: 1) ---
+Precision
+0.145985401459854
+Recall
+0.12578616352201258
+F1
+0.13513513513513514
+
+--- Evaluating for Class: player (ID: 2) ---
+Precision
+0.9199999999999999
+Recall
+0.6224422442244224
+F1
+0.74251968503937
+
+--- Evaluating for Class: referee (ID: 3) ---
+Precision
+0.8571428571428571
+Recall
+0.34375
+F1
+0.49070631970260226
+
+======================================================================
+?? Overall Summary (Macro Avg @ IoU=0.5)
+   Source File: grounding_Qwen2.5-VL-3B-Instruct.json
+======================================================================
+METRIC               |      SCORE
+----------------------------------------------------------------------
+Macro-Precision      |     0.5459
+Macro-Recall         |     0.3338
+Macro-F1-Score       |     0.4050
+======================================================================
+Loading predictions from: ../output/grounding_Qwen2.5-VL-7B-Instruct.json
+
+Processing 180 images...
+
+Running Per-Class Evaluation Loop...
+
+--- Evaluating for Class: basketball (ID: 0) ---
+Precision
+0.24666666666666667
+Recall
+0.24342105263157895
+F1
+0.24503311258278146
+
+--- Evaluating for Class: hoop (ID: 1) ---
+Precision
+0.2631578947368421
+Recall
+0.25157232704402516
+F1
+0.2572347266881029
+
+--- Evaluating for Class: player (ID: 2) ---
+Precision
+0.9109062980030721
+Recall
+0.7828382838283828
+F1
+0.8420305289314874
+
+--- Evaluating for Class: referee (ID: 3) ---
+Precision
+0.9067357512953368
+Recall
+0.4557291666666667
+F1
+0.6065857885615251
+
+======================================================================
+?? Overall Summary (Macro Avg @ IoU=0.5)
+   Source File: grounding_Qwen2.5-VL-7B-Instruct.json
+======================================================================
+METRIC               |      SCORE
+----------------------------------------------------------------------
+Macro-Precision      |     0.5819
+Macro-Recall         |     0.4334
+Macro-F1-Score       |     0.4877
+======================================================================
+RuntimeWarning: invalid value encountered in divide
+Loading predictions from: ../output/grounding_Qwen2.5-VL-3B-BARD_EBARD.json
+
+Processing 180 images...
+
+Running Per-Class Evaluation Loop...
+
+--- Evaluating for Class: basketball (ID: 0) ---
+Precision
+0.24489795918367346
+Recall
+0.15789473684210525
+F1
+0.192
+
+--- Evaluating for Class: hoop (ID: 1) ---
+Precision
+0.11578947368421051
+Recall
+0.06918238993710692
+F1
+0.08661417322834646
+
+--- Evaluating for Class: player (ID: 2) ---
+Precision
+0.8888888888888888
+Recall
+0.30627062706270625
+F1
+0.4555719194894452
+
+--- Evaluating for Class: referee (ID: 3) ---
+Precision
+0.8596491228070176
+Recall
+0.3828125
+F1
+0.5297297297297298
+
+======================================================================
+?? Overall Summary (Macro Avg @ IoU=0.5)
+   Source File: grounding_EBQwen2.5-VL-3B .json
+======================================================================
+METRIC               |      SCORE
+----------------------------------------------------------------------
+Macro-Precision      |     0.5273
+Macro-Recall         |     0.2290
+Macro-F1-Score       |     0.3160
+======================================================================

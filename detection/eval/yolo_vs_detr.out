@@ -1,0 +1,1335 @@
+UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:80.)
+
+Checking required files...
+All required files found.
+
+Using device: cuda
+
+Checking YOLO and COCO annotation consistency...
+  YOLO instances: 2210
+  COCO instances: 2210
+Annotation counts match.
+
+Running YOLOv8 inference and evaluation...
+
+image 1/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/bkn-vs-det-0022400861_000013.jpg: 416x704 2 basketballs, 1 hoop, 8 players, 2 referees, 614.8ms
+image 2/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/bkn-vs-det-0022400861_000024.jpg: 416x704 1 basketball, 8 players, 2 referees, 4.8ms
+image 3/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/bos-vs-was-0022401217_000121.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.5ms
+image 4/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/bos-vs-was-0022401217_000124.jpg: 416x704 1 basketball, 1 hoop, 8 players, 3 referees, 4.4ms
+image 5/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-bos-0022400363_000201.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.4ms
+image 6/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-bos-0022400363_000205.jpg: 416x704 1 hoop, 5 players, 1 referee, 4.4ms
+image 7/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-bos-0022400363_000228.jpg: 416x704 1 basketball, 11 players, 1 referee, 4.4ms
+image 8/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-ind-0022400868_000303.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.4ms
+image 9/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-ind-0022400868_000306.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.4ms
+image 10/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-ind-0022400868_000324.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 11/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-tor-0022401223_000410.jpg: 416x704 1 basketball, 4 players, 2 referees, 4.3ms
+image 12/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-tor-0022401223_000415.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.3ms
+image 13/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-tor-0022401223_000422.jpg: 416x704 9 players, 2 referees, 4.2ms
+image 14/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/chi-vs-tor-0022401223_000426.jpg: 416x704 8 players, 3 referees, 4.3ms
+image 15/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-bkn-0022401224_000525.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 16/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-bkn-0022401224_000531.jpg: 416x704 1 hoop, 10 players, 2 referees, 4.3ms
+image 17/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-bkn-0022401224_000588.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 18/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000622.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.4ms
+image 19/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000637.jpg: 416x704 1 basketball, 9 players, 3 referees, 4.3ms
+image 20/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000644.jpg: 416x704 2 players, 4.4ms
+image 21/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000661.jpg: 416x704 1 hoop, 7 players, 2 referees, 4.3ms
+image 22/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000680.jpg: 416x704 1 player, 4.4ms
+image 23/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/cle-vs-chi-0022400886_000692.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 24/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/dal-vs-gsw-0022401228_000737.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.3ms
+image 25/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/dal-vs-gsw-0022401228_000749.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.4ms
+image 26/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/dal-vs-gsw-0022401228_000773.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 27/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-bos-0022400866_000850.jpg: 416x704 1 player, 4.3ms
+image 28/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-por-0022400371_000937.jpg: 416x704 2 players, 4.3ms
+image 29/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-por-0022400371_000939.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 30/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-por-0022400371_000962.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.6ms
+image 31/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-sac-0022401225_001037.jpg: 416x704 1 hoop, 8 players, 2 referees, 4.3ms
+image 32/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-sac-0022401225_001051.jpg: 416x704 1 basketball, 1 hoop, 6 players, 1 referee, 4.3ms
+image 33/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-sac-0022401225_001068.jpg: 416x704 1 hoop, 8 players, 3 referees, 4.3ms
+image 34/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/den-vs-sac-0022401225_001072.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.4ms
+image 35/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/det-vs-gsw-0022400919_001110.jpg: 416x704 1 hoop, 7 players, 2 referees, 4.4ms
+image 36/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/det-vs-gsw-0022400919_001111.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 37/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/det-vs-gsw-0022400919_001160.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 38/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/det-vs-por-0022400926_001304.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 39/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/det-vs-por-0022400926_001336.jpg: 416x704 1 hoop, 9 players, 2 referees, 4.3ms
+image 40/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001420.jpg: 416x704 1 basketball, 1 hoop, 7 players, 1 referee, 4.3ms
+image 41/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001431.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 42/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001444.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.3ms
+image 43/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001451.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.5ms
+image 44/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001493.jpg: 416x704 1 basketball, 1 hoop, 10 players, 1 referee, 4.3ms
+image 45/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-bkn-0022400901_001498.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 46/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-mem-0022400366_001506.jpg: 416x704 1 hoop, 8 players, 2 referees, 4.3ms
+image 47/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-mem-0022400366_001530.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 48/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-mem-0022400366_001551.jpg: 416x704 3 players, 4.2ms
+image 49/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-mem-0022400366_001556.jpg: 416x704 6 players, 1 referee, 4.3ms
+image 50/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-mem-0022400366_001567.jpg: 416x704 1 basketball, 8 players, 2 referees, 4.3ms
+image 51/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-nyk-0022400885_001669.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 52/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-nyk-0022400885_001683.jpg: 416x704 1 hoop, 9 players, 1 referee, 4.3ms
+image 53/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-phi-0022400864_001712.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 54/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/gsw-vs-phi-0022400864_001797.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 55/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001804.jpg: 416x704 1 hoop, 9 players, 2 referees, 4.3ms
+image 56/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001805.jpg: 416x704 1 basketball, 1 hoop, 6 players, 1 referee, 4.3ms
+image 57/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001820.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.2ms
+image 58/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001823.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 59/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001832.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 60/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001857.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 61/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/hou-vs-okc-0022400879_001879.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 62/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/lac-vs-dal-0022400368_001960.jpg: 416x704 1 basketball, 1 hoop, 5 players, 1 referee, 4.2ms
+image 63/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/lac-vs-lal-0022400874_002001.jpg: 416x704 9 players, 2 referees, 4.3ms
+image 64/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-atl-0022400378_002155.jpg: 416x704 1 basketball, 1 hoop, 6 players, 2 referees, 4.4ms
+image 65/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-atl-0022400378_002161.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 66/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-lal-0022401220_002216.jpg: 416x704 1 basketball, 1 hoop, 11 players, 3 referees, 4.4ms
+image 67/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-lal-0022401220_002277.jpg: 416x704 1 hoop, 7 players, 3 referees, 4.4ms
+image 68/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-nop-0022400923_002306.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 69/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mem-vs-nop-0022400923_002339.jpg: 416x704 1 basketball, 7 players, 4.4ms
+image 70/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mia-vs-det-0022401221_002425.jpg: 416x704 1 hoop, 9 players, 2 referees, 4.3ms
+image 71/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mia-vs-det-0022401221_002451.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.4ms
+image 72/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mia-vs-det-0022401221_002464.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 73/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mia-vs-det-0022401221_002468.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 74/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mia-vs-det-0022401221_002486.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 75/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-atl-0022400884_002520.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 76/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-atl-0022400884_002578.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 77/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-atl-0022400884_002586.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 78/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-atl-0022400884_002591.jpg: 416x704 1 basketball, 10 players, 2 referees, 4.3ms
+image 79/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-chi-0022400398_002601.jpg: 416x704 1 hoop, 7 players, 1 referee, 4.3ms
+image 80/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-chi-0022400398_002608.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 81/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-cle-0022400374_002703.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 82/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-cle-0022400374_002719.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 83/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-cle-0022400374_002738.jpg: 416x704 1 hoop, 10 players, 1 referee, 4.3ms
+image 84/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-dal-0022400865_002861.jpg: 416x704 1 basketball, 1 hoop, 11 players, 3 referees, 4.3ms
+image 85/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-dal-0022400865_002876.jpg: 416x704 1 basketball, 1 hoop, 7 players, 2 referees, 4.3ms
+image 86/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-dal-0022400865_002881.jpg: 416x704 1 hoop, 6 players, 2 referees, 4.3ms
+image 87/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/mil-vs-okc-0062400001_002924.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 88/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-den-0022400952_003060.jpg: 416x704 1 hoop, 10 players, 2 referees, 4.3ms
+image 89/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-den-0022400952_003083.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 90/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-phx-0022400873_003128.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 91/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-phx-0022400873_003129.jpg: 416x704 1 basketball, 1 hoop, 11 players, 2 referees, 4.3ms
+image 92/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-phx-0022400873_003164.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 93/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/min-vs-phx-0022400873_003194.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 94/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nop-vs-hou-0022400365_003357.jpg: 416x704 1 basketball, 1 hoop, 13 players, 2 referees, 4.3ms
+image 95/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nop-vs-ind-0022401216_003414.jpg: 416x704 6 players, 2 referees, 4.3ms
+image 96/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nop-vs-ind-0022401216_003440.jpg: 416x704 1 basketball, 1 hoop, 3 players, 4.3ms
+image 97/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nop-vs-ind-0022401216_003464.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 98/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-mia-0022400869_003607.jpg: 416x704 1 basketball, 1 hoop, 6 players, 2 referees, 4.3ms
+image 99/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-mia-0022400869_003620.jpg: 416x704 10 players, 1 referee, 4.3ms
+image 100/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-mia-0022400869_003634.jpg: 416x704 1 basketball, 1 hoop, 8 players, 1 referee, 4.3ms
+image 101/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-mia-0022400869_003649.jpg: 416x704 10 players, 3 referees, 4.3ms
+image 102/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-mia-0022400869_003657.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 103/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-min-0022400367_003725.jpg: 416x704 1 hoop, 10 players, 2 referees, 4.3ms
+image 104/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-min-0022400367_003756.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 105/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-min-0022400367_003771.jpg: 416x704 2 players, 4.3ms
+image 106/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-nop-0022400384_003808.jpg: 416x704 1 hoop, 10 players, 2 referees, 4.3ms
+image 107/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-nop-0022400384_003837.jpg: 416x704 1 hoop, 10 players, 4 referees, 4.3ms
+image 108/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-nop-0022400384_003879.jpg: 416x704 1 basketball, 1 hoop, 6 players, 3 referees, 4.3ms
+image 109/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-orl-0022401227_003929.jpg: 416x704 3 players, 4.3ms
+image 110/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-orl-0022401227_003966.jpg: 416x704 1 hoop, 9 players, 4.3ms
+image 111/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/nyk-vs-orl-0022401227_003970.jpg: 416x704 1 player, 4.3ms
+image 112/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-mia-0022400375_004029.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.4ms
+image 113/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-mia-0022400375_004034.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.4ms
+image 114/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-mia-0022400375_004077.jpg: 416x704 1 basketball, 1 hoop, 6 players, 2 referees, 4.3ms
+image 115/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-mia-0022400375_004078.jpg: 416x704 1 basketball, 1 hoop, 7 players, 1 referee, 4.3ms
+image 116/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-sas-0022400871_004102.jpg: 416x704 1 hoop, 9 players, 1 referee, 4.4ms
+image 117/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-sas-0022400871_004119.jpg: 416x704 1 hoop, 8 players, 3 referees, 4.3ms
+image 118/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/okc-vs-sas-0022400871_004161.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 119/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/orl-vs-mil-0022400917_004222.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 120/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/orl-vs-mil-0022400917_004264.jpg: 416x704 1 hoop, 9 players, 1 referee, 4.3ms
+image 121/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/orl-vs-mil-0022400917_004267.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.4ms
+image 122/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-cha-0022401222_004316.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.3ms
+image 123/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-cha-0022401222_004317.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.4ms
+image 124/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-cha-0022401222_004338.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 125/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-cha-0022401222_004341.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 126/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-cha-0022401222_004385.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.4ms
+image 127/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-min-0022400887_004407.jpg: 416x704 2 basketballs, 1 hoop, 10 players, 2 referees, 4.3ms
+image 128/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-min-0022400887_004410.jpg: 416x704 1 hoop, 11 players, 3 referees, 4.3ms
+image 129/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-min-0022400887_004454.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.4ms
+image 130/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-uta-0022400433_004505.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 131/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phi-vs-uta-0022400433_004574.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 132/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004605.jpg: 416x704 1 basketball, 6 players, 2 referees, 4.5ms
+image 133/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004628.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.2ms
+image 134/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004637.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 135/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004645.jpg: 416x704 1 basketball, 1 hoop, 6 players, 3 referees, 4.3ms
+image 136/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004664.jpg: 416x704 2 basketballs, 1 hoop, 10 players, 3 referees, 4.3ms
+image 137/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/phx-vs-den-0022400402_004695.jpg: 416x704 1 hoop, 7 players, 1 referee, 4.4ms
+image 138/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/por-vs-cle-0022400867_004753.jpg: 416x704 1 basketball, 1 hoop, 6 players, 1 referee, 4.3ms
+image 139/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/por-vs-cle-0022400867_004782.jpg: 416x704 1 hoop, 8 players, 3 referees, 4.4ms
+image 140/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/por-vs-cle-0022400867_004783.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 141/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/por-vs-phx-0022401219_004810.jpg: 416x704 1 hoop, 7 players, 2 referees, 4.3ms
+image 142/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/por-vs-phx-0022401219_004881.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 143/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sac-vs-hou-0022400862_004900.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 144/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sac-vs-hou-0022400862_004924.jpg: 416x704 9 players, 2 referees, 4.3ms
+image 145/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sac-vs-hou-0022400862_004975.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 146/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sac-vs-hou-0022400862_004976.jpg: 416x704 1 hoop, 7 players, 2 referees, 4.3ms
+image 147/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-mem-0022400863_005023.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 148/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-mem-0022400863_005038.jpg: 416x704 1 basketball, 8 players, 3 referees, 4.4ms
+image 149/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-mem-0022400863_005042.jpg: 416x704 1 hoop, 9 players, 2 referees, 4.3ms
+image 150/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-mem-0022400863_005063.jpg: 416x704 1 basketball, 1 hoop, 10 players, 2 referees, 4.3ms
+image 151/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-mem-0022400863_005072.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 152/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-phi-0022400394_005136.jpg: 416x704 8 players, 1 referee, 4.2ms
+image 153/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-phi-0022400394_005158.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.4ms
+image 154/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-phi-0022400394_005175.jpg: 416x704 1 hoop, 9 players, 2 referees, 4.3ms
+image 155/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-sac-0022400910_005206.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 156/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-sac-0022400910_005237.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 157/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-sac-0022400910_005280.jpg: 416x704 1 basketball, 1 hoop, 8 players, 2 referees, 4.3ms
+image 158/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/sas-vs-sac-0022400910_005298.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.4ms
+image 159/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/tor-vs-orl-0022400870_005402.jpg: 416x704 1 basketball, 1 hoop, 9 players, 1 referee, 4.3ms
+image 160/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/tor-vs-orl-0022400870_005459.jpg: 416x704 1 basketball, 10 players, 1 referee, 4.3ms
+image 161/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/tor-vs-orl-0022400870_005493.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.4ms
+image 162/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-lac-0022401226_005500.jpg: 416x704 1 basketball, 1 hoop, 8 players, 3 referees, 4.3ms
+image 163/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-lac-0022401226_005505.jpg: 416x704 2 basketballs, 1 hoop, 9 players, 3 referees, 4.3ms
+image 164/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-lac-0022401226_005520.jpg: 416x704 1 player, 4.2ms
+image 165/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-tor-0022400905_005608.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 166/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-tor-0022400905_005643.jpg: 416x704 1 basketball, 1 hoop, 9 players, 3 referees, 4.3ms
+image 167/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-tor-0022400905_005675.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 168/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-tor-0022400905_005688.jpg: 416x704 1 player, 4.4ms
+image 169/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/uta-vs-was-0022400894_005777.jpg: 416x704 1 basketball, 1 hoop, 10 players, 1 referee, 4.4ms
+image 170/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-cha-0022400860_005814.jpg: 416x704 1 hoop, 8 players, 3 referees, 4.3ms
+image 171/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-cha-0022400860_005847.jpg: 416x704 1 hoop, 10 players, 3 referees, 4.3ms
+image 172/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-cha-0022400860_005888.jpg: 416x704 1 hoop, 9 players, 3 referees, 4.3ms
+image 173/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005912.jpg: 416x704 1 basketball, 10 players, 2 referees, 4.3ms
+image 174/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005934.jpg: 416x704 1 basketball, 1 hoop, 4 players, 1 referee, 4.3ms
+image 175/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005948.jpg: 416x704 1 basketball, 1 hoop, 5 players, 1 referee, 4.3ms
+image 176/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005953.jpg: 416x704 1 basketball, 1 hoop, 9 players, 2 referees, 4.3ms
+image 177/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005968.jpg: 416x704 1 hoop, 9 players, 1 referee, 4.4ms
+image 178/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005972.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+image 179/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005977.jpg: 416x704 1 hoop, 8 players, 3 referees, 4.3ms
+image 180/180 /leonardo_work/uBS25_EcoGiu/pipeline_cv/yolobb/src/BOR/data/BOR/test/images/was-vs-mil-0022400382_005981.jpg: 416x704 1 basketball, 1 hoop, 10 players, 3 referees, 4.3ms
+Speed: 2.0ms preprocess, 7.7ms inference, 1.5ms postprocess per image at shape (1, 3, 416, 704)
+
+Creating YOLO ground truth lookup dictionary...
+Loading YOLO GT annotations:   0%|          | 0/180 [00:00<?, ?it/s]Loading YOLO GT annotations:  13%|█▎        | 23/180 [00:00<00:00, 229.94it/s]Loading YOLO GT annotations:  26%|██▌       | 47/180 [00:00<00:00, 232.62it/s]Loading YOLO GT annotations:  39%|███▉      | 71/180 [00:00<00:00, 232.79it/s]Loading YOLO GT annotations:  53%|█████▎    | 95/180 [00:00<00:00, 233.24it/s]Loading YOLO GT annotations:  66%|██████▌   | 119/180 [00:00<00:00, 233.65it/s]Loading YOLO GT annotations:  79%|███████▉  | 143/180 [00:00<00:00, 235.54it/s]Loading YOLO GT annotations:  93%|█████████▎| 167/180 [00:00<00:00, 235.60it/s]Loading YOLO GT annotations: 100%|██████████| 180/180 [00:00<00:00, 234.67it/s]
+RuntimeWarning: invalid value encountered in divide
+YOLO ground truth lookup created with 180 entries.
+
+Running YOLOv8 Per-Class Evaluation Loop...
+
+--- Evaluating YOLOv8 for Class: basketball (ID: 0) ---
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.8113
+P @ 75:     0.4434
+P @ thresh: [    0.81132     0.81132     0.75472     0.68868     0.61321      0.4434     0.30189     0.15094    0.009434           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  0: [    0.81132     0.81132     0.75472     0.68868     0.61321      0.4434     0.30189     0.15094    0.009434           0]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8333
+  P @ 75:     0.5139
+  P @ thresh: [    0.83333     0.83333     0.80556        0.75     0.68056     0.51389     0.36111     0.18056    0.013889           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    0: [    0.83333     0.83333     0.80556        0.75     0.68056     0.51389     0.36111     0.18056    0.013889           0]
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8571
+  P @ 75:     0.2857
+  P @ thresh: [    0.85714     0.85714     0.78571     0.71429     0.64286     0.28571     0.21429     0.14286           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    0: [    0.85714     0.85714     0.78571     0.71429     0.64286     0.28571     0.21429     0.14286           0           0]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.5658
+R @ 75:     0.3092
+R @ thresh: [    0.56579     0.56579     0.52632     0.48026     0.42763     0.30921     0.21053     0.10526   0.0065789           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  0: [    0.56579     0.56579     0.52632     0.48026     0.42763     0.30921     0.21053     0.10526   0.0065789           0]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.5556
+  R @ 75:     0.3426
+  R @ thresh: [    0.55556     0.55556     0.53704         0.5      0.4537     0.34259     0.24074     0.12037   0.0092593           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    0: [    0.55556     0.55556     0.53704         0.5      0.4537     0.34259     0.24074     0.12037   0.0092593           0]
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.2727
+  R @ 75:     0.0909
+  R @ thresh: [    0.27273     0.27273        0.25     0.22727     0.20455    0.090909    0.068182    0.045455           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    0: [    0.27273     0.27273        0.25     0.22727     0.20455    0.090909    0.068182    0.045455           0           0]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.6667
+F1 @ 75:     0.3643
+F1 @ thresh: [    0.66667     0.66667     0.62016     0.56589     0.50388     0.36434     0.24806     0.12403   0.0077519           0]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  0: [    0.66667     0.66667     0.62016     0.56589     0.50388     0.36434     0.24806     0.12403   0.0077519           0]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.6667
+  F1 @ 75:     0.4111
+  F1 @ thresh: [    0.66667     0.66667     0.64444         0.6     0.54444     0.41111     0.28889     0.14444    0.011111           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    0: [    0.66667     0.66667     0.64444         0.6     0.54444     0.41111     0.28889     0.14444    0.011111           0]
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.4138
+  F1 @ 75:     0.1379
+  F1 @ thresh: [    0.41379     0.41379     0.37931     0.34483     0.31034     0.13793     0.10345    0.068966           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    0: [    0.41379     0.41379     0.37931     0.34483     0.31034     0.13793     0.10345    0.068966           0           0]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.256
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.523
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.177
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.305
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.150
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = -1.000
+
+--- Evaluating YOLOv8 for Class: hoop (ID: 1) ---
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9933
+P @ 75:     0.8267
+P @ thresh: [    0.99333     0.97333     0.96667     0.93333         0.9     0.82667        0.76     0.56667        0.24    0.033333]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  1: [    0.99333     0.97333     0.96667     0.93333         0.9     0.82667        0.76     0.56667        0.24    0.033333]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     1.0000
+  P @ 75:     0.8425
+  P @ thresh: [          1     0.97945      0.9726     0.94521     0.91096     0.84247     0.77397     0.57534     0.24658    0.034247]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [          1     0.97945      0.9726     0.94521     0.91096     0.84247     0.77397     0.57534     0.24658    0.034247]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.5000
+  P @ 75:     0.5000
+  P @ thresh: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.9371
+R @ 75:     0.7799
+R @ thresh: [    0.93711     0.91824     0.91195      0.8805     0.84906     0.77987     0.71698     0.53459     0.22642    0.031447]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  1: [    0.93711     0.91824     0.91195      0.8805     0.84906     0.77987     0.71698     0.53459     0.22642    0.031447]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.9359
+  R @ 75:     0.7885
+  R @ thresh: [     0.9359     0.91667     0.91026     0.88462     0.85256     0.78846     0.72436     0.53846     0.23077    0.032051]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [     0.9359     0.91667     0.91026     0.88462     0.85256     0.78846     0.72436     0.53846     0.23077    0.032051]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.5000
+  R @ 75:     0.5000
+  R @ thresh: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.9644
+F1 @ 75:     0.8026
+F1 @ thresh: [     0.9644     0.94498     0.93851     0.90615     0.87379     0.80259     0.73786     0.55016     0.23301    0.032362]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  1: [     0.9644     0.94498     0.93851     0.90615     0.87379     0.80259     0.73786     0.55016     0.23301    0.032362]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.9669
+  F1 @ 75:     0.8146
+  F1 @ thresh: [    0.96689     0.94702      0.9404     0.91391     0.88079     0.81457     0.74834     0.55629     0.23841    0.033113]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [    0.96689     0.94702      0.9404     0.91391     0.88079     0.81457     0.74834     0.55629     0.23841    0.033113]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.5000
+  F1 @ 75:     0.5000
+  F1 @ thresh: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [        0.5         0.5         0.5         0.5         0.5         0.5         0.5         0.5           0           0]
+  
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.607
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.931
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.679
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.300
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.612
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.404
+
+--- Evaluating YOLOv8 for Class: player (ID: 2) ---
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9517
+P @ 75:     0.8742
+P @ thresh: [    0.95166     0.94768     0.93709     0.91987         0.9     0.87417     0.83642     0.77483     0.64371     0.32583]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  2: [    0.95166     0.94768     0.93709     0.91987         0.9     0.87417     0.83642     0.77483     0.64371     0.32583]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8217
+  P @ 75:     0.7674
+  P @ thresh: [    0.82171     0.82171     0.81137     0.80362     0.79845     0.76744     0.73127     0.65116     0.45995     0.15504]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    2: [    0.82171     0.82171     0.81137     0.80362     0.79845     0.76744     0.73127     0.65116     0.45995     0.15504]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9322
+  P @ 75:     0.8762
+  P @ thresh: [    0.93225     0.93044     0.92502     0.90786     0.88979     0.87624     0.84553     0.79765     0.69377     0.38392]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    2: [    0.93225     0.93044     0.92502     0.90786     0.88979     0.87624     0.84553     0.79765     0.69377     0.38392]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.9485
+R @ 75:     0.8713
+R @ thresh: [    0.94851     0.94455     0.93399     0.91683     0.89703     0.87129     0.83366     0.77228     0.64158     0.32475]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  2: [    0.94851     0.94455     0.93399     0.91683     0.89703     0.87129     0.83366     0.77228     0.64158     0.32475]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.8303
+  R @ 75:     0.7755
+  R @ thresh: [    0.83029     0.83029     0.81984     0.81201     0.80679     0.77546      0.7389     0.65796     0.46475     0.15666]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    2: [    0.83029     0.83029     0.81984     0.81201     0.80679     0.77546      0.7389     0.65796     0.46475     0.15666]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.9117
+  R @ 75:     0.8569
+  R @ thresh: [    0.91166     0.90989     0.90459     0.88781     0.87014     0.85689     0.82686     0.78004     0.67845     0.37544]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    2: [    0.91166     0.90989     0.90459     0.88781     0.87014     0.85689     0.82686     0.78004     0.67845     0.37544]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.9501
+F1 @ 75:     0.8727
+F1 @ thresh: [    0.95008     0.94612     0.93554     0.91835     0.89851     0.87273     0.83504     0.77355     0.64264     0.32529]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  2: [    0.95008     0.94612     0.93554     0.91835     0.89851     0.87273     0.83504     0.77355     0.64264     0.32529]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8260
+  F1 @ 75:     0.7714
+  F1 @ thresh: [    0.82597     0.82597     0.81558     0.80779      0.8026     0.77143     0.73506     0.65455     0.46234     0.15584]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    2: [    0.82597     0.82597     0.81558     0.80779      0.8026     0.77143     0.73506     0.65455     0.46234     0.15584]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.9218
+  F1 @ 75:     0.8665
+  F1 @ thresh: [    0.92184     0.92005     0.91469     0.89772     0.87986     0.86646     0.83609     0.78874     0.68602     0.37963]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    2: [    0.92184     0.92005     0.91469     0.89772     0.87986     0.86646     0.83609     0.78874     0.68602     0.37963]
+  
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.780
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.938
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.860
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.724
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.796
+
+--- Evaluating YOLOv8 for Class: referee (ID: 3) ---
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9273
+P @ 75:     0.8208
+P @ thresh: [    0.92727     0.91688      0.9039     0.88312     0.86753     0.82078     0.78442     0.71429     0.57662     0.22078]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  3: [    0.92727     0.91688      0.9039     0.88312     0.86753     0.82078     0.78442     0.71429     0.57662     0.22078]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8717
+  P @ 75:     0.7914
+  P @ thresh: [    0.87166     0.87166     0.86096     0.84492     0.83422     0.79144      0.7754     0.68449     0.51872     0.12834]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    3: [    0.87166     0.87166     0.86096     0.84492     0.83422     0.79144      0.7754     0.68449     0.51872     0.12834]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9477
+  P @ 75:     0.8488
+  P @ thresh: [    0.94767     0.94186     0.93605     0.92442     0.90116     0.84884     0.81395     0.77326     0.68605     0.35465]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    3: [    0.94767     0.94186     0.93605     0.92442     0.90116     0.84884     0.81395     0.77326     0.68605     0.35465]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.9297
+R @ 75:     0.8229
+R @ thresh: [    0.92969     0.91927     0.90625     0.88542     0.86979     0.82292     0.78646     0.71615     0.57812     0.22135]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  3: [    0.92969     0.91927     0.90625     0.88542     0.86979     0.82292     0.78646     0.71615     0.57812     0.22135]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.8859
+  R @ 75:     0.8043
+  R @ thresh: [    0.88587     0.88587       0.875      0.8587     0.84783     0.80435     0.78804     0.69565     0.52717     0.13043]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    3: [    0.88587     0.88587       0.875      0.8587     0.84783     0.80435     0.78804     0.69565     0.52717     0.13043]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.8150
+  R @ 75:     0.7300
+  R @ thresh: [      0.815        0.81       0.805       0.795       0.775        0.73         0.7       0.665        0.59       0.305]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    3: [      0.815        0.81       0.805       0.795       0.775        0.73         0.7       0.665        0.59       0.305]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.9285
+F1 @ 75:     0.8218
+F1 @ thresh: [    0.92848     0.91808     0.90507     0.88427     0.86866     0.82185     0.78544     0.71521     0.57737     0.22107]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  3: [    0.92848     0.91808     0.90507     0.88427     0.86866     0.82185     0.78544     0.71521     0.57737     0.22107]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8787
+  F1 @ 75:     0.7978
+  F1 @ thresh: [    0.87871     0.87871     0.86792     0.85175     0.84097     0.79784     0.78167     0.69003     0.52291     0.12938]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    3: [    0.87871     0.87871     0.86792     0.85175     0.84097     0.79784     0.78167     0.69003     0.52291     0.12938]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8763
+  F1 @ 75:     0.7849
+  F1 @ thresh: [    0.87634     0.87097     0.86559     0.85484     0.83333     0.78495     0.75269     0.71505     0.63441     0.32796]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    3: [    0.87634     0.87097     0.86559     0.85484     0.83333     0.78495     0.75269     0.71505     0.63441     0.32796]
+  
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.710
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.916
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.774
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.693
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.728
+
+Running RF-DETR inference and evaluation...
+Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+Loading pretrain weights
+
+Creating COCO ground truth lookup dictionary...
+COCO ground truth lookup created with 180 entries.
+Evaluating RF-DETR:   0%|          | 0/180 [00:00<?, ?it/s]Model is not optimized for inference. Latency may be higher than expected. You can optimize the model for inference by calling model.optimize_for_inference().
+UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4317.)
+Evaluating RF-DETR:   1%|          | 1/180 [00:07<22:04,  7.40s/it]Evaluating RF-DETR:   2%|▏         | 4/180 [00:07<04:12,  1.43s/it]Evaluating RF-DETR:   4%|▍         | 7/180 [00:07<01:58,  1.46it/s]Evaluating RF-DETR:   6%|▌         | 10/180 [00:07<01:09,  2.46it/s]Evaluating RF-DETR:   7%|▋         | 13/180 [00:07<00:44,  3.78it/s]Evaluating RF-DETR:   9%|▉         | 16/180 [00:08<00:30,  5.39it/s]Evaluating RF-DETR:  11%|█         | 19/180 [00:08<00:22,  7.30it/s]Evaluating RF-DETR:  12%|█▏        | 22/180 [00:08<00:16,  9.49it/s]Evaluating RF-DETR:  14%|█▍        | 25/180 [00:08<00:13, 11.74it/s]Evaluating RF-DETR:  16%|█▌        | 28/180 [00:08<00:10, 13.99it/s]Evaluating RF-DETR:  17%|█▋        | 31/180 [00:08<00:09, 16.09it/s]Evaluating RF-DETR:  19%|█▉        | 34/180 [00:08<00:08, 18.03it/s]Evaluating RF-DETR:  21%|██        | 37/180 [00:08<00:07, 19.79it/s]Evaluating RF-DETR:  22%|██▏       | 40/180 [00:08<00:06, 20.98it/s]Evaluating RF-DETR:  24%|██▍       | 43/180 [00:09<00:06, 22.03it/s]Evaluating RF-DETR:  26%|██▌       | 46/180 [00:09<00:05, 22.76it/s]Evaluating RF-DETR:  27%|██▋       | 49/180 [00:09<00:05, 23.32it/s]Evaluating RF-DETR:  29%|██▉       | 52/180 [00:09<00:05, 23.68it/s]Evaluating RF-DETR:  31%|███       | 55/180 [00:09<00:05, 23.94it/s]Evaluating RF-DETR:  32%|███▏      | 58/180 [00:09<00:05, 24.18it/s]Evaluating RF-DETR:  34%|███▍      | 61/180 [00:09<00:04, 24.32it/s]Evaluating RF-DETR:  36%|███▌      | 64/180 [00:09<00:04, 24.57it/s]Evaluating RF-DETR:  37%|███▋      | 67/180 [00:10<00:04, 24.64it/s]Evaluating RF-DETR:  39%|███▉      | 70/180 [00:10<00:04, 24.76it/s]Evaluating RF-DETR:  41%|████      | 73/180 [00:10<00:04, 24.76it/s]Evaluating RF-DETR:  42%|████▏     | 76/180 [00:10<00:04, 24.58it/s]Evaluating RF-DETR:  44%|████▍     | 79/180 [00:10<00:04, 24.65it/s]Evaluating RF-DETR:  46%|████▌     | 82/180 [00:10<00:03, 24.51it/s]Evaluating RF-DETR:  47%|████▋     | 85/180 [00:10<00:03, 24.64it/s]Evaluating RF-DETR:  49%|████▉     | 88/180 [00:10<00:03, 24.81it/s]Evaluating RF-DETR:  51%|█████     | 91/180 [00:11<00:03, 24.77it/s]Evaluating RF-DETR:  52%|█████▏    | 94/180 [00:11<00:03, 24.73it/s]Evaluating RF-DETR:  54%|█████▍    | 97/180 [00:11<00:03, 24.68it/s]Evaluating RF-DETR:  56%|█████▌    | 100/180 [00:11<00:03, 24.58it/s]Evaluating RF-DETR:  57%|█████▋    | 103/180 [00:11<00:03, 24.56it/s]Evaluating RF-DETR:  59%|█████▉    | 106/180 [00:11<00:03, 24.58it/s]Evaluating RF-DETR:  61%|██████    | 109/180 [00:11<00:02, 24.58it/s]Evaluating RF-DETR:  62%|██████▏   | 112/180 [00:11<00:02, 24.62it/s]Evaluating RF-DETR:  64%|██████▍   | 115/180 [00:12<00:02, 24.62it/s]Evaluating RF-DETR:  66%|██████▌   | 118/180 [00:12<00:02, 24.63it/s]Evaluating RF-DETR:  67%|██████▋   | 121/180 [00:12<00:02, 24.74it/s]Evaluating RF-DETR:  69%|██████▉   | 124/180 [00:12<00:02, 24.59it/s]Evaluating RF-DETR:  71%|███████   | 127/180 [00:12<00:02, 24.65it/s]Evaluating RF-DETR:  72%|███████▏  | 130/180 [00:12<00:02, 24.64it/s]Evaluating RF-DETR:  74%|███████▍  | 133/180 [00:12<00:01, 24.72it/s]Evaluating RF-DETR:  76%|███████▌  | 136/180 [00:12<00:01, 24.68it/s]Evaluating RF-DETR:  77%|███████▋  | 139/180 [00:12<00:01, 24.55it/s]Evaluating RF-DETR:  79%|███████▉  | 142/180 [00:13<00:01, 24.68it/s]Evaluating RF-DETR:  81%|████████  | 145/180 [00:13<00:01, 24.67it/s]Evaluating RF-DETR:  82%|████████▏ | 148/180 [00:13<00:01, 24.68it/s]Evaluating RF-DETR:  84%|████████▍ | 151/180 [00:13<00:01, 24.71it/s]Evaluating RF-DETR:  86%|████████▌ | 154/180 [00:13<00:01, 24.88it/s]Evaluating RF-DETR:  87%|████████▋ | 157/180 [00:13<00:00, 24.87it/s]Evaluating RF-DETR:  89%|████████▉ | 160/180 [00:13<00:00, 24.90it/s]Evaluating RF-DETR:  91%|█████████ | 163/180 [00:13<00:00, 24.81it/s]Evaluating RF-DETR:  92%|█████████▏| 166/180 [00:14<00:00, 24.79it/s]Evaluating RF-DETR:  94%|█████████▍| 169/180 [00:14<00:00, 24.73it/s]Evaluating RF-DETR:  96%|█████████▌| 172/180 [00:14<00:00, 24.76it/s]Evaluating RF-DETR:  97%|█████████▋| 175/180 [00:14<00:00, 24.86it/s]Evaluating RF-DETR:  99%|█████████▉| 178/180 [00:14<00:00, 24.82it/s]Evaluating RF-DETR: 100%|██████████| 180/180 [00:14<00:00, 12.30it/s]
+
+Running RF-DETR Per-Class Evaluation Loop...
+
+--- Evaluating RF-DETR for Class: basketball (ID: 0) ---
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.127
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.302
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.069
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.136
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.125
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = -1.000
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.8448
+P @ 75:     0.2931
+P @ thresh: [    0.84483     0.82759      0.7069     0.60345     0.46552      0.2931     0.17241    0.086207    0.034483           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  0: [    0.84483     0.82759      0.7069     0.60345     0.46552      0.2931     0.17241    0.086207    0.034483           0]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8571
+  P @ 75:     0.3214
+  P @ thresh: [    0.85714     0.85714     0.71429     0.64286     0.46429     0.32143     0.21429    0.071429    0.035714           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    0: [    0.85714     0.85714     0.71429     0.64286     0.46429     0.32143     0.21429    0.071429    0.035714           0]
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8125
+  P @ 75:     0.3125
+  P @ thresh: [     0.8125      0.8125      0.6875       0.625         0.5      0.3125        0.25      0.1875      0.0625           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    0: [     0.8125      0.8125      0.6875       0.625         0.5      0.3125        0.25      0.1875      0.0625           0]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.3224
+R @ 75:     0.1118
+R @ thresh: [    0.32237     0.31579     0.26974     0.23026     0.17763     0.11184    0.065789    0.032895    0.013158           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  0: [    0.32237     0.31579     0.26974     0.23026     0.17763     0.11184    0.065789    0.032895    0.013158           0]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.2222
+  R @ 75:     0.0833
+  R @ thresh: [    0.22222     0.22222     0.18519     0.16667     0.12037    0.083333    0.055556    0.018519   0.0092593           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    0: [    0.22222     0.22222     0.18519     0.16667     0.12037    0.083333    0.055556    0.018519   0.0092593           0]
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.2955
+  R @ 75:     0.1136
+  R @ thresh: [    0.29545     0.29545        0.25     0.22727     0.18182     0.11364    0.090909    0.068182    0.022727           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    0: [    0.29545     0.29545        0.25     0.22727     0.18182     0.11364    0.090909    0.068182    0.022727           0]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.4667
+F1 @ 75:     0.1619
+F1 @ thresh: [    0.46667     0.45714     0.39048     0.33333     0.25714      0.1619    0.095238    0.047619    0.019048           0]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  0: [    0.46667     0.45714     0.39048     0.33333     0.25714      0.1619    0.095238    0.047619    0.019048           0]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.3529
+  F1 @ 75:     0.1324
+  F1 @ thresh: [    0.35294     0.35294     0.29412     0.26471     0.19118     0.13235    0.088235    0.029412    0.014706           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    0: [    0.35294     0.35294     0.29412     0.26471     0.19118     0.13235    0.088235    0.029412    0.014706           0]
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.4333
+  F1 @ 75:     0.1667
+  F1 @ thresh: [    0.43333     0.43333     0.36667     0.33333     0.26667     0.16667     0.13333         0.1    0.033333           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    0: [    0.43333     0.43333     0.36667     0.33333     0.26667     0.16667     0.13333         0.1    0.033333           0]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+
+--- Evaluating RF-DETR for Class: hoop (ID: 1) ---
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.375
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.732
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.279
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.377
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.563
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9440
+P @ 75:     0.5200
+P @ thresh: [      0.944       0.944       0.888       0.856        0.72        0.52       0.368       0.144       0.056           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  1: [      0.944       0.944       0.888       0.856        0.72        0.52       0.368       0.144       0.056           0]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9421
+  P @ 75:     0.5124
+  P @ thresh: [    0.94215     0.94215      0.8843     0.85124     0.71901      0.5124     0.36364      0.1405    0.057851           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [    0.94215     0.94215      0.8843     0.85124     0.71901      0.5124     0.36364      0.1405    0.057851           0]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     1.0000
+  P @ 75:     1.0000
+  P @ thresh: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    1: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.7421
+R @ 75:     0.4088
+R @ thresh: [    0.74214     0.74214     0.69811     0.67296     0.56604     0.40881     0.28931     0.11321    0.044025           0]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  1: [    0.74214     0.74214     0.69811     0.67296     0.56604     0.40881     0.28931     0.11321    0.044025           0]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.7308
+  R @ 75:     0.3974
+  R @ thresh: [    0.73077     0.73077      0.6859     0.66026     0.55769     0.39744     0.28205     0.10897    0.044872           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [    0.73077     0.73077      0.6859     0.66026     0.55769     0.39744     0.28205     0.10897    0.044872           0]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     1.0000
+  R @ 75:     1.0000
+  R @ thresh: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    1: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.8310
+F1 @ 75:     0.4577
+F1 @ thresh: [    0.83099     0.83099     0.78169     0.75352      0.6338     0.45775     0.32394     0.12676    0.049296           0]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  1: [    0.83099     0.83099     0.78169     0.75352      0.6338     0.45775     0.32394     0.12676    0.049296           0]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [          0           0           0           0           0           0           0           0           0           0]
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8231
+  F1 @ 75:     0.4477
+  F1 @ thresh: [     0.8231      0.8231     0.77256     0.74368     0.62816     0.44765     0.31769     0.12274    0.050542           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [     0.8231      0.8231     0.77256     0.74368     0.62816     0.44765     0.31769     0.12274    0.050542           0]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     1.0000
+  F1 @ 75:     1.0000
+  F1 @ thresh: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    1: [          1           1           1           1           1           1         0.5         0.5           0           0]
+  
+
+--- Evaluating RF-DETR for Class: player (ID: 2) ---
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.657
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.908
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.760
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.557
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.689
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9616
+P @ 75:     0.8260
+P @ thresh: [    0.96157     0.95038     0.92942     0.89658     0.86932       0.826     0.74214     0.60377     0.40112      0.1202]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  2: [    0.96157     0.95038     0.92942     0.89658     0.86932       0.826     0.74214     0.60377     0.40112      0.1202]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.8123
+  P @ 75:     0.6745
+  P @ thresh: [    0.81232     0.80059     0.79179     0.77126     0.73314     0.67449     0.58065     0.41935     0.24927    0.041056]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    2: [    0.81232     0.80059     0.79179     0.77126     0.73314     0.67449     0.58065     0.41935     0.24927    0.041056]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9130
+  P @ 75:     0.8269
+  P @ thresh: [    0.91296     0.90648     0.89074     0.87037     0.85648     0.82685     0.76296     0.64352      0.4463     0.14537]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    2: [    0.91296     0.90648     0.89074     0.87037     0.85648     0.82685     0.76296     0.64352      0.4463     0.14537]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.9083
+R @ 75:     0.7802
+R @ thresh: [    0.90825     0.89769     0.87789     0.84686     0.82112      0.7802     0.70099      0.5703     0.37888     0.11353]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  2: [    0.90825     0.89769     0.87789     0.84686     0.82112      0.7802     0.70099      0.5703     0.37888     0.11353]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.7232
+  R @ 75:     0.6005
+  R @ thresh: [    0.72324     0.71279     0.70496     0.68668     0.65274     0.60052     0.51697     0.37337     0.22193    0.036554]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    2: [    0.72324     0.71279     0.70496     0.68668     0.65274     0.60052     0.51697     0.37337     0.22193    0.036554]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.8710
+  R @ 75:     0.7889
+  R @ thresh: [    0.87102     0.86484     0.84982     0.83039     0.81714     0.78887     0.72792     0.61396      0.4258     0.13869]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    2: [    0.87102     0.86484     0.84982     0.83039     0.81714     0.78887     0.72792     0.61396      0.4258     0.13869]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.9341
+F1 @ 75:     0.8024
+F1 @ thresh: [    0.93415     0.92329     0.90292     0.87101     0.84453     0.80244     0.72098     0.58656     0.38968     0.11677]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  2: [    0.93415     0.92329     0.90292     0.87101     0.84453     0.80244     0.72098     0.58656     0.38968     0.11677]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.7652
+  F1 @ 75:     0.6354
+  F1 @ thresh: [    0.76519     0.75414     0.74586     0.72652     0.69061     0.63536     0.54696     0.39503     0.23481    0.038674]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    2: [    0.76519     0.75414     0.74586     0.72652     0.69061     0.63536     0.54696     0.39503     0.23481    0.038674]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8915
+  F1 @ 75:     0.8074
+  F1 @ thresh: [     0.8915     0.88517      0.8698     0.84991     0.83635     0.80741     0.74503     0.62839      0.4358     0.14195]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    2: [     0.8915     0.88517      0.8698     0.84991     0.83635     0.80741     0.74503     0.62839      0.4358     0.14195]
+  
+
+--- Evaluating RF-DETR for Class: referee (ID: 3) ---
+Average Precision (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.555
+Average Precision (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.781
+Average Precision (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.634
+Average Precision (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ]                 = 0.504
+Average Precision (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ]                 = 0.604
+Precision
+PrecisionResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+P @ 50:     0.9531
+P @ 75:     0.8313
+P @ thresh: [    0.95312      0.9375     0.92188     0.89687     0.86875     0.83125     0.75625     0.65312     0.37188     0.10625]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Precision per class:
+  3: [    0.95312      0.9375     0.92188     0.89687     0.86875     0.83125     0.75625     0.65312     0.37188     0.10625]
+
+Small objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.0000
+  P @ 75:     0.0000
+  P @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    No results
+  
+Medium objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9000
+  P @ 75:     0.8143
+  P @ thresh: [        0.9     0.89286     0.89286     0.87143        0.85     0.81429     0.68571     0.55714     0.24286    0.028571]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    3: [        0.9     0.89286     0.89286     0.87143        0.85     0.81429     0.68571     0.55714     0.24286    0.028571]
+  
+Large objects:
+  PrecisionResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  P @ 50:     0.9162
+  P @ 75:     0.8144
+  P @ thresh: [    0.91617      0.8982     0.87425     0.85629     0.83832     0.81437     0.79641     0.73054     0.47305     0.16766]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Precision per class:
+    3: [    0.91617      0.8982     0.87425     0.85629     0.83832     0.81437     0.79641     0.73054     0.47305     0.16766]
+  
+Recall
+RecallResult:
+Metric target:    MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+R @ 50:     0.7943
+R @ 75:     0.6927
+R @ thresh: [    0.79427     0.78125     0.76823      0.7474     0.72396     0.69271     0.63021     0.54427      0.3099    0.088542]
+IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+Recall per class:
+  3: [    0.79427     0.78125     0.76823      0.7474     0.72396     0.69271     0.63021     0.54427      0.3099    0.088542]
+
+Small objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.0000
+  R @ 75:     0.0000
+  R @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    No results
+  
+Medium objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.6848
+  R @ 75:     0.6196
+  R @ thresh: [    0.68478     0.67935     0.67935     0.66304     0.64674     0.61957     0.52174     0.42391     0.18478    0.021739]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    3: [    0.68478     0.67935     0.67935     0.66304     0.64674     0.61957     0.52174     0.42391     0.18478    0.021739]
+  
+Large objects:
+  RecallResult:
+  Metric target:    MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  R @ 50:     0.7650
+  R @ 75:     0.6800
+  R @ thresh: [      0.765        0.75        0.73       0.715         0.7        0.68       0.665        0.61       0.395        0.14]
+  IoU thresh: [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  Recall per class:
+    3: [      0.765        0.75        0.73       0.715         0.7        0.68       0.665        0.61       0.395        0.14]
+  
+F1
+F1ScoreResult:
+Metric target: MetricTarget.BOXES
+Averaging method: AveragingMethod.WEIGHTED
+F1 @ 50:     0.8665
+F1 @ 75:     0.7557
+F1 @ thresh: [    0.86648     0.85227     0.83807     0.81534     0.78977     0.75568      0.6875     0.59375     0.33807    0.096591]
+IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+F1 per class:
+  3: [    0.86648     0.85227     0.83807     0.81534     0.78977     0.75568      0.6875     0.59375     0.33807    0.096591]
+
+Small objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.0000
+  F1 @ 75:     0.0000
+  F1 @ thresh: [          0           0           0           0           0           0           0           0           0           0]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    No results
+  
+Medium objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.7778
+  F1 @ 75:     0.7037
+  F1 @ thresh: [    0.77778      0.7716      0.7716     0.75309     0.73457      0.7037     0.59259     0.48148     0.20988    0.024691]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    3: [    0.77778      0.7716      0.7716     0.75309     0.73457      0.7037     0.59259     0.48148     0.20988    0.024691]
+  
+Large objects:
+  F1ScoreResult:
+  Metric target: MetricTarget.BOXES
+  Averaging method: AveragingMethod.WEIGHTED
+  F1 @ 50:     0.8338
+  F1 @ 75:     0.7411
+  F1 @ thresh: [    0.83379     0.81744     0.79564     0.77929     0.76294     0.74114      0.7248     0.66485     0.43052     0.15259]
+  IoU thresh:  [        0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95]
+  F1 per class:
+    3: [    0.83379     0.81744     0.79564     0.77929     0.76294     0.74114      0.7248     0.66485     0.43052     0.15259]
+  
