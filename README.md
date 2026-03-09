@@ -8,7 +8,7 @@ First, we introduce a new set of interrelated datasets that augment the original
 
 ## 🎆 E-BARD at a glance 🎇
 
-![Screenshot 1](figures/EBARD.png)
+![Screenshot 1](figure/EBARD.png)
 
 ## 💾 Data Download
 
