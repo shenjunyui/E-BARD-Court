@@ -28,11 +28,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main() -> None:
-    args = parse_args()
-    with args.predictions.open("r", encoding="utf-8") as handle:
+def visualize_results(predictions: Path, output_dir: Path, line_width: int = 4) -> int:
+    """Draw a prediction JSON file and return the number of images written."""
+    with predictions.open("r", encoding="utf-8") as handle:
         results = json.load(handle)
-    args.output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
     font = ImageFont.load_default(size=16)
 
     written = 0
@@ -47,15 +47,20 @@ def main() -> None:
         for line in prediction.get("court_lines", []):
             points = [tuple(point) for point in line["points"]]
             color = COLORS.get(line["label"], "white")
-            draw.line(points, fill=color, width=args.line_width, joint="curve")
+            draw.line(points, fill=color, width=line_width, joint="curve")
             x, y = points[0]
             draw.text((x + 4, y + 4), line["label"], fill=color, font=font, stroke_width=2, stroke_fill="black")
         source_name = Path(image_value).stem
-        image.save(args.output_dir / f"{index:05d}_{source_name}.jpg", quality=95)
+        image.save(output_dir / f"{index:05d}_{source_name}.jpg", quality=95)
         written += 1
+    return written
+
+
+def main() -> None:
+    args = parse_args()
+    written = visualize_results(args.predictions, args.output_dir, args.line_width)
     print(f"Wrote {written} visualizations to {args.output_dir}")
 
 
 if __name__ == "__main__":
     main()
-

@@ -121,3 +121,26 @@ python -m court_grounding.src.infer \
 `git pull --ff-only` deliberately refuses to overwrite divergent server-side
 changes. Keep models and datasets outside Git; copy them separately or mount
 shared storage. Remove `--limit 5` after the smoke test succeeds.
+
+## 6. DeepSeek Flash API baseline
+
+This adapter first asks which markings are unambiguously visible, then makes one
+localization request per visible label. It automatically saves both JSON and a
+visualized image.
+
+```bash
+pip install -r court_grounding/requirements.txt
+export DEEPSEEK_API_KEY="replace-with-your-key"
+
+python -m court_grounding.src.infer_deepseek \
+  --data court_grounding/data/test_court_grounding.json \
+  --output court_grounding/outputs/predictions_deepseek.json \
+  --visualize-dir court_grounding/outputs/visualized_deepseek \
+  --limit 1
+```
+
+The visualization is written to
+`court_grounding/outputs/visualized_deepseek/00000_example.jpg`. Do not put the
+API key in source code, dataset JSON, shell scripts, or Git. Each test image is
+sent to DeepSeek. Raw presence and per-label localization responses are retained
+in the output JSON for auditing.

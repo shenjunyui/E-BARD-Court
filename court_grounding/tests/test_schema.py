@@ -6,6 +6,7 @@ from court_grounding.src.schema import (
     parse_prediction_lenient,
     validate_prediction,
 )
+from court_grounding.src.infer_deepseek import parse_visible_labels
 
 
 class SchemaTests(unittest.TestCase):
@@ -49,6 +50,17 @@ class SchemaTests(unittest.TestCase):
         self.assertEqual(len(prediction["court_lines"]), 1)
         self.assertEqual(prediction["court_lines"][0]["points"][1], [99.0, 10.0])
         self.assertEqual(len(warnings), 2)
+
+    def test_deepseek_presence_parser_deduplicates_and_orders(self):
+        labels = parse_visible_labels(
+            '```json\n{"visible_labels":["center_circle","half_court_line",'
+            '"center_circle"]}\n```'
+        )
+        self.assertEqual(labels, ["half_court_line", "center_circle"])
+
+    def test_deepseek_presence_parser_rejects_unknown_label(self):
+        with self.assertRaisesRegex(ValueError, "invalid visible label"):
+            parse_visible_labels('{"visible_labels":["logo"]}')
 
 
 if __name__ == "__main__":
