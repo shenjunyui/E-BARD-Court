@@ -65,6 +65,7 @@ cd ../../
 E-BARD is structured to support both isolated computer vision sub-tasks and holistic multimodal training.
 
 - EBQwen_dataset/: The core directory housing all interleaved JSON dataset splits (train, validation, test) used for multi-task supervised fine-tuning. It integrates data for grounding, classification, OCR, and video understanding to train unified models like EBQwen 3B.
+- court_grounding/: EBQwen/Qwen2.5-VL inference, schema validation, and visualization for semantic basketball-court line grounding. See [court_grounding/README.md](court_grounding/README.md).
 - action_recognition/: Contains the output for the multi-label action recognition task inherited from the original BARD multi-label clips.
 - detection/: Hosts the object detection pipeline and baselines. This module leverages 22,210 object-level annotations across 1,800 frames to train and evaluate lightweight models like YOLOv8n and RF-DETR NANO for tracking basketballs, hoops, players, and referees.
 - jnr/: The Jersey Number Recognition (JNR) module. It processes 3,633 16-frame player tracklets tracked via ByteTrack, and includes a pose-enhanced pipeline that strictly filters down to 983 upper-body stubs for improved legibility. This module evaluates VLMs like Qwen2.5-VL and olmOCR.

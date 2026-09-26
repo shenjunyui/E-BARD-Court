@@ -1,0 +1,16 @@
+[
+  {
+    "image": "images/example.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIdentify all visible basketball court markings in this image. Use only these labels: sideline, baseline, half_court_line, free_throw_line, paint_boundary, three_point_line, center_circle. Represent straight markings by two visible pixel endpoints and curved markings by ordered pixel points. Ignore players, balls, hoops, advertisements, logos, floor decorations, shadows, and non-court lines. Return JSON only as {\"court_lines\":[{\"label\":\"sideline\",\"type\":\"line\",\"points\":[[x1,y1],[x2,y2]]}]}"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  }
+]
+

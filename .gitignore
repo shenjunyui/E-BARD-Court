@@ -3,3 +3,10 @@ jnr/data/
 obj_classification/data/
 team_attribution/data/
 detection/model/
+.idea/
+runs/
+court_grounding/data/images/
+court_grounding/outputs/
+court_grounding/model/
+__pycache__/
+*.py[cod]
