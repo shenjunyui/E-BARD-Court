@@ -59,6 +59,21 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def load_api_key(environment_name: str) -> str | None:
+    """Load the key from the environment or an ignored server-local module."""
+    environment_key = os.environ.get(environment_name)
+    if environment_key:
+        return environment_key
+    try:
+        from .deepseek_key_local import DEEPSEEK_API_KEY
+    except (ImportError, ModuleNotFoundError):
+        try:
+            from deepseek_key_local import DEEPSEEK_API_KEY
+        except (ImportError, ModuleNotFoundError):
+            return None
+    return DEEPSEEK_API_KEY if isinstance(DEEPSEEK_API_KEY, str) else None
+
+
 def image_data_url(path: Path) -> str:
     raw = path.read_bytes()
     if len(raw) > 32 * 1024 * 1024:
@@ -164,9 +179,12 @@ Return JSON only in this shape:
 
 def main() -> None:
     args = parse_args()
-    api_key = os.environ.get(args.api_key_env)
+    api_key = load_api_key(args.api_key_env)
     if not api_key:
-        raise SystemExit(f"Missing API key: export {args.api_key_env}='...'")
+        raise SystemExit(
+            f"Missing API key: export {args.api_key_env}='...' or create "
+            "court_grounding/src/deepseek_key_local.py"
+        )
 
     from openai import OpenAI
 

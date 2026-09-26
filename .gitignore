@@ -8,5 +8,6 @@ runs/
 court_grounding/data/images/
 court_grounding/outputs/
 court_grounding/model/
+court_grounding/src/deepseek_key_local.py
 __pycache__/
 *.py[cod]

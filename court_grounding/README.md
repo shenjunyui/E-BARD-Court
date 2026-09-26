@@ -145,6 +145,16 @@ API key in source code, dataset JSON, shell scripts, or Git. Each test image is
 sent to DeepSeek. Raw presence and per-label localization responses are retained
 in the output JSON for auditing.
 
+For a server-local Python key file, create the Git-ignored file
+`court_grounding/src/deepseek_key_local.py` containing:
+
+```python
+DEEPSEEK_API_KEY = "replace-with-your-key"
+```
+
+Do not put the key in `infer_deepseek.py`; that tracked file is updated by Git,
+so local edits to it block future pulls.
+
 For a single arbitrary image, no dataset JSON is needed:
 
 ```bash
