@@ -110,3 +110,70 @@ def parse_prediction(text: str, width: int | None = None, height: int | None = N
     """Extract JSON from text, then validate it."""
     return validate_prediction(extract_json(text), width=width, height=height)
 
+
+def parse_prediction_lenient(
+    text: str,
+    width: int,
+    height: int,
+    boundary_tolerance: float = 0.1,
+) -> tuple[dict, list[str]]:
+    """Parse predictions for visualization without discarding a whole image.
+
+    Broadcast-image models sometimes emit coordinates for their internally
+    resized image. Coordinates no more than ``boundary_tolerance`` beyond an
+    edge are clipped to the original image. Structurally invalid individual
+    markings are skipped and reported as warnings. Ground-truth validation
+    remains strict through :func:`parse_prediction`.
+    """
+    value = extract_json(text)
+    if isinstance(value, list):
+        value = {"court_lines": value}
+    if not isinstance(value, dict) or not isinstance(value.get("court_lines"), list):
+        raise ValueError("court_lines must be a list")
+
+    clean_lines = []
+    warnings = []
+    x_margin = max(1.0, width * boundary_tolerance)
+    y_margin = max(1.0, height * boundary_tolerance)
+
+    for index, original in enumerate(value["court_lines"]):
+        if not isinstance(original, dict):
+            warnings.append(f"court_lines[{index}] skipped: marking must be an object")
+            continue
+        item = dict(original)
+        points = item.get("points")
+        if isinstance(points, list):
+            clipped_points = []
+            can_clip = True
+            for point in points:
+                if not isinstance(point, (list, tuple)) or len(point) != 2:
+                    can_clip = False
+                    break
+                x, y = point
+                if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+                    can_clip = False
+                    break
+                if not -x_margin <= x <= (width - 1) + x_margin:
+                    can_clip = False
+                    break
+                if not -y_margin <= y <= (height - 1) + y_margin:
+                    can_clip = False
+                    break
+                clipped_points.append([
+                    min(max(float(x), 0.0), float(width - 1)),
+                    min(max(float(y), 0.0), float(height - 1)),
+                ])
+            if can_clip:
+                if clipped_points != points:
+                    warnings.append(f"court_lines[{index}] coordinates clipped to image bounds")
+                item["points"] = clipped_points
+
+        try:
+            validated = validate_prediction(
+                {"court_lines": [item]}, width=width, height=height
+            )
+            clean_lines.append(validated["court_lines"][0])
+        except ValueError as error:
+            warnings.append(f"court_lines[{index}] skipped: {error}")
+
+    return {"court_lines": clean_lines}, warnings

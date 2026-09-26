@@ -11,9 +11,9 @@ from PIL import Image
 from tqdm import tqdm
 
 try:
-    from .schema import parse_prediction
+    from .schema import parse_prediction_lenient
 except ImportError:  # Supports: python court_grounding/src/infer.py
-    from schema import parse_prediction
+    from schema import parse_prediction_lenient
 
 
 DEFAULT_PROMPT = """Identify all visible basketball court markings in this image.
@@ -123,6 +123,13 @@ def main() -> None:
                 image = opened.convert("RGB")
             width, height = image.size
             prompt = get_prompt(item)
+            prompt = (
+                f"{prompt}\n\nThe original image is exactly {width} pixels wide and "
+                f"{height} pixels high. Every x coordinate must be between 0 and "
+                f"{width - 1}; every y coordinate must be between 0 and {height - 1}. "
+                "Use only the geometry types line and polyline. Represent center_circle "
+                "as a polyline with ordered points, never as type circle."
+            )
             messages = [{
                 "role": "user",
                 "content": [{"type": "image", "image": image}, {"type": "text", "text": prompt}],
@@ -151,7 +158,11 @@ def main() -> None:
                 "prediction_raw": raw,
             })
             try:
-                result["prediction"] = parse_prediction(raw, width=width, height=height)
+                prediction, validation_warnings = parse_prediction_lenient(
+                    raw, width=width, height=height
+                )
+                result["prediction"] = prediction
+                result["validation_warnings"] = validation_warnings
                 result["parse_error"] = None
             except ValueError as error:
                 result["prediction"] = None
@@ -169,4 +180,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

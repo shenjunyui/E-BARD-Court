@@ -1,6 +1,11 @@
 import unittest
 
-from court_grounding.src.schema import extract_json, parse_prediction, validate_prediction
+from court_grounding.src.schema import (
+    extract_json,
+    parse_prediction,
+    parse_prediction_lenient,
+    validate_prediction,
+)
 
 
 class SchemaTests(unittest.TestCase):
@@ -32,7 +37,19 @@ class SchemaTests(unittest.TestCase):
                 height=50,
             )
 
+    def test_lenient_parser_clips_and_skips_individual_markings(self):
+        prediction, warnings = parse_prediction_lenient(
+            '{"court_lines":['
+            '{"label":"baseline","type":"line","points":[[0,10],[104,10]]},'
+            '{"label":"center_circle","type":"circle","points":[[50,25]]}'
+            ']}',
+            width=100,
+            height=50,
+        )
+        self.assertEqual(len(prediction["court_lines"]), 1)
+        self.assertEqual(prediction["court_lines"][0]["points"][1], [99.0, 10.0])
+        self.assertEqual(len(warnings), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
-
