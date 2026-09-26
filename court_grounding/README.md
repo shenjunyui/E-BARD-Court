@@ -144,3 +144,11 @@ The visualization is written to
 API key in source code, dataset JSON, shell scripts, or Git. Each test image is
 sent to DeepSeek. Raw presence and per-label localization responses are retained
 in the output JSON for auditing.
+
+For a single arbitrary image, no dataset JSON is needed:
+
+```bash
+python -m court_grounding.src.infer_deepseek \
+  --image /absolute/path/to/frame.jpg \
+  --visualize-dir court_grounding/outputs/visualized_deepseek
+```

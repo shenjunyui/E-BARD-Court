@@ -35,8 +35,14 @@ LABEL_ORDER = [
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", required=True, type=Path)
-    parser.add_argument("--output", required=True, type=Path)
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--image", type=Path, help="Infer one image directly")
+    source.add_argument("--data", type=Path, help="Infer a conversation JSON dataset")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path("court_grounding/outputs/predictions_deepseek.json"),
+    )
     parser.add_argument(
         "--visualize-dir",
         type=Path,
@@ -165,8 +171,15 @@ def main() -> None:
     from openai import OpenAI
 
     client = OpenAI(api_key=api_key, base_url=args.base_url, max_retries=args.max_retries)
-    dataset_path = args.data.resolve()
-    dataset = load_dataset(dataset_path)
+    if args.image is not None:
+        image_path = args.image.expanduser().resolve()
+        if not image_path.is_file():
+            raise SystemExit(f"Image not found: {image_path}")
+        dataset_path = Path.cwd() / "direct_image_input.json"
+        dataset = [{"image": str(image_path)}]
+    else:
+        dataset_path = args.data.resolve()
+        dataset = load_dataset(dataset_path)
     if args.limit is not None:
         dataset = dataset[: args.limit]
 
