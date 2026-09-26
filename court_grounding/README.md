@@ -162,3 +162,16 @@ python -m court_grounding.src.infer_deepseek \
   --image /absolute/path/to/frame.jpg \
   --visualize-dir court_grounding/outputs/visualized_deepseek
 ```
+
+### Windows one-image test
+
+From PowerShell at the repository root:
+
+```powershell
+.\court_grounding\run_deepseek_windows.ps1 `
+  -ImagePath "C:\path\to\frame.jpg" `
+  -Detail high
+```
+
+The script checks the local key file, runs inference, and writes both JSON and
+the rendered image under `court_grounding\outputs\windows\<image-name>\`.
