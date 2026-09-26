@@ -56,6 +56,9 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--limit", type=int)
     parser.add_argument("--max-retries", type=int, default=2)
+    parser.add_argument(
+        "--timeout", type=float, default=60.0, help="Timeout in seconds for each API request"
+    )
     return parser.parse_args()
 
 
@@ -188,7 +191,12 @@ def main() -> None:
 
     from openai import OpenAI
 
-    client = OpenAI(api_key=api_key, base_url=args.base_url, max_retries=args.max_retries)
+    client = OpenAI(
+        api_key=api_key,
+        base_url=args.base_url,
+        max_retries=args.max_retries,
+        timeout=args.timeout,
+    )
     if args.image is not None:
         image_path = args.image.expanduser().resolve()
         if not image_path.is_file():
@@ -217,10 +225,15 @@ def main() -> None:
                 width, height = image.size
             data_url = image_data_url(image_path)
 
+            tqdm.write(f"[{Path(image_value).name}] Stage 1/2: detecting visible court markings")
             presence_raw = call_vision(
                 client, args.model, presence_prompt(width, height), data_url, args.detail
             )
             visible_labels = parse_visible_labels(presence_raw)
+            tqdm.write(
+                f"[{Path(image_value).name}] Visible labels: "
+                f"{', '.join(visible_labels) if visible_labels else '(none)'}"
+            )
             result.update(
                 {
                     "resolved_image": str(image_path),
@@ -234,6 +247,7 @@ def main() -> None:
             localization_raw: dict[str, str] = {}
             validation_warnings = []
             for label in visible_labels:
+                tqdm.write(f"[{Path(image_value).name}] Stage 2/2: locating {label}")
                 raw = call_vision(
                     client,
                     args.model,
